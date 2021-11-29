@@ -2,10 +2,6 @@
 title: Home
 layout: PageLayout
 sections:
-  - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-    type: AlertSection
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-a
@@ -54,6 +50,10 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+  - body: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    type: AlertSection
   - colors: colors-e
     elementId: ''
     title: Remote doesn’t mean alone. Here are so great features
