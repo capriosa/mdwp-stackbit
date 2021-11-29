@@ -48,6 +48,7 @@ sections:
           text:
             textAlign: center
         isRatingVisible: true
+        rating: 4
       - type: FeaturedItem
         title: Focused
         text: >
