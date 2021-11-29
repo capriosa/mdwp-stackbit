@@ -1,6 +1,6 @@
 const AlertSection = ({ body }) => {
     return (
-        <div className="py-4 bg-primary text-white text-center">
+        <div className="py-8 bg-primary text-white text-center">
             <div className="max-w-xl mx-auto">
                 <p>{body}</p>
             </div>
