@@ -28,32 +28,6 @@ sections:
             textAlign: center
           text:
             textAlign: center
-      - elementId: ''
-        title: Item Title
-        subtitle: ''
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        author: ''
-        rating: 1
-        isRatingVisible: false
-        featuredImage:
-          type: ImageBlock
-          url: /images/google-play.svg
-          altText: Item image
-        actions: []
-        styles:
-          title:
-            textAlign: left
-          subtitle:
-            fontWeight: 400
-            fontStyle: normal
-            textAlign: left
-          text:
-            textAlign: left
-          actions:
-            justifyContent: flex-start
       - type: FeaturedItem
         title: Smarter
         text: >
