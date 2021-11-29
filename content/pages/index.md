@@ -50,10 +50,6 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-  - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-    type: AlertSection
   - colors: colors-e
     elementId: ''
     title: Remote doesn’t mean alone. Here are so great features
@@ -147,6 +143,10 @@ sections:
       actions:
         justifyContent: flex-start
     type: FeaturedItemsSection
+  - body: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    type: AlertSection
   - colors: colors-h
     elementId: ''
     images:
