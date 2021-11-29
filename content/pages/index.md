@@ -36,7 +36,7 @@ sections:
           - pr-4
           - pl-4
         alignItems: flex-end
-        justifyContent: center
+        justifyContent: flex-start
         flexDirection: col-reverse
         borderRadius: none
         borderWidth: 0
