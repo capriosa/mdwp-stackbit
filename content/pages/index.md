@@ -10,6 +10,25 @@ sections:
       you’re looking for.
     items:
       - type: FeaturedItem
+        title: Faster
+        text: >
+          Learn how top tech companies have learned working remote using our
+          product.
+        featuredImage:
+          url: /images/faster.svg
+          altText: altText of the image
+          caption: Caption of the image
+          elementId: ''
+          styles:
+            self:
+              opacity: 100
+          type: ImageBlock
+        styles:
+          title:
+            textAlign: center
+          text:
+            textAlign: center
+      - type: FeaturedItem
         title: Smarter
         text: >
           Learn how top tech companies have learned working remote using our
@@ -29,25 +48,6 @@ sections:
           text:
             textAlign: center
         isRatingVisible: true
-      - type: FeaturedItem
-        title: Faster
-        text: >
-          Learn how top tech companies have learned working remote using our
-          product.
-        featuredImage:
-          url: /images/faster.svg
-          altText: altText of the image
-          caption: Caption of the image
-          elementId: ''
-          styles:
-            self:
-              opacity: 100
-          type: ImageBlock
-        styles:
-          title:
-            textAlign: center
-          text:
-            textAlign: center
       - type: FeaturedItem
         title: Focused
         text: >
