@@ -4,7 +4,10 @@ import { componentsMap } from '@stackbit/components/dist/components-map';
 
 registerComponents({
     // Register all Stackbit components
-    ...componentsMap
+    registerComponents({
+  ...componentsMap,
+  AlertSection: dynamic(() => import('./AlertSection'))
+})
 
     // Override any static or dynamic component,
     // or register your own dynamic component.
