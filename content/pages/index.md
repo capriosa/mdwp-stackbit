@@ -155,7 +155,7 @@ sections:
         altText: Apple
         caption: Apple
       - type: ImageBlock
-        url: /images/google-play.svg
+        url: /favicon.svg
         altText: Google Play
         caption: Google Play
       - type: ImageBlock
