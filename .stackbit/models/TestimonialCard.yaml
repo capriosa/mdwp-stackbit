@@ -1,4 +1,4 @@
-type:
+type: object
 name: TestimonialCard
 label: Testimonial Card
 groups:
