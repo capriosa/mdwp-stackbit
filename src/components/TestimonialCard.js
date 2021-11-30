@@ -11,7 +11,7 @@ const TestimonialCard = ({ title, body, testimonial }) => {
                     <p className="mt-2 text-gray-600" data-sb-field-path=".body">{body}</p>
                 </div>
                 <div className="flex justify-end mt-4">
-                    <a href="#" className="text-xl font-medium text-indigo-500" data-sb-field-path=".title">{testimonial}</a>
+                    <a href="#" className="text-xl font-medium text-indigo-500" data-sb-field-path=".testimonial">{testimonial}</a>
                 </div>
             </div>
         </div>
