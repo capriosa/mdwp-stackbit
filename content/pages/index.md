@@ -18,7 +18,7 @@ sections:
       - label: Learn more
         altText: Learn more
         url: /
-        showIcon: false
+        showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
