@@ -12,7 +12,7 @@ fieldGroups:
   - name: settings
     label: Settings
 fields:
-  - type: reference
+  - type: model
     name: body
     models:
       - ImageBlock
