@@ -67,7 +67,7 @@ export default function PopupLink(props) {
             )}
         </Link>
             {popup &&
-                <p className="w-5 h-5 p-4 flex justify-center bg-te">Lorem Ipsum Tralilala</p>
+                <p className="w-5 h-5 p-4 flex justify-center bg-teal-400">Lorem Ipsum Tralilala</p>
             
             }
         </>
