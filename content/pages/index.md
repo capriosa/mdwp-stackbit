@@ -67,7 +67,7 @@ sections:
     style: primary
     elementId: ''
     type: PopupLink
-    label: S
+    label: Show Popup
   - elementId: ''
     colors: colors-a
     title: Testimonials
