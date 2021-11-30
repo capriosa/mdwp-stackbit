@@ -7,7 +7,7 @@ sections:
       tempor incididunt ut labore et dolore magna aliqua. Hello Component. hhhhh
     type: TestimonialCard
     title: Testimonial Card Test
-    testimonial: Max Mustermann
+    testimonial: Max Mustermannnn
   - elementId: ''
     colors: colors-f
     title: The Section Title test
