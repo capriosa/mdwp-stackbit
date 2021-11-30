@@ -67,7 +67,7 @@ export default function PopupLink(props) {
                 )}
             </Link>
             {popup &&
-                <div className="flex justify-center p-10 mt-2"><span><a className="rounded-full  h-9 w- flex items-center justify-center  w-32 cursor-pointer bg-gray-400 m-2" onClick={() => setPopup(!popup)}>x</a></span><p className="bg-gray-500 p-4 flex-shrink md:w-1/3">{props.body}</p></div>
+                <div className="flex justify-center p-10 mt-2"><span><a className="rounded-full  h-9 w-9 flex items-center justify-center  w-32 cursor-pointer bg-gray-400 m-2" onClick={() => setPopup(!popup)}>x</a></span><p className="bg-gray-500 p-4 flex-shrink md:w-1/3">{props.body}</p></div>
 
             }
         </>
