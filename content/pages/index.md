@@ -74,7 +74,7 @@ sections:
       mentored, help peers, get helped in return. xxxxxxxxx
   - colors: colors-a
     body: lorem-ipsum
-    label: Sho
+    label: Show another
     altText: Learn more
     url: /
     showIcon: false
