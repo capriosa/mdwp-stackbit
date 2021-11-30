@@ -73,7 +73,7 @@ sections:
       employment.  Figure out your benefits, practice for interviews, get
       mentored, help peers, get helped in return. xxxxxxxxx
   - colors: colors-a
-    body: lorem-ipsum
+    body: 'lorem-ipsum '
     label: Show another popup
     altText: Learn more
     url: /
