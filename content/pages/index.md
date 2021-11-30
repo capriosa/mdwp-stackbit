@@ -58,6 +58,16 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
+  - colors: colors-b
+    label: Learn more
+    altText: Learn more
+    url: /
+    showIcon: true
+    icon: arrowRight
+    iconPosition: right
+    style: secondary
+    elementId: ''
+    type: PopupLink
   - elementId: ''
     colors: colors-a
     title: Testimonials
@@ -123,16 +133,6 @@ sections:
       subtitle:
         textAlign: center
     type: TestimonialsSection
-  - colors: colors-b
-    label: Learn more
-    altText: Learn more
-    url: /
-    showIcon: true
-    icon: arrowRight
-    iconPosition: right
-    style: secondary
-    elementId: ''
-    type: PopupLink
   - elementId: ''
     colors: colors-a
     quote: |-
