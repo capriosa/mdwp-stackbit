@@ -7,6 +7,6 @@ fields:
     - type: string
       name: title
     - type: text
-    name: body
+      name: body
   - type: text
     name: testimonial
