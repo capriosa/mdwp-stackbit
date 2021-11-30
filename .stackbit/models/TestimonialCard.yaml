@@ -1,4 +1,4 @@
-name: TestimonialCardSection
+name: TestimonialCard
 label: Testimonial Card Section
 groups:
   - sectionComponent
