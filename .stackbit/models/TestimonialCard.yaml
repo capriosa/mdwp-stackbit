@@ -4,7 +4,7 @@ groups:
   - sectionComponent
 fields:
   - fields:
-  - type: string
+    - type: string
     name: title
   - type: text
     name: body
