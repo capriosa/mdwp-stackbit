@@ -6,7 +6,7 @@ registerComponents({
     // Register all Stackbit components
     ...componentsMap,
     AlertSection: dynamic(() => import('./AlertSection')),
-    TestimonialCardSection: dynamic(() => import('./TestimonoalCardSection')),
+    TestimonialCardSection: dynamic(() => import('./TestimonialCardSection')),
 
     // Override any static or dynamic component,
     // or register your own dynamic component.
