@@ -4,7 +4,7 @@ groups:
   - sectionComponent
 fields:
 type: object
-name: Testimonial
+name: TestimonialCard
 label: Text
 labelField: label
   - fields:
