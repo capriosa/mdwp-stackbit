@@ -15,6 +15,15 @@ sections:
         label: Sign Up
         url: /
         style: primary
+      - label: Learn more
+        altText: Learn more
+        url: /
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        elementId: ''
+        type: Button
     media:
       type: ImageBlock
       url: /images/hero-1.png
