@@ -17,6 +17,7 @@ sections:
       - content/pages/blog/post-three.md
       - content/pages/blog/postlayout-9s1at0idp.md
       - content/pages/blog/post-two.md
+      - content/pages/blog/post-one.md
     showDate: false
     showAuthor: false
     styles:
