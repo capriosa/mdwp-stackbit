@@ -6,6 +6,7 @@ sections:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Hello Component.
     type: TestimonialCard
+    title: Testimonial Card
   - elementId: ''
     colors: colors-a
     backgroundImage: {}
