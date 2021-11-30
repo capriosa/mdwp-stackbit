@@ -59,7 +59,7 @@ sections:
         justifyContent: flex-start
     type: HeroSection
   - colors: colors-a
-    label: Learn more
+    label: Show Popup
     altText: Learn more
     url: /
     showIcon: false
