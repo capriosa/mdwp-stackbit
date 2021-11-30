@@ -15,7 +15,7 @@ fields:
   - type: reference
     name: body
     models:
-      - Post
+      - ImageBlock
   - type: string
     name: label
     label: Label
