@@ -3,10 +3,6 @@ label: Testimonial Card
 groups:
   - sectionComponent
 fields:
-type: object
-name: TestimonialCard
-label: Testimonial Card
-labelField: label
   - fields:
     - type: string
       name: title
