@@ -23,8 +23,7 @@ sections:
         url: 'https://assets.stackbit.com/components/images/default/image-4.jpeg'
         altText: Image four
         caption: Image four caption
-      - url: >-
-          https://assets.stackbit.com/components/images/default/default-image.png
+      - url: /images/dianne-ameter.jpg
         altText: altText of the image
         caption: Caption of the image
         elementId: ''
