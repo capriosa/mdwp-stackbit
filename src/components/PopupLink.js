@@ -67,7 +67,7 @@ export default function PopupLink(props) {
             )}
         </Link>
             {popup &&
-                <p>Lorem Ipsum Tr</p>
+                <p>Lorem Ipsum Tralilala</p>
             
             }
         </>
