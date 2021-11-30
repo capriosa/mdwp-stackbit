@@ -1,5 +1,5 @@
-name: AlertSection
-label: Alert Section
+name: TestimonialCardSection
+label: TestimonialCard Section
 groups:
   - sectionComponent
 fields:
