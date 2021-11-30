@@ -72,6 +72,17 @@ sections:
       One platform, one community, getting to the bottom line of everything
       employment.  Figure out your benefits, practice for interviews, get
       mentored, help peers, get helped in return. xxxxxxxxx
+  - colors: colors-a
+    body: lorem-ipsum
+    label: Learn more
+    altText: Learn more
+    url: /
+    showIcon: false
+    icon: arrowRight
+    iconPosition: right
+    style: secondary
+    elementId: ''
+    type: PopupLink
   - elementId: ''
     colors: colors-a
     title: Testimonials
