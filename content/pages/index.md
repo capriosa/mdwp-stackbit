@@ -58,7 +58,7 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
-  - colors: colors-b
+  - colors: colors-h
     label: Learn more
     altText: Learn more
     url: /
