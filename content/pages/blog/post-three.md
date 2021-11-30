@@ -10,6 +10,7 @@ featuredImage:
   type: ImageBlock
   url: /images/post-3.jpg
   altText: Post Image
+  caption: This is a caption
 bottomSections:
   - type: CtaSection
     colors: colors-f
