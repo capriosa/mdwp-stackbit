@@ -1,6 +1,6 @@
 type: object
 name: PopupLink
-label: PopupLink
+label: Popup Link
 labelField: label
 fieldGroups:
   - name: styles
