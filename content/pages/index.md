@@ -123,6 +123,16 @@ sections:
       subtitle:
         textAlign: center
     type: TestimonialsSection
+  - colors: colors-b
+    label: Learn more
+    altText: Learn more
+    url: /
+    showIcon: true
+    icon: arrowRight
+    iconPosition: right
+    style: secondary
+    elementId: ''
+    type: PopupLink
   - elementId: ''
     colors: colors-a
     quote: |-
@@ -163,16 +173,6 @@ sections:
         fontStyle: normal
         textAlign: left
     type: QuoteSection
-  - colors: colors-b
-    label: Learn more
-    altText: Learn more
-    url: /
-    showIcon: true
-    icon: arrowRight
-    iconPosition: right
-    style: secondary
-    elementId: ''
-    type: PopupLink
   - elementId: ''
     variant: variant-b
     colors: colors-h
