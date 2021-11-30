@@ -4,7 +4,7 @@ groups:
   - sectionComponent
 fields:
 type: object
-name: TextFormControl
+name: Testimonial
 label: Text
 labelField: label
   - fields:
