@@ -2,6 +2,129 @@
 title: Home
 layout: PageLayout
 sections:
+  - body: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Hello Component. hhhhh
+    type: TestimonialCard
+    title: Testimonial Card Test
+    testimonial: Max Mustermannnn
+  - elementId: ''
+    colors: colors-f
+    title: The Section Title test
+    subtitle: The section subtitle
+    text: >-
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
+      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+      Sed ut perspiciatis undeomnis iste natus error sit voluptatem accusantium
+      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
+      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-24
+          - pb-24
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+      text:
+        textAlign: center
+    type: TextSection
+  - elementId: ''
+    colors: colors-a
+    backgroundImage: {}
+    title: Let's do this
+    text: >-
+      The Stackbit theme is flexible and scalable to every need. It can manage
+      any layout and any screen.
+    actions:
+      - type: Button
+        label: Try it now
+        url: /
+        style: primary
+    styles:
+      self:
+        height: auto
+        width: narrow
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-24
+          - pb-24
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: col
+      title:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    type: CtaSection
+  - type: HeroSection
+    elementId: homepage-hero-1
+    colors: colors-a
+    title: Hello World.
+    text: >
+      One platform, one community, getting to the bottom line of everything
+      employment.  Figure out your benefits, practice for interviews, get
+      mentored, help peers, get helped in return.
+    actions:
+      - type: Button
+        label: Sign up
+        url: 'https://www.stackbit.com/'
+        style: primary
+        elementId: hero-main-button
+    media:
+      type: ImageBlock
+      url: /images/hero-1.png
+      altText: Image alt text
+      caption: Image caption
+    styles:
+      self:
+        height: screen
+        width: wide
+        margin:
+          - mt-0
+          - mb-11
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pr-4
+          - pl-4
+        alignItems: flex-end
+        justifyContent: flex-end
+        flexDirection: col
+        borderRadius: none
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-dark
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
   - colors: colors-e
     elementId: ''
     title: Remote doesn’t mean alone. Here are so great features
@@ -85,7 +208,7 @@ sections:
           - pr-4
         justifyContent: center
         borderRadius: none
-        borderWidth: 0
+        borderWidth: 2
         borderStyle: none
         borderColor: border-dark
       title:
@@ -95,54 +218,10 @@ sections:
       actions:
         justifyContent: flex-start
     type: FeaturedItemsSection
-  - type: HeroSection
-    elementId: homepage-hero-1
-    colors: colors-a
-    title: 'Love where you work, because work loves you'
-    text: >
-      One platform, one community, getting to the bottom line of everything
-      employment.  Figure out your benefits, practice for interviews, get
-      mentored, help peers, get helped in return.
-    actions:
-      - type: Button
-        label: Sign up
-        url: 'https://www.stackbit.com/'
-        style: primary
-        elementId: hero-main-button
-    media:
-      type: ImageBlock
-      url: /images/hero-1.png
-      altText: Image alt text
-      caption: Image caption
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-11
-          - ml-0
-          - mr-0
-        padding:
-          - pt-12
-          - pb-12
-          - pr-4
-          - pl-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
+  - body: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    type: AlertSection
   - colors: colors-h
     elementId: ''
     images:
@@ -151,7 +230,7 @@ sections:
         altText: Apple
         caption: Apple
       - type: ImageBlock
-        url: /images/google-play.svg
+        url: /images/apple.svg
         altText: Google Play
         caption: Google Play
       - type: ImageBlock

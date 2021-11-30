@@ -1,0 +1,12 @@
+type: object
+name: TestimonialCard
+label: Testimonial Card
+groups:
+  - sectionComponent
+fields:
+  - type: string
+    name: title
+  - type: text
+    name: body
+  - type: text
+    name: testimonial
