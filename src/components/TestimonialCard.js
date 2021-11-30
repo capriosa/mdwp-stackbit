@@ -9,4 +9,4 @@ const TestimonialCard = ({ body }) => {
     )
 }
 
-export default Testimoni
+export default TestimonialCard
