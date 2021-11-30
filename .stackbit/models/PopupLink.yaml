@@ -13,7 +13,7 @@ fieldGroups:
     label: Settings
 fields:
   - type: string
-  
+    name: bo
   - type: string
     name: label
     label: Label
