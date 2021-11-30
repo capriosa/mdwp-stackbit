@@ -8,7 +8,7 @@ sections:
     type: TestimonialCard
     title: Testimonial Card Test
     testimonial: Max W. Mustermannnn
-  - colors: colors-h
+  - colors: colors-i
     elementId: ''
     title: Remote doesn’t mean alone. Here are so great features
     subtitle: >-
