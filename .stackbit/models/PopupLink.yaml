@@ -12,10 +12,14 @@ fieldGroups:
   - name: settings
     label: Settings
 fields:
-  - type: reference
-    name: body
-    models:
-      - Post
+  items:
+      type: reference
+      models:
+        - PostLayout
+    default:
+      - content/pages/blog/post-three.md
+      - content/pages/blog/post-two.md
+      - content/pages/blog/post-one.md
   - type: string
     name: label
     label: Label
