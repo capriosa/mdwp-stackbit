@@ -28,7 +28,8 @@ sections:
       type: ImageBlock
       url: /images/hero-1.png
       altText: Hero image
-    backgroundImage: {}
+    backgroundImage:
+      url: /images/careers.jpg
     styles:
       self:
         height: auto
