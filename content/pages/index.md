@@ -236,6 +236,16 @@ sections:
       actions:
         justifyContent: center
     type: FeaturedPeopleSection
+  - colors: colors-a
+    label: Learn more
+    altText: Learn more
+    url: /
+    showIcon: false
+    icon: arrowRight
+    iconPosition: right
+    style: secondary
+    elementId: ''
+    type: PopupLink
   - elementId: ''
     colors: colors-h
     title: Love where you work
