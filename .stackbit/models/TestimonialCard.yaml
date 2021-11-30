@@ -8,4 +8,4 @@ fields:
   - type: text
     name: body
   - type: text
-    name: testimoni
+    name: testimonial
