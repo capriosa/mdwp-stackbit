@@ -13,7 +13,7 @@ fieldGroups:
     label: Settings
 fields:
   items:
-  type: reference
+    type: reference
       models:
         - PostLayout
     default:
