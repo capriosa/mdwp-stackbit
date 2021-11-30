@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TestimonialCard = ({ title, body, testimonial }) => {
+const TestimonialCard = ({ annotationPrefix, title, body, testimonial }) => {
     return (
         <div className="w-full flex justify-center">
             <div className="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20">
