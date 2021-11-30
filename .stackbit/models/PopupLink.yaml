@@ -12,7 +12,7 @@ fieldGroups:
   - name: settings
     label: Settings
 fields:
-  items:
+  body:
     type: reference
       models:
         - PostLayout
