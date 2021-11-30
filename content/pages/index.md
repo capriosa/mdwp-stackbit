@@ -4,7 +4,7 @@ layout: PageLayout
 sections:
   - body: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Hello 
+      tempor incididunt ut labore et dolore magna aliqua. Hello Component
     type: TestimonialCard
   - elementId: ''
     colors: colors-a
