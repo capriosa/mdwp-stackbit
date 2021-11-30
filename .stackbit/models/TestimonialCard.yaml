@@ -4,6 +4,6 @@ groups:
   - sectionComponent
 fields:
   - type: text
-    name
+    name: title
   - type: text
     name: body
