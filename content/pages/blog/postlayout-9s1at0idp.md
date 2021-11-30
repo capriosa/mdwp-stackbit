@@ -3,7 +3,7 @@ title: This is a blog post title
 date: '2021-11-30'
 excerpt: >-
   Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
-  condimentum dignissim justo vel faucibus.
+  condimentum dignissim justo vel faucibus. Changed.
 featuredImage:
   type: ImageBlock
   url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
