@@ -7,5 +7,5 @@ fields:
     name: title
   - type: text
     name: body
-    - type: text
+  - type: text
       name: testimonial
