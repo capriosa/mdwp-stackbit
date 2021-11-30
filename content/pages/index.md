@@ -38,6 +38,7 @@ sections:
         justifyContent: center
         flexDirection: row
         borderColor: border-primary
+        borderStyle: solid
       title:
         textAlign: left
       subtitle:
