@@ -1,5 +1,5 @@
 
-const TestimonialCard = ({ body }) => {
+const TestimonialCard = ({ title, body }) => {
     return (
         <div class="w-full flex justify-center">
         <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20">
