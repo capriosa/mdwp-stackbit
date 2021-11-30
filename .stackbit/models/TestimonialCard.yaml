@@ -3,7 +3,10 @@ label: Testimonial Card
 groups:
   - sectionComponent
 fields:
-  
+  type: object
+name: TextFormControl
+label: Text
+labelField: label
   - fields:
     - type: string
       name: title
