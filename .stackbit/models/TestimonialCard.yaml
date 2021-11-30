@@ -1,5 +1,5 @@
 name: TestimonialCard
-label: Testimonial Card Section
+label: Testimonial Card
 groups:
   - sectionComponent
 fields:
