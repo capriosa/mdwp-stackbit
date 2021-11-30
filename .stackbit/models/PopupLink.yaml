@@ -14,7 +14,7 @@ fieldGroups:
 fields:
   - type: reference
     name: body
-    model:
+    models:
       - post
   - type: string
     name: label
