@@ -15,6 +15,7 @@ sections:
         label: Sign Up
         url: /
         style: primary
+        showIcon: true
       - type: Button
         label: Learn More
         url: /
