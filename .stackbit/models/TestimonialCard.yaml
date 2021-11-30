@@ -3,7 +3,7 @@ label: Testimonial Card
 groups:
   - sectionComponent
 fields:
-  - fields
+  - fields:
   - type: string
     name: title
   - type: text
