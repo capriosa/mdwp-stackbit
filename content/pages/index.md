@@ -39,6 +39,7 @@ sections:
         flexDirection: row
         borderColor: border-primary
         borderStyle: solid
+        borderWidth: 3
       title:
         textAlign: left
       subtitle:
