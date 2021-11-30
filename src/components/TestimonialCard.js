@@ -11,7 +11,7 @@ const TestimonialCard = ({ title, body, testimonial }) => {
     <p class="mt-2 text-gray-600">{body}</p>
   </div>
   <div class="flex justify-end mt-4">
-    <a href="#" class="text-xl font-medium text-indigo-500">{}</a>
+    <a href="#" class="text-xl font-medium text-indigo-500">{testimonial}</a>
   </div>
 </div>
 </div>
