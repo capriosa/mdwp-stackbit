@@ -23,7 +23,7 @@ const iconMap = {
 };
 
 export default function PopupLink(props) {
-    const [pop]
+    const [popup, setPop]
     const { type, label, altText, url, showIcon } = props;
     const icon = props.icon || 'arrowLeft';
     const iconPosition = props.iconPosition || 'right';
