@@ -14,7 +14,7 @@ const TestimonialCard = ({ body }) => {
     <a href="#" class="text-xl font-medium text-indigo-500">John Doe</a>
   </div>
 </div>
-</
+</div>
     )
 }
 
