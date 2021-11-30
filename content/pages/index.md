@@ -6,8 +6,8 @@ sections:
     colors: colors-a
     title: Love where you want to work
     subtitle: ''
-    text: >-
-      One platform, one community, getting to the bottom line of everything
+    text: >
+      One platform, one community, getting to the **bottom** line of everything
       employment.  Figure out your benefits, practice for interviews, get
       mentored, help peers, get helped in return.
     actions:
