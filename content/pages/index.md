@@ -163,6 +163,16 @@ sections:
         fontStyle: normal
         textAlign: left
     type: QuoteSection
+  - colors: colors-b
+    label: Learn more
+    altText: Learn more
+    url: /
+    showIcon: true
+    icon: arrowRight
+    iconPosition: right
+    style: secondary
+    elementId: ''
+    type: PopupLink
   - elementId: ''
     variant: variant-b
     colors: colors-h
@@ -203,16 +213,6 @@ sections:
       actions:
         justifyContent: center
     type: FeaturedPostsSection
-  - colors: colors-b
-    label: Learn more
-    altText: Learn more
-    url: /
-    showIcon: true
-    icon: arrowRight
-    iconPosition: right
-    style: secondary
-    elementId: ''
-    type: PopupLink
   - elementId: ''
     variant: variant-c
     colors: colors-h
