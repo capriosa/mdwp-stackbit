@@ -10,7 +10,7 @@ sections:
     testimonial: Max Mustermann
   - elementId: ''
     colors: colors-f
-    title: The Section Title
+    title: The Section Title test
     subtitle: The section subtitle
     text: >-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
