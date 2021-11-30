@@ -68,8 +68,10 @@ sections:
     style: secondary
     elementId: ''
     type: PopupLink
-    body:
-      - content/pages/blog/post-four.md
+    body: >-
+      One platform, one community, getting to the bottom line of everything
+      employment.  Figure out your benefits, practice for interviews, get
+      mentored, help peers, get helped in return.
   - elementId: ''
     colors: colors-a
     title: Testimonials
