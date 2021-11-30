@@ -12,6 +12,7 @@ fieldGroups:
   - name: settings
     label: Settings
 fields:
+
   - type: string
     name: label
     label: Label
