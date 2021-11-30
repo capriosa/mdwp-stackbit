@@ -67,7 +67,7 @@ export default function PopupLink(props) {
                 )}
             </Link>
             {popup &&
-                <div className="flex justify-center bg-gray-500 p-10 mt-2"><p className="flex-initial">{props.body}</p></div>
+                <div className="flex justify-center bg-gray-500 p-10 mt-2"><p className="flex-sh">{props.body}</p></div>
 
             }
         </>
