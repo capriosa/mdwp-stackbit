@@ -16,6 +16,7 @@ sections:
         url: /
         style: primary
         showIcon: true
+        icon: arrowLeft
       - type: Button
         label: Learn More
         url: /
