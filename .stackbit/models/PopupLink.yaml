@@ -13,7 +13,7 @@ fieldGroups:
     label: Settings
 fields:
   - type: list
-    name: posts
+    name: body
     label: Posts
     items:
       type: reference
