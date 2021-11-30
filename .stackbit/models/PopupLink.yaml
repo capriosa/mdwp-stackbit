@@ -12,7 +12,7 @@ fieldGroups:
   - name: settings
     label: Settings
 fields:
-  - type: model
+  - type: reference
     name: body
     models:
       - Post
