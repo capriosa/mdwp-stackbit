@@ -1,6 +1,7 @@
 import Fade from 'react-reveal/Fade';
+import React from 'react';
 
-const TestimonialCard = ({ title, body, testimonial }) => {
+const TestimonialCard = ({ annotationPrefix, title, body, testimonial }) => {
     return (
         <div className="w-full flex justify-center">
             <Fade top>

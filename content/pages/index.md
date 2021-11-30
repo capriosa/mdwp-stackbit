@@ -2,12 +2,440 @@
 title: Home
 layout: PageLayout
 sections:
+  - elementId: ''
+    colors: colors-a
+    title: Love where you work
+    subtitle: ''
+    text: >-
+      One platform, one community, getting to the bottom line of everything
+      employment.  Figure out your benefits, practice for interviews, get
+      mentored, help peers, get helped in return.
+    actions:
+      - type: Button
+        label: Sign Up
+        url: /
+        style: primary
+      - label: Learn more
+        altText: Learn more
+        url: /
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        elementId: ''
+        type: Button
+    media:
+      type: ImageBlock
+      url: /images/hero-1.png
+      altText: Hero image
+    backgroundImage: {}
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: row
+        borderColor: border-primary
+        borderStyle: solid
+        borderWidth: 3
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    type: HeroSection
+  - elementId: ''
+    colors: colors-a
+    title: Testimonials
+    subtitle: What our customers say about us
+    testimonials:
+      - quote: >
+          "Very professional team. I loved working with the people at
+          startup.io."
+        name: Johnna Doe
+        title: Product Marketing Manager at Acme
+        image:
+          type: ImageBlock
+          url: /images/carla.jpg
+          altText: Photo of Johnna Doe
+        styles:
+          self:
+            margin:
+              - mt-0
+              - mb-0
+            flexDirection: col
+          quote:
+            textAlign: center
+          name:
+            textAlign: center
+          title:
+            textAlign: center
+      - quote: >
+          "It's great to see someone taking acion while still maintaining a
+          sustainable fish supply to home cooks."
+        name: Hugh Saturation
+        title: Creative at Acme
+        image:
+          type: ImageBlock
+          url: /images/hugh-saturation.jpg
+          altText: Photo of Johnna Doe
+        styles:
+          self:
+            margin:
+              - mt-0
+              - mb-0
+            flexDirection: col
+          quote:
+            textAlign: center
+          name:
+            textAlign: center
+          title:
+            textAlign: center
+    styles:
+      self:
+        height: auto
+        width: narrow
+        margin:
+          - mt-0
+          - mb-0
+        padding:
+          - pt-28
+          - pb-28
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+    type: TestimonialsSection
+  - elementId: ''
+    colors: colors-a
+    quote: |-
+      “It’s great to see someone taking action while still maintaining a
+      sustainable fish supply to home cooks.”
+    name: Johnna Doe
+    title: Product Marketing Manager at Acme
+    backgroundImage:
+      url: 'https://assets.stackbit.com/components/images/default/bg.jpg'
+      altText: Product Marketing Manager Quote
+      styles:
+        self:
+          opacity: 100
+    styles:
+      self:
+        height: auto
+        width: narrow
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-36
+          - pb-36
+          - pl-4
+          - pr-4
+        justifyContent: center
+        borderStyle: dashed
+      quote:
+        textAlign: left
+      name:
+        fontWeight: 400
+        fontStyle: normal
+        textAlign: left
+      title:
+        fontWeight: 400
+        fontStyle: normal
+        textAlign: left
+    type: QuoteSection
+  - elementId: ''
+    variant: variant-b
+    colors: colors-h
+    title: Featured
+    subtitle: Featured blog posts section example
+    actions:
+      - type: Button
+        label: View All
+        altText: View All Posts
+        url: /blog
+        style: primary
+    posts:
+      - content/pages/blog/post-three.md
+      - content/pages/blog/postlayout-9s1at0idp.md
+      - content/pages/blog/post-two.md
+      - content/pages/blog/post-one.md
+    showDate: false
+    showAuthor: false
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+      actions:
+        justifyContent: center
+    type: FeaturedPostsSection
+  - elementId: ''
+    variant: variant-c
+    colors: colors-h
+    title: About us
+    subtitle: Featured people section example
+    actions: []
+    people:
+      - content/data/team/desmond-eagle.json
+      - content/data/team/hilary-ouse.json
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+      actions:
+        justifyContent: center
+    type: FeaturedPeopleSection
+  - elementId: ''
+    colors: colors-h
+    title: Love where you work
+    subtitle: ''
+    text: >-
+      One platform, one community, getting to the bottom line of everything
+      employment.  Figure out your benefits, practice for interviews, get
+      mentored, help peers, get helped in return.
+    actions:
+      - type: Button
+        label: Sign Up
+        url: /
+        style: primary
+        showIcon: true
+        icon: arrowLeft
+      - type: Button
+        label: Learn More
+        url: /
+        style: secondary
+    media:
+      type: ImageBlock
+      url: /images/hero-3.jpg
+      altText: Hero image
+    backgroundImage: {}
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: col
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    type: HeroSection
+  - colors: colors-a
+    elementId: ''
+    title: Gallery
+    subtitle: This is the subtitle
+    images:
+      - type: ImageBlock
+        url: 'https://assets.stackbit.com/components/images/default/image-1.jpeg'
+        altText: Image one
+        caption: Image one caption
+      - type: ImageBlock
+        url: 'https://assets.stackbit.com/components/images/default/image-2.jpeg'
+        altText: Image two
+        caption: Image two caption
+      - type: ImageBlock
+        url: 'https://assets.stackbit.com/components/images/default/image-3.jpeg'
+        altText: Image three
+        caption: Image three caption
+      - type: ImageBlock
+        url: 'https://assets.stackbit.com/components/images/default/image-4.jpeg'
+        altText: Image four
+        caption: Image four caption
+      - url: /images/dianne-ameter.jpg
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+        styles:
+          self:
+            opacity: 100
+        type: ImageBlock
+    spacing: 1
+    columns: 4
+    aspectRatio: '16:9'
+    imageSizePx: 300
+    showCaption: true
+    enableHover: true
+    styles:
+      self:
+        height: screen
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        justifyContent: center
+        borderStyle: dashed
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+    type: MediaGallerySection
   - body: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Hello Component. hhhhh
+      tempor incididunt ut labore et dolore magna aliqua. Hello Component.
     type: TestimonialCard
     title: Testimonial Card Test
-    testimonial: Max Mustermannnn
+    testimonial: Max W. Mustermannnn
+  - colors: colors-h
+    elementId: ''
+    title: Remote doesn’t mean alone. Here are so great features
+    subtitle: >-
+      These are all excellent features that will provide exactly the things
+      you’re looking for.
+    items:
+      - type: FeaturedItem
+        title: Smarter
+        text: >-
+          Learn how top tech companies have learned working remote using our
+          product.
+        featuredImage:
+          type: ImageBlock
+          url: /images/smarter.svg
+          altText: Item image
+        styles:
+          title:
+            textAlign: center
+          subtitle:
+            textAlign: center
+          text:
+            textAlign: center
+      - type: FeaturedItem
+        title: Focused
+        text: >-
+          Learn how top tech companies have learned working remote using our
+          product.
+        featuredImage:
+          type: ImageBlock
+          url: /images/focused.svg
+          altText: Item image
+        styles:
+          title:
+            textAlign: center
+          subtitle:
+            textAlign: center
+          text:
+            textAlign: center
+      - elementId: ''
+        title: Item Title
+        subtitle: ''
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        author: ''
+        rating: 1
+        isRatingVisible: false
+        featuredImage:
+          type: ImageBlock
+          url: >-
+            https://assets.stackbit.com/components/images/default/default-image.png
+          altText: Item image
+        actions: []
+        styles:
+          title:
+            textAlign: left
+          subtitle:
+            fontWeight: 400
+            fontStyle: normal
+            textAlign: left
+          text:
+            textAlign: left
+          actions:
+            justifyContent: flex-start
+    actions: []
+    columns: 3
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+      actions:
+        justifyContent: center
+    type: FeaturedItemsSection
   - elementId: ''
     colors: colors-f
     title: The Section Title test
