@@ -59,20 +59,6 @@ sections:
         justifyContent: flex-start
     type: HeroSection
   - colors: colors-a
-    body:
-      - content/pages/blog/post-three.md
-      - content/pages/blog/post-two.md
-      - content/pages/blog/post-one.md
-    label: Learn more
-    altText: Learn more
-    url: /
-    showIcon: false
-    icon: arrowRight
-    iconPosition: right
-    style: secondary
-    elementId: ''
-    type: PopupLink
-  - colors: colors-a
     label: Learn more
     altText: Learn more
     url: /
