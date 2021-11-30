@@ -1,4 +1,4 @@
-
+import React from 'react'
 
 const TestimonialCard = ({ title, body, testimonial }) => {
     return (
