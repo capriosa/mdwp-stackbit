@@ -4,7 +4,7 @@ layout: PageLayout
 sections:
   - elementId: ''
     colors: colors-a
-    title: Love where you work
+    title: Love where you want to work
     subtitle: ''
     text: >-
       One platform, one community, getting to the bottom line of everything
