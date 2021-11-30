@@ -45,7 +45,7 @@ export default function PopupLink(props) {
     return (
         <>
         <Link
-            href={url}
+            
             onClick={() => setPopup("popup")}
             aria-label={altText}
             id={cssId}
