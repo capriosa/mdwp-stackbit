@@ -236,7 +236,7 @@ sections:
       actions:
         justifyContent: center
     type: FeaturedPeopleSection
-  - colors: colors-h
+  - colors: colors-a
     label: Learn more
     altText: Learn more
     url: /
