@@ -2,7 +2,10 @@ type: object
 name: PopupLink
 label: Popup Link
 labelField: label
-
+extends:
+  - Section
+groups:
+  - sectionComponent
 fieldGroups:
   - name: styles
     label: Styles
