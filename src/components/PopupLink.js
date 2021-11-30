@@ -1,14 +1,14 @@
 import * as React from 'react';
 import classNames from 'classnames';
 import Link from '@stackbit/components/dist/utils/link';
-import ArrowLeft from '../../svgs/arrow-left';
-import ArrowRight from '../../svgs/arrow-right';
-import Cart from '../../svgs/cart';
-import Facebook from '../../svgs/facebook';
-import GitHub from '../../svgs/github';
-import Instagram from '../../svgs/instagram';
-import LinkedIn from '../../svgs/linkedin';
-import Twitter from '../../svgs/twitter';
+import ArrowLeft from '@stackbit/components/distsvgs/arrow-left';
+import ArrowRight from '@stackbit/components/distsvgs/arrow-right';
+import Cart from '@stackbit/components/distsvgs/cart';
+import Facebook from '@stackbit/components/distsvgs/facebook';
+import GitHub from '@stackbit/components/distsvgs/github';
+import Instagram from '@stackbit/components/distsvgs/instagram';
+import LinkedIn from '@stackbit/components/distsvgs/linkedin';
+import Twitter from '@stackbit/components/distsvgs/twitter';
 
 const iconMap = {
     arrowLeft: ArrowLeft,
