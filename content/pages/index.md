@@ -7,7 +7,7 @@ sections:
       tempor incididunt ut labore et dolore magna aliqua. Hello Component.
     type: TestimonialCard
     title: Testimonial Card Test
-    testimonial: Max Mustermannnn
+    testimonial: Max W. Mustermannnn
   - colors: colors-h
     elementId: ''
     title: Remote doesn’t mean alone. Here are so great features
