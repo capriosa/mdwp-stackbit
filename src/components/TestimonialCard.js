@@ -9,4 +9,4 @@ const TestimonialCard = ({ body }) => {
     )
 }
 
-export default AlertSection
+export default Testimoni
