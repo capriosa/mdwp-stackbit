@@ -66,7 +66,7 @@ export default function PopupLink(props) {
                 />
             )}
         </Link>
-            popup        
+            {{popup        
         </>
     );
 }
