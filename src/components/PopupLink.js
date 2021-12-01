@@ -43,7 +43,7 @@ export default function PopupLink(props) {
     const cssId = props.elementId || null;
 
     return (
-        <section>
+        <section className="">
             <Link
 
                 onClick={() => setPopup(!popup)}
