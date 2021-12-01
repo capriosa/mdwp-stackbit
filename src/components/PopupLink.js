@@ -43,7 +43,7 @@ export default function PopupLink(props) {
     const cssId = props.elementId || null;
 
     return (
-        <section className="w-screen flex ">
+        <section className="w-screen flex justify">
             <Link
 
                 onClick={() => setPopup(!popup)}
