@@ -25,7 +25,7 @@ const ProfileCard = ({ annotationPrefix, title, body, testimonial }) => {
                         </svg>
                         Your Location - 25.0000° N, 71.0000° W
                     </p>
-                    <p className="pt-8 text-sm">Totally optional short description about yourself, what you do and so on.</p>
+                    <p className="pt-8 text-sm"> Totally optional short description about yourself, what you do and so on.</p>
 
                     <div className="pt-12 pb-8">
                         <button className="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full">Get In Touch</button>
