@@ -5,10 +5,7 @@ import { componentsMap } from '@stackbit/components/dist/components-map';
 registerComponents({
     // Register all Stackbit components
     ...componentsMap,
-    AlertSection: dynamic(() => import('./AlertSection')),
-    TestimonialCard: dynamic(() => import('./TestimonialCard')),
-    PopupLink: dynamic(() => import('./PopupLink')),
-    ProfileCard: dynamic(() => import('./ProfileCard')),
+    
 
     // Override any static or dynamic component,
     // or register your own dynamic component.
