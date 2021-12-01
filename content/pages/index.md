@@ -4,10 +4,10 @@ layout: PageLayout
 sections:
   - elementId: ''
     colors: colors-a
-    title: Love where you work
+    title: Love where you want to work
     subtitle: ''
-    text: >-
-      One platform, one community, getting to the bottom line of everything
+    text: >
+      One platform, one community, getting to the **bottom** line of everything
       employment.  Figure out your benefits, practice for interviews, get
       mentored, help peers, get helped in return.
     actions:
@@ -18,17 +18,18 @@ sections:
       - label: Learn more
         altText: Learn more
         url: /
-        showIcon: false
+        showIcon: true
         icon: arrowRight
-        iconPosition: right
-        style: secondary
+        iconPosition: left
+        style: primary
         elementId: ''
         type: Button
     media:
       type: ImageBlock
       url: /images/hero-1.png
       altText: Hero image
-    backgroundImage: {}
+    backgroundImage:
+      url: /images/careers.jpg
     styles:
       self:
         height: auto
@@ -58,6 +59,31 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
+  - colors: colors-a
+    label: Show Popup
+    altText: Learn more
+    url: /
+    showIcon: false
+    icon: arrowRight
+    iconPosition: right
+    style: secondary
+    elementId: ''
+    type: PopupLink
+    body: >-
+      One platform, one community, getting to the bottom line of everything
+      employment.  Figure out your benefits, practice for interviews, get
+      mentored, help peers, get helped in return. xxxxxxxxx
+  - colors: colors-a
+    body: lorem-ipsum tralilala
+    label: Show another popup
+    altText: Learn more
+    url: /
+    showIcon: false
+    icon: arrowRight
+    iconPosition: right
+    style: secondary
+    elementId: ''
+    type: PopupLink
   - elementId: ''
     colors: colors-a
     title: Testimonials
@@ -211,6 +237,8 @@ sections:
     actions: []
     people:
       - content/data/team/desmond-eagle.json
+      - content/data/team/hugh-saturation.json
+      - content/data/team/dianne-ameter.json
       - content/data/team/hilary-ouse.json
     styles:
       self:

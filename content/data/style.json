@@ -49,7 +49,7 @@
     "onLight": "#000000",
     "dark": "#282828",
     "onDark": "#ffffff",
-    "primary": "#344ff1",
+    "primary": "#7284ea",
     "onPrimary": "#ffffff",
     "secondary": "#101637",
     "onSecondary": "#ffffff",
@@ -61,10 +61,10 @@
         "weight": "normal",
         "case": "none",
         "letterSpacing": "normal",
-        "borderRadius": "none",
+        "borderRadius": "md",
         "horizontalPadding": 30,
         "verticalPadding": 12,
-        "shadow": "none"
+        "shadow": "md"
     },
     "buttonSecondary": {
         "weight": "normal",

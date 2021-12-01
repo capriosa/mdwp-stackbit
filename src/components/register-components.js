@@ -7,6 +7,7 @@ registerComponents({
     ...componentsMap,
     AlertSection: dynamic(() => import('./AlertSection')),
     TestimonialCard: dynamic(() => import('./TestimonialCard')),
+    PopupLink: dynamic(() => import('./PopupLink')),
 
     // Override any static or dynamic component,
     // or register your own dynamic component.
