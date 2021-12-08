@@ -1,4 +1,4 @@
-name: AlertSection
+name: ProfileCard
 label: Alert Section
 groups:
   - sectionComponent
