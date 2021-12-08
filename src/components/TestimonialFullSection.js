@@ -1,3 +1,4 @@
+<div>
 <div class="flex justify-center items-center w-screen h-screen bg-gray-800">
 	
 	<div class="container mx-auto mt-10 mb-10 lg:mb-40 lg:px-20">
@@ -31,4 +32,5 @@
 			<img class="object-cover object-center w-full h-full rounded-full" src="https://img.icons8.com/emoji/48/000000/pizza-emoji.png"/>
     </a>
 	</div>
+</div>
 </div>
