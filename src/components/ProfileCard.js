@@ -21,7 +21,7 @@ const ProfileCard = ({ annotationPrefix, title, body, testimonial }) => {
                     </p>
                     <p className="pt-2 text-gray-600 text-xs lg:text-sm flex items-center justify-center lg:justify-start">
                         
-                        
+                        Test
                     </p>
          </div>
          </div>
