@@ -59,6 +59,10 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
+  - body: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    type: ProfileCard
   - title: lorem-ipsum
     body: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -67,10 +71,6 @@ sections:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
     type: TestimonialCard
-  - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-    type: ProfileCard
   - colors: colors-a
     label: Show Popup
     altText: Learn more
