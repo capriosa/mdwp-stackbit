@@ -1,5 +1,5 @@
 name: ProfileCard
-label: Alert Section
+label: ProfileCard
 groups:
   - sectionComponent
 fields:
