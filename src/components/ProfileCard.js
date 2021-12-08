@@ -26,6 +26,7 @@ const ProfileCard = ({ annotationPrefix, title, body, testimonial }) => {
                         Your Location - 25.0000° N, 71.0000° W
                     </p>
          </div>
+         </div>
          </div>           
     );
 };
