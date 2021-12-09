@@ -4,4 +4,4 @@ groups:
   - sectionComponent
 fields:
   - type: string
-    name: body
+    name: name
