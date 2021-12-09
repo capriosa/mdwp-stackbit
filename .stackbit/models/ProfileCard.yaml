@@ -16,7 +16,7 @@ fields:
   - type: string
     name: facebook
   - type: string
-    name: name
+    name: twitter
   - type: string
     name: name
   - type: string
