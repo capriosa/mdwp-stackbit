@@ -25,7 +25,7 @@ const ProfileCard = ({annotationPrefix,name,job,location,description,button,face
                         </svg>
                         {location}
                     </p>
-                    <p data-sb-field-path=".description" className="pt-8 text-sm"></p>
+                    <p data-sb-field-path=".description" className="pt-8 text-sm">{}</p>
 
                     <div className="pt-12 pb-8">
                         <button className="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full">Get In Touch</button>
