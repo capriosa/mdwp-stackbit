@@ -12,7 +12,7 @@ fields:
   - type: string
     name: description
   - type: string
-    name: name
+    name: button
   - type: string
     name: name
   - type: string
