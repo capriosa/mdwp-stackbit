@@ -96,7 +96,7 @@ sections:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
     type: ProfileCard
-    name: Meinolf Droste kkk
+    name: Meinolf Droste
     job: Web Developer
     location: 58099 Hagen
   - title: lorem-ipsum
