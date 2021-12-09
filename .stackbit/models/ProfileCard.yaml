@@ -21,4 +21,5 @@ fields:
     name: name
   - type: string
     name: name
-  
+    - type: string
+    name: name
