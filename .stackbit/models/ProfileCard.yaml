@@ -3,5 +3,5 @@ label: ProfileCard
 groups:
   - sectionComponent
 fields:
-  - type: text
+  - type: string
     name: body
