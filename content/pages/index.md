@@ -2,6 +2,14 @@
 title: Home
 layout: PageLayout
 sections:
+  - body: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    type: ProfileCard
+    name: Meinolf Droste
+    job: Web Developer
+    location: 58099 Hagen
+    description: Managing Director - mdwp*
   - elementId: ''
     colors: colors-a
     title: Love where you want to work
@@ -59,14 +67,6 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
-  - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-    type: ProfileCard
-    name: Meinolf Droste
-    job: Web Developer
-    location: 58099 Hagen
-    description: Managing Director - mdwp*
   - elementId: ''
     colors: colors-f
     title: The Section Title
