@@ -28,7 +28,7 @@ fields:
   - type: string
     name: youtube
   - type: style
-    name: styles
+    name: description
     styles:
       title: Styles
         textAlign: ['left', 'center', 'right']
