@@ -9,7 +9,7 @@ fields:
     name: job
   - type: string
     name: location
-  - type: string
+  - type: text
     name: description
   - type: string
     name: button
