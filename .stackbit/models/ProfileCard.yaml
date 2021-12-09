@@ -30,7 +30,7 @@ fields:
   - type: style
     name: description
     styles:
-      
+      description:
       title: Styles
         textAlign: ['left', 'center', 'right']
         fontWeight: [100, 400, 700]
