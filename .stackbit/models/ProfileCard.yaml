@@ -22,4 +22,6 @@ fields:
   - type: string
     name: unsplash
   - type: string
+    name: dribbble
+  - type: string
     name: name
