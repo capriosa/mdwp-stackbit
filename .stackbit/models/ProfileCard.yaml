@@ -18,7 +18,7 @@ fields:
   - type: string
     name: twitter
   - type: string
-    name: name
+    name: github
   - type: string
     name: name
     - type: string
