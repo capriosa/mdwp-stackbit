@@ -99,7 +99,7 @@ sections:
     name: Meinolf Droste
     job: Web Developer
     location: 58099 Hagen
-    description: Managing Director - mdwp
+    description: Managing Director - mdwp*
   - title: lorem-ipsum
     body: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
