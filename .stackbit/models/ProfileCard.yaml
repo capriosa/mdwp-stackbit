@@ -24,4 +24,4 @@ fields:
   - type: string
     name: dribbble
   - type: string
-    name: name
+    name: instagram
