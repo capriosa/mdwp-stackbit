@@ -1,7 +1,7 @@
 import Fade from 'react-reveal/Fade';
 import React from 'react';
 
-const ProfileCard = ({name}) => {
+const ProfileCard = (props) => {
     return (
         <div className="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
             <div id="profile" className="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
@@ -11,7 +11,7 @@ const ProfileCard = ({name}) => {
                         style={{ backgroundImage: "url('https://source.unsplash.com/MP0IUfwrn0A')" }}
                     ></div>
 
-                    <h1 className="text-3xl font-bold pt-8 lg:pt-0">{name}</h1>
+                    <h1 className="text-3xl font-bold pt-8 lg:pt-0">{props.name}</h1>
                     <div className="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
                     <p className="pt-4 text-base font-bold flex items-center justify-center lg:justify-start">
                         <svg className="h-4 fill-current text-green-700 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
