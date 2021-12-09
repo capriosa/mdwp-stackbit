@@ -17,9 +17,7 @@ const TestimonialCard = ({ annotationPrefix, title, body, testimonial }) => {
                         <h2 className="text-gray-800 text-3xl font-semibold" data-sb-field-path=".title">
                             {title}
                         </h2>
-                        <p className="mt-2 text-gray-600" data-sb-field-path=".body">
-                            {body}
-                        </p>
+                        l
                     </div>
                     <div className="flex justify-end mt-4">
                         <a href="#" className="text-xl font-medium text-indigo-500" data-sb-field-path=".testimonial">
