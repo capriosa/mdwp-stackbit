@@ -20,6 +20,6 @@ fields:
   - type: string
     name: github
   - type: string
-    name: name
+    name: unspla
     - type: string
     name: name
