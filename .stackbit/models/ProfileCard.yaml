@@ -27,7 +27,7 @@ fields:
     name: instagram
   - type: string
     name: youtube
-- type: style
+  - type: style
     name: styles
     styles:
       title:
