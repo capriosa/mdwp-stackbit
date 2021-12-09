@@ -97,6 +97,7 @@ sections:
       tempor incididunt ut labore et dolore magna aliqua.
     type: ProfileCard
     name: Meinolf Droste
+    job: Web Developer
   - title: lorem-ipsum
     body: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
