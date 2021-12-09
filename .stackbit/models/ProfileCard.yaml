@@ -27,3 +27,9 @@ fields:
     name: instagram
   - type: string
     name: youtube
+  - type: style
+    name: styles
+    styles:
+      title: Styles
+        textAlign: ['left', 'center', 'right']
+        fontWeight: [100, 400, 700]
