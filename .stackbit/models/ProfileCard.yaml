@@ -10,7 +10,7 @@ fields:
   - type: string
     name: location
   - type: string
-    name: des
+    name: description
   - type: string
     name: name
   - type: string
