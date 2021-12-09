@@ -96,7 +96,7 @@ sections:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
     type: ProfileCard
-    name: M. Droste
+    name: Meinolf Droste
   - title: lorem-ipsum
     body: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
