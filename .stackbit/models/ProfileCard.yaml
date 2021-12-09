@@ -25,3 +25,5 @@ fields:
     name: dribbble
   - type: string
     name: instagram
+  - type: string
+    name: name
