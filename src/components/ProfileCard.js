@@ -1,7 +1,7 @@
 import Fade from 'react-reveal/Fade';
 import React from 'react';
 
-const ProfileCard = ({annotationPrefix,name,job}) => {
+const ProfileCard = ({annotationPrefix,name,job,locatio}) => {
     return (
         <div className="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0" data-sb-field-path={annotationPrefix}>
             <div id="profile" className="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
