@@ -8,7 +8,7 @@ fields:
   - type: string
     name: job
   - type: string
-    name: name
+    name: location
   - type: string
     name: name
   - type: string
