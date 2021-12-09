@@ -98,6 +98,7 @@ sections:
     type: ProfileCard
     name: Meinolf Droste
     job: Web Developer
+    location: 58099 Hagen
   - title: lorem-ipsum
     body: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
