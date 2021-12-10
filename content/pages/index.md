@@ -6,7 +6,7 @@ sections:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
     type: ProfileCard
-    name: Meinolf Droste
+    name: Carla Rogers
     job: Web Developer
     location: 58099 Hagen
     description: Cupidatat in sunt aute et excepteur aliqua in quis deserunt ea do et quis.
