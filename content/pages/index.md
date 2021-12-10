@@ -9,7 +9,7 @@ sections:
     name: Meinolf Droste
     job: Web Developer
     location: 58099 Hagen
-    description: Marketing
+    description: Cupidatat in sunt aute et excepteur aliqua in quis deserunt ea do et quis.
   - elementId: ''
     colors: colors-a
     title: Love where you want to work
