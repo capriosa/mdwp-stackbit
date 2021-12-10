@@ -8,7 +8,7 @@ sections:
     type: ProfileCard
     name: Carla Rogers
     job: Web Developer
-    location: 58099 Hagen
+    location: New York
     description: Cupidatat in sunt aute et excepteur aliqua in quis deserunt ea do et quis.
   - elementId: ''
     colors: colors-a
