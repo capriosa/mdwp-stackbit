@@ -7,7 +7,7 @@ const ProfileCard = ({annotationPrefix,name,job,location,description,button,face
             <div id="profile" className="before:rounded-tl-md before:block before:bg-green-700 before:w-64 before:h-3 w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
                 <div className="p-4 md:p-12 text-center lg:text-left">
                     <div
-                        className="block  rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
+                        className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
                         style={{ backgroundImage: "url('https://source.unsplash.com/MP0IUfwrn0A')" }}
                     ></div>
 
