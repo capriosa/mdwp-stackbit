@@ -4,7 +4,7 @@ import React from 'react';
 const ProfileCard = ({annotationPrefix,name,job,location,description,button,facebook,twitter,github,unsplash,dribbble,instagram,youtube}) => {
     return (
         <div className="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0" data-sb-field-path={annotationPrefix}>
-            <div id="profile" className="after:border-green-500 after w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
+            <div id="profile" className="after:border-green-500 after:border-b-2 w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
                 <div className="p-4 md:p-12 text-center lg:text-left">
                     <div
                         className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
