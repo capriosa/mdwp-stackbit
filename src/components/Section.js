@@ -82,7 +82,7 @@ function ctaBackgroundImage(image) {
 
 function sectionImage (props) {
     return (
-        <img className="w-24 rounded-full" src={props.image.url} />
+        <img data-sb-field-path=".text" className="w-24 rounded-full" src={props.image.url} />
     )
 }
 
