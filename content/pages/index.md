@@ -3,7 +3,7 @@ title: Home
 layout: PageLayout
 sections:
   - elementId: ''
-    colors: colors-h
+    colors: colors-g
     backgroundImage: null
     title: Let's do this
     text: >-
