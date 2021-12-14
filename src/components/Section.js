@@ -3,7 +3,7 @@ import Markdown from 'markdown-to-jsx';
 import classNames from 'classnames';
 import { getComponent } from '@stackbit/components/dist/components-registry';
 import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/utils/map-styles-to-class-names';
-import CTA from 
+import CTA from ''
 
 
 export default function Section(props) {
