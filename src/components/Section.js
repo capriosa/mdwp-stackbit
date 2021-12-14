@@ -82,7 +82,7 @@ function ctaBackgroundImage(image) {
 
 function sectionImage (props) {
     return (
-        <img className="" src={props.image.url} />
+        <img className="w-12" src={props.image.url} />
     )
 }
 
