@@ -44,7 +44,8 @@ fields:
         label: Try it now
         url: '/about'
         style: primary
-  - type: model      
+  - type: model
+        
   - type: style
     name: styles
     styles:
