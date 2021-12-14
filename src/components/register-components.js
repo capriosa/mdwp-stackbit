@@ -12,6 +12,7 @@ registerComponents({
     TestimonialCard: dynamic(() => import('./TestimonialCard')),
     PopupLink: dynamic(() => import('./PopupLink')),
     ProfileCard: dynamic(() => import('./ProfileCard')),
+    
 });
 
 /**
