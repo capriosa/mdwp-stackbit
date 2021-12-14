@@ -22,7 +22,7 @@ sections:
         style: link
     styles:
       self:
-        height: auto
+        height: screen
         width: narrow
         margin:
           - mt-0
