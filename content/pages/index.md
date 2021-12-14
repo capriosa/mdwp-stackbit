@@ -17,14 +17,14 @@ sections:
       The Stackbit theme is flexible and scalable to every need. It can manage
       any layout and any screen.
     actions:
-      - type: Button
-        label: Try it now
-        url: /about
-        style: primary
       - body: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         type: AlertSection
+      - type: Button
+        label: Try it now
+        url: /about
+        style: primary
     styles:
       self:
         height: screen
