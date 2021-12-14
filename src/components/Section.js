@@ -80,7 +80,7 @@ function ctaBackgroundImage(image) {
 }
 
 function sectionImage (props) {
-    
+    return
 }
 
 function ctaBody(props) {
