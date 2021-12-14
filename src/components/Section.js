@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import { getComponent } from '../../components-registry';
 import { mapStylesToClassNames as mapStyles } from '../../utils/map-styles-to-class-names';
 
-export default function CtaSection(props) {
+export default function Section(props) {
     const cssId = props.elementId || null;
     const colors = props.colors || 'colors-a';
     const sectionStyles = props.styles?.self || {};
