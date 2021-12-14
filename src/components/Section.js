@@ -79,7 +79,7 @@ function ctaBackgroundImage(image) {
     );
 }
 
-
+function 
 
 function ctaBody(props) {
     if (!props.title && !props.text) {
