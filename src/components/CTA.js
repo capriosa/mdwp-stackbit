@@ -5,7 +5,7 @@ import { getComponent } from '@stackbit/components/dist/components-registry';
 import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/utils/map-styles-to-class-names';
 
 
-export default function CTS(props) {
+export default function CT(props) {
 const cssId = props.elementId || null;
     const colors = props.colors || 'colors-a';
     const sectionStyles = props.styles?.self || {};
