@@ -6,7 +6,10 @@ import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/ut
 
 
 export default function CTS(props) {
-
+const cssId = props.elementId || null;
+    const colors = props.colors || 'colors-a';
+    const sectionStyles = props.styles?.self || {};
+    const sectionBorderWidth = sectionStyles.borderWidth ? sectionStyles.borderWidth : 0;
     return (
         <div
         id={cssId}
