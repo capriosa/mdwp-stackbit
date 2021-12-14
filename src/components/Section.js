@@ -81,7 +81,7 @@ function ctaBackgroundImage(image) {
 
 function sectionImage (props) {
     return (
-        <img src=
+        <img src={}
     )
 }
 
