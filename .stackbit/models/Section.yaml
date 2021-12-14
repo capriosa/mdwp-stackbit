@@ -38,7 +38,7 @@ fields:
       models:
         - Button
         - Link
-        - Image Block
+        - ImageBlock
     default:
       - type: Button
         label: Try it now
