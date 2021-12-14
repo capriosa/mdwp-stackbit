@@ -45,10 +45,9 @@ fields:
         url: '/about'
         style: primary
   - type: list
-  - name: images
-  - label: Images
-  - items:
-    - type: model
+  - type: model
+    name: image
+    label: Image
     models:
       - ImageBlock      
   - type: style
