@@ -50,7 +50,7 @@ sections:
         justifyContent: flex-start
     type: Section
     image:
-      url: 'https://assets.stackbit.com/components/images/default/default-image.png'
+      url: /images/desmond-eagle.jpg
       altText: altText of the image
       caption: Caption of the image
       elementId: ''
