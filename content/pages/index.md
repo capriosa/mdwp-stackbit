@@ -20,7 +20,7 @@ sections:
       - type: Button
         label: Try it now
         url: /about
-        style: primary
+        style: secondary
     styles:
       self:
         height: screen
