@@ -29,6 +29,7 @@ export default function CTS(props) {
             style={{
                 borderWidth: `${sectionBorderWidth}px`
             }}
+            
             </div>
     )
 
