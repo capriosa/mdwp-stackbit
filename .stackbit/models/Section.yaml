@@ -48,7 +48,7 @@ fields:
     name: image
     label: Image
     models:
-      -      
+      - Image      
   - type: style
     name: styles
     styles:
