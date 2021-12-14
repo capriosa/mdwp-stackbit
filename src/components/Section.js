@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Markdown from 'markdown-to-jsx';
 import classNames from 'classnames';
-import { mapStylesToClassNames as mapStyles } from '../../ map-styles-to-class-names';
+import { mapStylesToClassNames as mapStyles } from '';
 
 export default function Section(props) {
     const cssId = props.elementId || null;
