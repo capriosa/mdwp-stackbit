@@ -16,7 +16,7 @@ export default function Section(props) {
                     'flex',
                     'relative',
                     'w-full',
-                    props.sectionStyles.justifyContent ? mapStyles({ justifyContent: props.sectionStyles.justifyContent }) : null
+                    sectionStyles.justifyContent ? mapStyles({ justifyContent: props.sectionStyles.justifyContent }) : null
                 )}
             >
                 <div className={classNames('w-full', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null)}>
