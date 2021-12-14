@@ -12,7 +12,7 @@ export default function Section(props) {
     const sectionStyles = props.styles?.self || {};
     const sectionBorderWidth = sectionStyles.borderWidth ? sectionStyles.borderWidth : 0;
     return (
-        <CTA
+        <div
             id={cssId}
             className={classNames(
                 'sb-component',
@@ -57,7 +57,7 @@ export default function Section(props) {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 
