@@ -1,8 +1,4 @@
-import * as React from 'react';
-import Markdown from 'markdown-to-jsx';
-import classNames from 'classnames';
-import { getComponent } from '@stackbit/components/dist/components-registry';
-import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/utils/map-styles-to-class-names';
+
 
 export default function Section(props) {
     const cssId = props.elementId || null;
