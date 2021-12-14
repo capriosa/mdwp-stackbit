@@ -39,7 +39,7 @@ sections:
         justifyContent: center
         flexDirection: col
         borderRadius: none
-        borderWidth: 4
+        borderWidth: 0
         borderStyle: none
         borderColor: border-dark
       title:
