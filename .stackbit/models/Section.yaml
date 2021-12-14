@@ -45,7 +45,7 @@ fields:
         url: '/about'
         style: primary
   - type: list
-  -name
+  - name
   - type: model
     name: image
     label: Image
