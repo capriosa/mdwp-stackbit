@@ -12,7 +12,7 @@ export default function Section(props) {
         <CTA>
             {props.backgroundImage && ctaBackgroundImage(props.backgroundImage)}
             <div
-                className={classNames(
+                className={props.classNames(
                     'flex',
                     'relative',
                     'w-full',
