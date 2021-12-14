@@ -54,7 +54,7 @@ export default function Section(props) {
                     >
                         {ctaBody(props)}
                         {ctaActions(props)}
-                        {section}
+                        {sectionImage}
                     </div>
                 </div>
             </div>
