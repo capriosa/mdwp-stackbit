@@ -10,26 +10,6 @@ export default function Section(props) {
     
     return (
         <CTA
-            id={cssId}
-            className={classNames(
-                'sb-component',
-                'sb-component-section',
-                'sb-component-cta-section',
-                colors,
-                'flex',
-                'flex-col',
-                'justify-center',
-                'relative',
-                sectionStyles.height ? mapMinHeightStyles(sectionStyles.height) : null,
-                sectionStyles.margin,
-                sectionStyles.padding,
-                sectionStyles.borderColor,
-                sectionStyles.borderRadius ? mapStyles({ borderRadius: sectionStyles.borderRadius }) : null,
-                sectionStyles.borderStyle ? mapStyles({ borderStyle: sectionStyles.borderStyle }) : null
-            )}
-            style={{
-                borderWidth: `${sectionBorderWidth}px`
-            }}
         >
             {props.backgroundImage && ctaBackgroundImage(props.backgroundImage)}
             <div
