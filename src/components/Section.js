@@ -117,7 +117,7 @@ function ctaActions(props) {
         return null;
     }
     const styles = props.styles || {};
-    //const Action = getComponent('Action');
+    const Action = getComponent('Action');
     return (
         <div className={classNames('my-3', 'px-4', 'w-full', styles.self?.flexDirection === 'row' ? 'lg:w-auto' : null)}>
             <div
