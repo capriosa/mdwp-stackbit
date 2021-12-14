@@ -30,7 +30,7 @@ export default function CTS(props) {
                 borderWidth: `${sectionBorderWidth}px`
             }}
     )
-
+</div>
 }
 
 function ctaBackgroundImage(image) {
