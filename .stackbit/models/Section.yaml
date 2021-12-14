@@ -46,7 +46,7 @@ fields:
         style: primary
   - type: list
   - name: images
-  
+  -
   - type: model
     name: image
     label: Image
