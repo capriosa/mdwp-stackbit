@@ -8,6 +8,7 @@ import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/ut
 export default function CTS(props) {
 
     return (
+        <div></div>
         id={cssId}
             className={classNames(
                 'sb-component',
