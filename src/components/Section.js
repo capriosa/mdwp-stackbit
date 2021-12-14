@@ -12,7 +12,7 @@ export default function Section(props) {
     const sectionStyles = props.styles?.self || {};
     const sectionBorderWidth = sectionStyles.borderWidth ? sectionStyles.borderWidth : 0;
     return (
-        <div
+        <CTA
             id={cssId}
             className={classNames(
                 'sb-component',
