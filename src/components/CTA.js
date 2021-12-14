@@ -1,4 +1,4 @@
-export default function Section(props) {
+export default function CTS(props) {
 
 
 }
