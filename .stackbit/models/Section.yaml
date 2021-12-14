@@ -47,7 +47,7 @@ fields:
   - type: list
   - name: images
   - label: Images
-  - type: model
+    - type: model
     name: image
     label: Image
     models:
