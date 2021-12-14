@@ -14,12 +14,6 @@ sections:
         label: Try it now
         url: /
         style: primary
-      - type: Button
-        label: Learn More
-        showIcon: true
-        icon: arrowRight
-        url: /
-        style: link
       - label: Learn more
         altText: Learn more
         url: /
@@ -29,6 +23,12 @@ sections:
         style: secondary
         elementId: ''
         type: Button
+      - type: Button
+        label: Learn More
+        showIcon: true
+        icon: arrowRight
+        url: /
+        style: link
     styles:
       self:
         height: screen
