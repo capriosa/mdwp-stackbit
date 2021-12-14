@@ -9,8 +9,7 @@ import CTA from './CTA'
 export default function Section(props) {
     
     return (
-        <CTA
-        >
+        <CTA>
             {props.backgroundImage && ctaBackgroundImage(props.backgroundImage)}
             <div
                 className={classNames(
