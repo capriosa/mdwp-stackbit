@@ -49,7 +49,7 @@ fields:
   - label: Images
   - items:
     - type: model
-    
+
     models:
       - ImageBlock      
   - type: style
