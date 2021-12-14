@@ -21,14 +21,6 @@ sections:
         label: Try it now
         url: /about
         style: primary
-      - url: /images/faster.svg
-        altText: altText of the image
-        caption: Caption of the image
-        elementId: ''
-        styles:
-          self:
-            opacity: 100
-        type: ImageBlock
     styles:
       self:
         height: screen
