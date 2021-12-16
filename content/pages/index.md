@@ -233,10 +233,6 @@ sections:
       text:
         textAlign: center
     type: TextSection
-  - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-    type: AlertSection
   - colors: colors-h
     elementId: ''
     images:
