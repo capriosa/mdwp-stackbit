@@ -154,17 +154,6 @@ sections:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
     type: TestimonialCard
-  - colors: colors-a
-    body: lorem-ipsum tralilala
-    label: Show another popup
-    altText: Learn more
-    url: /
-    showIcon: false
-    icon: arrowRight
-    iconPosition: right
-    style: secondary
-    elementId: ''
-    type: PopupLink
   - elementId: ''
     colors: colors-a
     title: Testimonials
