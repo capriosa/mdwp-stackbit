@@ -233,54 +233,6 @@ sections:
       text:
         textAlign: center
     type: TextSection
-  - type: HeroSection
-    elementId: homepage-hero-1
-    colors: colors-a
-    title: Hello World.
-    text: >
-      One platform, one community, getting to the bottom line of everything
-      employment.  Figure out your benefits, practice for interviews, get
-      mentored, help peers, get helped in return.
-    actions:
-      - type: Button
-        label: Sign up
-        url: 'https://www.stackbit.com/'
-        style: primary
-        elementId: hero-main-button
-    media:
-      type: ImageBlock
-      url: /images/hero-1.png
-      altText: Image alt text
-      caption: Image caption
-    styles:
-      self:
-        height: screen
-        width: wide
-        margin:
-          - mt-0
-          - mb-11
-          - ml-0
-          - mr-0
-        padding:
-          - pt-12
-          - pb-12
-          - pr-4
-          - pl-4
-        alignItems: flex-end
-        justifyContent: flex-end
-        flexDirection: col
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
   - colors: colors-e
     elementId: ''
     title: Remote doesn’t mean alone. Here are so great features
