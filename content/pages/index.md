@@ -155,20 +155,6 @@ sections:
       tempor incididunt ut labore et dolore magna aliqua.
     type: TestimonialCard
   - colors: colors-a
-    label: Show Popup
-    altText: Learn more
-    url: /
-    showIcon: false
-    icon: arrowRight
-    iconPosition: right
-    style: secondary
-    elementId: ''
-    type: PopupLink
-    body: >-
-      One platform, one community, getting to the bottom line of everything
-      employment.  Figure out your benefits, practice for interviews, get
-      mentored, help peers, get helped in return. xxxxxxxxx
-  - colors: colors-a
     body: lorem-ipsum tralilala
     label: Show another popup
     altText: Learn more
