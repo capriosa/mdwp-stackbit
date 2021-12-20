@@ -6,7 +6,7 @@ const AlertSection = ({ body }) => {
             <div className="max-w-xl mx-auto">
                 <p>{body}</p>
             </div>
-        </div>
+        </Section>
     )
 }
 
