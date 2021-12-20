@@ -2,6 +2,105 @@
 title: Home
 layout: PageLayout
 sections:
+  - colors: colors-h
+    backgroundImage:
+      url: 'https://assets.stackbit.com/components/images/default/default-image.png'
+      altText: altText of the image
+      caption: Caption of the image
+      elementId: ''
+      styles:
+        self:
+          opacity: 100
+      type: ImageBlock
+    text: >-
+      The Stackbit theme is flexible and scalable to every need. It can manage
+      any layout and any screen.
+    image:
+      url: 'https://assets.stackbit.com/components/images/default/default-image.png'
+      altText: altText of the image
+      caption: Caption of the image
+      elementId: ''
+      styles:
+        self:
+          opacity: 100
+      type: ImageBlock
+    title: Remote doesn’t mean alone. Here are so great features
+    subtitle: >-
+      These are all excellent features that will provide exactly the things
+      you’re looking for.
+    items:
+      - type: FeaturedItem
+        title: Faster
+        text: >-
+          Learn how top tech companies have learned working remote using our
+          product.
+        featuredImage:
+          type: ImageBlock
+          url: /images/faster.svg
+          altText: Item image
+        styles:
+          title:
+            textAlign: center
+          subtitle:
+            textAlign: center
+          text:
+            textAlign: center
+      - type: FeaturedItem
+        title: Smarter
+        text: >-
+          Learn how top tech companies have learned working remote using our
+          product.
+        featuredImage:
+          type: ImageBlock
+          url: /images/smarter.svg
+          altText: Item image
+        styles:
+          title:
+            textAlign: center
+          subtitle:
+            textAlign: center
+          text:
+            textAlign: center
+      - type: FeaturedItem
+        title: Focused
+        text: >-
+          Learn how top tech companies have learned working remote using our
+          product.
+        featuredImage:
+          type: ImageBlock
+          url: /images/focused.svg
+          altText: Item image
+        styles:
+          title:
+            textAlign: center
+          subtitle:
+            textAlign: center
+          text:
+            textAlign: center
+    actions: []
+    columns: 3
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+      actions:
+        justifyContent: center
+    type: FeaturedItemsSection
   - image:
       url: 'https://assets.stackbit.com/components/images/default/default-image.png'
       altText: altText of the image
