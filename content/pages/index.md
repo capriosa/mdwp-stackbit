@@ -61,6 +61,7 @@ sections:
             textAlign: center
           text:
             textAlign: center
+        isRatingVisible: true
       - type: FeaturedItem
         title: Focused
         text: >-
