@@ -94,6 +94,7 @@ sections:
           - pl-4
           - pr-4
         justifyContent: center
+        borderColor: border-primary
       title:
         textAlign: center
       subtitle:
