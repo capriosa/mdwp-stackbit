@@ -1,4 +1,4 @@
-import
+import Section from
 
 const AlertSection = ({ body }) => {
     return (
