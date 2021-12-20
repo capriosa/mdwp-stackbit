@@ -2,7 +2,7 @@ import Section from "./Section";
 
 const AlertSection = ({ body }) => {
     return (
-        <S>
+        <Section>
             <div className="max-w-xl mx-auto">
                 <p>{body}</p>
             </div>
