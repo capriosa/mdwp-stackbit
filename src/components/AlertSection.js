@@ -1,4 +1,4 @@
-import Section from "./"
+import Section from "./Section"
 
 const AlertSection = ({ body }) => {
     return (
