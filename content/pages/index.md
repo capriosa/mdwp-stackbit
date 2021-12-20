@@ -62,16 +62,7 @@ sections:
           text:
             textAlign: center
         isRatingVisible: true
-        actions:
-          - label: Learn more
-            altText: Learn more
-            url: /
-            showIcon: false
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            elementId: ''
-            type: Button
+        actions: []
       - type: FeaturedItem
         title: Focused
         text: >-
