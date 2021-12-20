@@ -70,7 +70,7 @@ sections:
           text:
             textAlign: center
     actions: []
-    columns: 13
+    columns: 1
     styles:
       self:
         height: auto
