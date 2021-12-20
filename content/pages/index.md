@@ -14,6 +14,10 @@ sections:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
     type: AlertSection
+  - body: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    type: AlertSection
   - colors: colors-h
     backgroundImage:
       url: 'https://assets.stackbit.com/components/images/default/default-image.png'
