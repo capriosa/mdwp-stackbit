@@ -1,4 +1,4 @@
-im
+import
 
 const AlertSection = ({ body }) => {
     return (
