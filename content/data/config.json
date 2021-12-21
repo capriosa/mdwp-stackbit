@@ -2,7 +2,7 @@
     "type": "Config",
     "header": {
         "headerVariant": "variant-c",
-        "primaryColors": "colors-a",
+        "primaryColors": "colors-f",
         "secondaryColors": "colors-f",
         "title": "Startup.io",
         "isTitleVisible": true,
