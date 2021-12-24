@@ -71,10 +71,10 @@ sections:
         height: auto
         width: full
         margin:
-          - mt-20
-          - mb-20
-          - ml-20
-          - mr-20
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
         padding:
           - pt-28
           - pb-28
