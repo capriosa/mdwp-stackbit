@@ -130,7 +130,7 @@ sections:
         justifyContent: flex-start
     type: CtaSection
   - type: FeaturedItemsSection
-    colors: colors-h
+    colors: colors-i
     title: Remote doesn’t mean alone. Here are so great features
     subtitle: >-
       These are all excellent features that will provide exactly the things
