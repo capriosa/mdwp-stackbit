@@ -129,7 +129,7 @@ sections:
     columns: 7
     spacing: 3
     imageSizePx: 105
-    aspectRatio: '16:9'
+    aspectRatio: '1:1'
     showCaption: false
     enableHover: false
     styles:
