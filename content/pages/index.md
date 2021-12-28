@@ -45,7 +45,7 @@ sections:
       actions:
         justifyContent: flex-start
   - type: HeroSection
-    colors: colors-f
+    colors: colors-h
     title: Where did everyone go?
     text: >-
       Learn how top tech companies have learned working remote using our
