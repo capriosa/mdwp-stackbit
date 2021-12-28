@@ -39,7 +39,8 @@
                 "altText": "Kontakt",
                 "style": "primary",
                 "showIcon": true,
-                "iconPosition": "left"
+                "iconPosition": "left",
+                "icon": "cart"
             }
         ],
         "styles": {
