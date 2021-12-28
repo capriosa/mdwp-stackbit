@@ -37,7 +37,7 @@
                 "label": "Kontakt",
                 "url": "/",
                 "altText": "Kontakt",
-                "style": "secondary",
+                "style": "primary",
                 "showIcon": true,
                 "iconPosition": "left",
                 "icon": "twitter"
