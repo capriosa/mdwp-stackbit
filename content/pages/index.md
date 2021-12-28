@@ -251,7 +251,7 @@ sections:
       together
     media:
       type: ImageBlock
-      url: /images/Image-on-the-left.svg
+      url: /images/hero-2.png
       altText: Hero section image
     styles:
       self:
