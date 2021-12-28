@@ -94,7 +94,7 @@ sections:
       actions:
         justifyContent: flex-start
   - type: MediaGallerySection
-    colors: colors-b
+    colors: colors-c
     title: ''
     subtitle: ''
     images:
