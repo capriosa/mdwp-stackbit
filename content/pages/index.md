@@ -94,7 +94,7 @@ sections:
       actions:
         justifyContent: flex-start
   - elementId: ''
-    colors: colors-g
+    colors: colors-i
     backgroundImage: null
     title: Let's do this
     text: >-
