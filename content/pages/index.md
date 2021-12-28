@@ -344,7 +344,7 @@ sections:
         fontStyle: normal
         textAlign: left
   - type: FaqSection
-    colors: colors-f
+    colors: colors-h
     title: Need Answers?
     subtitle: ''
     items:
