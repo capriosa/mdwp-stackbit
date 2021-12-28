@@ -59,7 +59,7 @@ sections:
       - type: Button
         label: Sign up
         url: /
-        style: secondary
+        style: primary
       - type: Button
         label: Watch Video
         url: /
