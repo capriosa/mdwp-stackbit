@@ -37,7 +37,8 @@
                 "label": "Kontakt",
                 "url": "/",
                 "altText": "Kontakt",
-                "style": "primary"
+                "style": "primary",
+                "showIcon": true
             }
         ],
         "styles": {
