@@ -38,7 +38,8 @@
                 "url": "/",
                 "altText": "Kontakt",
                 "style": "primary",
-                "showIcon": true
+                "showIcon": true,
+                "iconPosition": "left"
             }
         ],
         "styles": {
