@@ -284,10 +284,8 @@ sections:
     colors: colors-a
     title: ''
     text: >
-      ## We sometimes write things. You should read it, it might shed some 
-      light on why we’re doing what we’re doing
-
-
+      ## ![](/images/careers.jpg)We sometimes write things. You should read it,
+      it might shed some  light on why we’re doing what we’re doing
 
 
       [See all posts](/blog)
