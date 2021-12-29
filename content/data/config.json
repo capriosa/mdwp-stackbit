@@ -13,12 +13,6 @@
                 "altText": ""
             },
             {
-                "type": "Link",
-                "label": "Careers",
-                "url": "/careers",
-                "altText": ""
-            },
-            {
                 "label": "Kontakt",
                 "altText": "Kontakt",
                 "url": "/kontakt",
