@@ -2,7 +2,7 @@
 title: Careers
 sections:
   - elementId: ''
-    colors: colors-f
+    colors: colors-d
     title: We’re growing fast
     subtitle: You should join us.
     media:
