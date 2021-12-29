@@ -24,7 +24,6 @@
             },
             {
                 "label": "Impressum",
-                "altText": "Learn more",
                 "url": "/",
                 "showIcon": false,
                 "icon": "arrowRight",
