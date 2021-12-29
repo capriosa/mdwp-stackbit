@@ -24,7 +24,7 @@
             },
             {
                 "label": "Impressum",
-                "url": "/",
+                "url": "/impre",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
