@@ -29,8 +29,7 @@
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "elementId": "",
-                "type": "Link",
-                "altText": "pressu"
+                "type": "Link"
             },
             {
                 "type": "Link",
