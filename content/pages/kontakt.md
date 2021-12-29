@@ -35,6 +35,16 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
+    actions:
+      - label: Learn more
+        altText: Learn more
+        url: /
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        elementId: ''
+        type: Button
   - elementId: ''
     colors: colors-a
     quote: >-
