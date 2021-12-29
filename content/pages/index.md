@@ -2,7 +2,7 @@
 title: Home
 sections:
   - type: HeroSection
-    colors: colors-b
+    colors: colors-h
     title: 'Love where you work, because work loves you'
     text: >-
       One platform, one community, getting to the bottom line of everything
