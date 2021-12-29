@@ -1,5 +1,5 @@
 ---
-title: Careers
+title: Kontakt
 sections:
   - elementId: ''
     colors: colors-d
