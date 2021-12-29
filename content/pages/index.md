@@ -2,7 +2,7 @@
 title: Home
 sections:
   - elementId: ''
-    colors: colors-a
+    colors: colors-h
     title: The Section Title
     subtitle: ''
     text: >-
