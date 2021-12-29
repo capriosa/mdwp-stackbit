@@ -1,5 +1,5 @@
 ---
-title: Kontakt
+title: Impressum
 sections:
   - elementId: ''
     colors: colors-d
