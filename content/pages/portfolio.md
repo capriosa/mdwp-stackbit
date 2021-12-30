@@ -50,7 +50,7 @@ sections:
           product.
         featuredImage:
           type: ImageBlock
-          url: /images/faster.svg
+          url: /images/hero-3.jpg
           altText: Item image
         styles:
           title:
