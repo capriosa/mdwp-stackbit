@@ -7,7 +7,7 @@ sections:
     subtitle: You should join us.
     media:
       type: ImageBlock
-      url: /images/hero-4.jpg
+      url: /images/BID-Equity1.webp
       altText: Hero section image
     styles:
       self:
