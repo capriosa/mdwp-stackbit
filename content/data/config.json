@@ -159,7 +159,7 @@
             {
                 "type": "Social",
                 "altText": "Facebook",
-                "url": "/",
+                "url": "https:",
                 "showIcon": true,
                 "icon": "facebook"
             }
