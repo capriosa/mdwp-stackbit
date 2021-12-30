@@ -3,7 +3,7 @@ title: Portfolio
 sections:
   - elementId: ''
     colors: colors-d
-    title: We’re growing fast
+    title: BID EQUITY
     subtitle: You should join us.
     media:
       type: ImageBlock
