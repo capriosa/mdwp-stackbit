@@ -13,6 +13,12 @@
                 "altText": ""
             },
             {
+                "type": "Link",
+                "label": "Blog",
+                "altText": "Blog",
+                "url": "/blog"
+            },
+            {
                 "label": "Kontakt",
                 "altText": "Kontakt",
                 "url": "/kontakt",
@@ -21,12 +27,6 @@
                 "iconPosition": "right",
                 "elementId": "",
                 "type": "Link"
-            },
-            {
-                "type": "Link",
-                "label": "Blog",
-                "altText": "Blog",
-                "url": "/blog"
             },
             {
                 "label": "Impressum",
