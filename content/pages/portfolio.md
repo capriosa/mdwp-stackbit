@@ -2,7 +2,7 @@
 title: Portfolio
 sections:
   - elementId: ''
-    colors: colors-d
+    colors: colors-a
     title: BID EQUITY
     subtitle: Unser aktuellstes Projekt
     media:
