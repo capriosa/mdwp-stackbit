@@ -23,6 +23,12 @@
                 "type": "Link"
             },
             {
+                "type": "Link",
+                "label": "Blog",
+                "altText": "Blog",
+                "url": "/blog"
+            },
+            {
                 "label": "Impressum",
                 "url": "/impressum",
                 "showIcon": false,
@@ -31,12 +37,6 @@
                 "elementId": "",
                 "type": "Link",
                 "altText": "Impressum"
-            },
-            {
-                "type": "Link",
-                "label": "Blog",
-                "altText": "Blog",
-                "url": "/blog"
             },
             {
                 "label": "Datenschutz",
