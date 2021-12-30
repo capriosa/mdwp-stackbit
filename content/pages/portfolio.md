@@ -24,7 +24,7 @@ sections:
           - pl-4
           - pr-4
         alignItems: flex-end
-        justifyContent: flex-end
+        justifyContent: center
         flexDirection: col-reverse
       title:
         textAlign: center
