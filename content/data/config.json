@@ -168,7 +168,8 @@
             {
                 "type": "Link",
                 "label": "Impressum",
-                "url": "/"
+                "url": "/",
+                "altText": "Impressum"
             },
             {
                 "type": "Link",
