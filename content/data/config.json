@@ -130,15 +130,15 @@
             },
             {
                 "type": "Link",
-                "label": "FAQ",
-                "url": "/faq",
-                "altText": ""
-            },
-            {
-                "type": "Link",
                 "label": "Kontakt",
                 "url": "/kontakt",
                 "altText": "Kontakt"
+            },
+            {
+                "type": "Link",
+                "label": "FAQ",
+                "url": "/faq",
+                "altText": ""
             }
         ],
         "socialLinks": [
