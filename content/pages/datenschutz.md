@@ -1,5 +1,5 @@
 ---
-title: Impressum
+title: Datenschutz
 sections:
   - elementId: ''
     colors: colors-d
