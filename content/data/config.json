@@ -147,7 +147,7 @@
                 "altText": "Twitter",
                 "showIcon": true,
                 "icon": "twitter",
-                "url": "https"
+                "url": "https:"
             },
             {
                 "type": "Social",
