@@ -35,16 +35,7 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
-    actions:
-      - label: Learn more
-        altText: Learn more
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-        type: Button
+    actions: []
   - elementId: ''
     colors: colors-h
     title: Contact us
