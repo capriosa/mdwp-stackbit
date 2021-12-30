@@ -145,7 +145,6 @@
             {
                 "type": "Social",
                 "altText": "Twitter",
-                "url": "/",
                 "showIcon": true,
                 "icon": "twitter"
             },
