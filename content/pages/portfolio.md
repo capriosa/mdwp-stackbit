@@ -4,7 +4,7 @@ sections:
   - elementId: ''
     colors: colors-d
     title: BID EQUITY
-    subtitle: You should join us.
+    subtitle: Unser aktuellstes Projekt
     media:
       type: ImageBlock
       url: /images/BID-Equity1.webp
