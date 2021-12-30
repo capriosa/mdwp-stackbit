@@ -29,16 +29,6 @@
                 "type": "Link"
             },
             {
-                "label": "Kontakt",
-                "altText": "Kontakt",
-                "url": "/kontakt",
-                "showIcon": false,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "elementId": "",
-                "type": "Link"
-            },
-            {
                 "label": "Impressum",
                 "url": "/impressum",
                 "showIcon": false,
