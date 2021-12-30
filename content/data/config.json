@@ -174,7 +174,8 @@
             {
                 "type": "Link",
                 "label": "Datenschutz",
-                "url": "/"
+                "url": "/",
+                "altText": "Datenschutz"
             }
         ],
         "styles": {
