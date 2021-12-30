@@ -20,7 +20,7 @@
             },
             {
                 "label": "Portfolio",
-                "altText": "Learn more",
+                "altText": "Portfolio",
                 "url": "/",
                 "showIcon": false,
                 "icon": "arrowRight",
