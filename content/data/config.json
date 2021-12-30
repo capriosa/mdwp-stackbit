@@ -168,7 +168,7 @@
             {
                 "type": "Link",
                 "label": "Impressum",
-                "url": "/",
+                "url": "/impressum",
                 "altText": "Impressum"
             },
             {
