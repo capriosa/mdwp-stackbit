@@ -21,7 +21,7 @@
             {
                 "label": "Portfolio",
                 "altText": "Portfolio",
-                "url": "/",
+                "url": "/portfolio",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
