@@ -119,7 +119,7 @@
             {
                 "type": "Link",
                 "label": "Blog",
-                "url": "/",
+                "url": "/blog",
                 "altText": "Blog"
             },
             {
