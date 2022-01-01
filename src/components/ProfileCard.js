@@ -124,4 +124,4 @@ const ProfileCard = ({ annotationPrefix, title, body, testimonial }) => {
     );
 };
 
-export default TestimonialCard;
+export default ProfileCard;
