@@ -105,39 +105,39 @@
             "type": "ImageBlock",
             "url": "/images/mdwp-logo-2.jpeg"
         },
-        "title": "Startup.io",
+        "title": "Digital Consulting & Services",
         "contacts": {
-            "phoneNumber": "850-123-5021",
             "phoneAltText": "Our phone",
-            "email": "info@lorem.mail",
+            "email": "m.droste@mdwp.de",
             "emailAltText": "Our email",
-            "address": "312 Lovely Street, NY",
-            "addressAltText": "Our address"
+            "address": "Hügelstr. 6, 58099 Hagen",
+            "addressAltText": "Our address",
+            "phoneNumber": "+4923316285273"
         },
         "copyrightText": "Powered by Stackbit",
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Home",
-                "url": "/",
-                "altText": ""
+                "label": "Blog",
+                "url": "/blog",
+                "altText": "Blog"
             },
             {
                 "type": "Link",
-                "label": "Careers",
-                "url": "/careers",
-                "altText": ""
+                "label": "Portfolio",
+                "url": "/portfolio",
+                "altText": "Portfolio"
+            },
+            {
+                "type": "Link",
+                "label": "Kontakt",
+                "url": "/kontakt",
+                "altText": "Kontakt"
             },
             {
                 "type": "Link",
                 "label": "FAQ",
                 "url": "/faq",
-                "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "Blog",
-                "url": "/blog",
                 "altText": ""
             }
         ],
@@ -145,21 +145,21 @@
             {
                 "type": "Social",
                 "altText": "Twitter",
-                "url": "/",
                 "showIcon": true,
-                "icon": "twitter"
+                "icon": "twitter",
+                "url": "https://twitter.com/mdwp"
             },
             {
                 "type": "Social",
-                "altText": "Instagram",
-                "url": "/",
+                "altText": "Linkedin",
+                "url": "https://www.linkedin.com/in/mdwp-meinolf-droste/",
                 "showIcon": true,
-                "icon": "instagram"
+                "icon": "linkedin"
             },
             {
                 "type": "Social",
                 "altText": "Facebook",
-                "url": "/",
+                "url": "https://facebook.com/meinolf.droste",
                 "showIcon": true,
                 "icon": "facebook"
             }
@@ -167,13 +167,15 @@
         "legalLinks": [
             {
                 "type": "Link",
-                "label": "Privacy Policy",
-                "url": "/"
+                "label": "Impressum",
+                "url": "/impressum",
+                "altText": "Impressum"
             },
             {
                 "type": "Link",
-                "label": "Terms & Conditions",
-                "url": "/"
+                "label": "Datenschutz",
+                "url": "/datenschutz",
+                "altText": "Datenschutz"
             }
         ],
         "styles": {

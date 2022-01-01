@@ -2,16 +2,16 @@
 title: Portfolio
 sections:
   - elementId: ''
-    colors: colors-d
-    title: We’re growing fast
-    subtitle: You should join us.
+    colors: colors-a
+    title: BID EQUITY
+    subtitle: Unser aktuellstes Projekt
     media:
       type: ImageBlock
-      url: /images/hero-4.jpg
+      url: /images/BID-Equity1.webp
       altText: Hero section image
     styles:
       self:
-        height: screen
+        height: auto
         width: wide
         margin:
           - mt-0
@@ -19,13 +19,13 @@ sections:
           - ml-0
           - mr-0
         padding:
-          - pt-12
-          - pb-12
+          - pt-28
+          - pb-28
           - pl-4
           - pr-4
         alignItems: center
         justifyContent: center
-        flexDirection: col-reverse
+        flexDirection: row-reverse
       title:
         textAlign: center
       subtitle:
@@ -35,54 +35,64 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
-    actions:
-      - label: Learn more
-        altText: Learn more
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-        type: Button
-  - elementId: ''
-    colors: colors-h
-    title: Contact us
-    text: We look forward to hearing from you.
-    form:
-      type: FormBlock
-      elementId: contact-form
-      action: /.netlify/functions/submission_created
-      destination: ''
-      fields:
-        - type: TextFormControl
-          name: name
-          label: Name
-          placeholder: Your name
-          isRequired: 'true'
-          width: 1/2
-        - type: EmailFormControl
-          name: email
-          label: Email
-          placeholder: Your email
-          isRequired: 'true'
-          width: 1/2
-        - type: TextFormControl
-          name: address
-          label: Home address
-          placeholder: Your home address
-          isRequired: 'false'
-          width: full
-        - type: CheckboxFormControl
-          name: updates
-          label: Sign me up to receive updates
-          isRequired: 'false'
-          width: full
-      submitLabel: Send Message
-    media:
-      type: ImageBlock
-      url: /images/careers.jpg
-      altText: Contact form image
+    actions: []
+  - colors: colors-h
+    elementId: ''
+    title: Remote doesn’t mean alone. Here are so great features
+    subtitle: >-
+      These are all excellent features that will provide exactly the things
+      you’re looking for.
+    items:
+      - type: FeaturedItem
+        title: Faster
+        text: >-
+          Learn how top tech companies have learned working remote using our
+          product.
+        featuredImage:
+          type: ImageBlock
+          url: /images/hero-3.jpg
+          altText: Item image
+        styles:
+          title:
+            textAlign: center
+          subtitle:
+            textAlign: center
+          text:
+            textAlign: center
+      - type: FeaturedItem
+        title: Smarter
+        text: >-
+          Learn how top tech companies have learned working remote using our
+          product.
+        featuredImage:
+          type: ImageBlock
+          url: /images/smarter.svg
+          altText: Item image
+        styles:
+          title:
+            textAlign: center
+          subtitle:
+            textAlign: center
+          text:
+            textAlign: center
+      - type: FeaturedItem
+        title: Focused
+        text: >-
+          Learn how top tech companies have learned working remote using our
+          product.
+        featuredImage:
+          type: ImageBlock
+          url: /images/focused.svg
+          altText: Item image
+        styles:
+          title:
+            textAlign: center
+          subtitle:
+            textAlign: center
+          text:
+            textAlign: center
+    actions: []
+    columns: 3
     styles:
       self:
         height: auto
@@ -97,14 +107,14 @@ sections:
           - pb-12
           - pl-4
           - pr-4
-        alignItems: center
         justifyContent: center
-        flexDirection: row-reverse
       title:
-        textAlign: left
-      text:
-        textAlign: left
-    type: ContactSection
+        textAlign: center
+      subtitle:
+        textAlign: center
+      actions:
+        justifyContent: center
+    type: FeaturedItemsSection
   - elementId: ''
     colors: colors-a
     quote: >-
