@@ -1,15 +1,98 @@
 ---
-title: Careers
-layout: PageLayout
+title: Portfolio
 sections:
   - elementId: ''
-    colors: colors-f
-    title: We’re growing fast
-    subtitle: You should join us.
+    colors: colors-a
+    title: BID EQUITY
+    subtitle: Unser aktuellstes Projekt
     media:
       type: ImageBlock
-      url: /images/hero-4.jpg
+      url: /images/BID-Equity1.webp
       altText: Hero section image
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-28
+          - pb-28
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: row-reverse
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    type: HeroSection
+    actions: []
+  - colors: colors-h
+    elementId: ''
+    title: Remote doesn’t mean alone. Here are so great features
+    subtitle: >-
+      These are all excellent features that will provide exactly the things
+      you’re looking for.
+    items:
+      - type: FeaturedItem
+        title: Faster
+        text: >-
+          Learn how top tech companies have learned working remote using our
+          product.
+        featuredImage:
+          type: ImageBlock
+          url: /images/hero-3.jpg
+          altText: Item image
+        styles:
+          title:
+            textAlign: center
+          subtitle:
+            textAlign: center
+          text:
+            textAlign: center
+      - type: FeaturedItem
+        title: Smarter
+        text: >-
+          Learn how top tech companies have learned working remote using our
+          product.
+        featuredImage:
+          type: ImageBlock
+          url: /images/smarter.svg
+          altText: Item image
+        styles:
+          title:
+            textAlign: center
+          subtitle:
+            textAlign: center
+          text:
+            textAlign: center
+      - type: FeaturedItem
+        title: Focused
+        text: >-
+          Learn how top tech companies have learned working remote using our
+          product.
+        featuredImage:
+          type: ImageBlock
+          url: /images/focused.svg
+          altText: Item image
+        styles:
+          title:
+            textAlign: center
+          subtitle:
+            textAlign: center
+          text:
+            textAlign: center
+    actions: []
+    columns: 3
     styles:
       self:
         height: auto
@@ -24,22 +107,19 @@ sections:
           - pb-12
           - pl-4
           - pr-4
-        alignItems: center
         justifyContent: center
-        flexDirection: col
       title:
         textAlign: center
       subtitle:
         textAlign: center
-      text:
-        textAlign: left
       actions:
-        justifyContent: flex-start
-    type: HeroSection
+        justifyContent: center
+    type: FeaturedItemsSection
   - elementId: ''
     colors: colors-a
     quote: >-
-      ## Being part of this team has been incredible. We’ve fill each other’s gaps, and we go to lunch together :)
+      ## Being part of this team has been incredible. We’ve fill each other’s
+      gaps, and we go to lunch together :)
     name: Carla Rogers
     title: Someone from the team
     styles:
@@ -103,7 +183,9 @@ sections:
           **San Francisco**
 
 
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
         styles:
           title:
             textAlign: left
@@ -127,7 +209,9 @@ sections:
           **San Francisco**
 
 
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
         styles:
           title:
             textAlign: left
@@ -151,7 +235,9 @@ sections:
           **San Francisco**
 
 
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
         styles:
           title:
             textAlign: left
@@ -175,7 +261,9 @@ sections:
           **San Francisco**
 
 
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
         styles:
           title:
             textAlign: left
@@ -220,7 +308,9 @@ sections:
   - elementId: contact-form
     colors: colors-f
     title: Not seeing the right role? Contact us
-    text: We might have more roles soon, and we’ll contact you if we think there might be a good match
+    text: >-
+      We might have more roles soon, and we’ll contact you if we think there
+      might be a good match
     form:
       type: FormBlock
       elementId: contact-form
@@ -267,12 +357,13 @@ sections:
           - pb-12
           - pl-4
           - pr-4
-        alignItems: center
+        alignItems: flex-start
         justifyContent: center
-        flexDirection: row
+        flexDirection: col-reverse
       title:
         textAlign: left
       text:
         textAlign: left
     type: ContactSection
+layout: PageLayout
 ---

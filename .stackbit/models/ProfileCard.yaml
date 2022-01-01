@@ -1,0 +1,29 @@
+name: ProfileCard
+label: ProfileCard
+groups:
+  - sectionComponent
+fields:
+  - type: string
+    name: name
+  - type: string
+    name: job
+  - type: string
+    name: location
+  - type: text
+    name: description
+  - type: string
+    name: button
+  - type: string
+    name: facebook
+  - type: string
+    name: twitter
+  - type: string
+    name: github
+  - type: string
+    name: unsplash
+  - type: string
+    name: dribbble
+  - type: string
+    name: instagram
+  - type: string
+    name: youtube
