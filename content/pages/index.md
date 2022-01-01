@@ -121,7 +121,7 @@ sections:
         label: Sign up
         url: /
         style: primary
-        buttonPosition: center
+        buttonPosition: right
     styles:
       self:
         height: screen
