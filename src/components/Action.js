@@ -42,7 +42,7 @@ export default function Action(props) {
     console.log(buttonPosition);
 
     return (
-        <div className={classNames({ 'justify-center': buttonPosition === 'center' })}>
+        <div className={classNames('flex', { 'justify-center': buttonPosition === 'center' })}>
             <Link
                 href={url}
                 aria-label={altText}
