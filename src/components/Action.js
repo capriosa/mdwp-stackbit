@@ -41,27 +41,28 @@ export default function Action(props) {
     const cssId = props.elementId || null;
 
     return (
-        <Link
-            href={url}
-            aria-label={altText}
-            id={cssId}
-            className={classNames('sb-component', 'sb-component-block', style === 'link' ? 'sb-component-link' : 'sb-component-button', cssClasses, {
-                'sb-component-button-primary': style === 'primary',
-                'sb-component-button-secondary': style === 'secondary',
-                'justify-center': buttonPosition === 'center'
-            })}
-            data-sb-field-path={annotations.join(' ').trim()}
-        >
-            {label && <span>{label}</span>}
-            {showIcon && IconComponent && (
-                <IconComponent
-                    className={classNames('fill-current h-5 w-5', {
-                        'order-first': iconPosition === 'left',
-                        'mr-1.5': label && iconPosition === 'left',
-                        'ml-1.5': label && iconPosition === 'right'
-                    })}
-                />
-            )}
-        </Link>
+        <div className={classNames({ 'justify-center': buttonPosition === 'center' })}>
+            <Link
+                href={url}
+                aria-label={altText}
+                id={cssId}
+                className={classNames('sb-component', 'sb-component-block', style === 'link' ? 'sb-component-link' : 'sb-component-button', cssClasses, {
+                    'sb-component-button-primary': style === 'primary',
+                    'sb-component-button-secondary': style === 'secondary'
+                })}
+                data-sb-field-path={annotations.join(' ').trim()}
+            >
+                {label && <span>{label}</span>}
+                {showIcon && IconComponent && (
+                    <IconComponent
+                        className={classNames('fill-current h-5 w-5', {
+                            'order-first': iconPosition === 'left',
+                            'mr-1.5': label && iconPosition === 'left',
+                            'ml-1.5': label && iconPosition === 'right'
+                        })}
+                    />
+                )}
+            </Link>
+        </div>
     );
 }
