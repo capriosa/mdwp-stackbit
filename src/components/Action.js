@@ -39,6 +39,7 @@ export default function Action(props) {
     const style = props.style || defaultStyle;
     const cssClasses = props.className || null;
     const cssId = props.elementId || null;
+    console.log(b)
 
     return (
         <Link
