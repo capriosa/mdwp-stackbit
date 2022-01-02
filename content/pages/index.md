@@ -167,6 +167,7 @@ sections:
         label: Sign up
         url: /
         style: primary
+        buttonPosition: left
       - type: Button
         label: Watch Video
         url: /
