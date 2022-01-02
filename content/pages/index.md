@@ -121,7 +121,7 @@ sections:
         label: Sign up
         url: /
         style: secondary
-        buttonPosition: center
+        buttonPosition: left
         showIcon: true
         icon: cart
     styles:
