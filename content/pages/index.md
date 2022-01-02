@@ -122,6 +122,7 @@ sections:
         url: /
         style: primary
         buttonPosition: center
+        showIcon: true
     styles:
       self:
         height: screen
