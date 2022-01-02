@@ -1,15 +1,14 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import Link from '../../utils/link';
-import ArrowLeft from '../../svgs/arrow-left';
-import ArrowRight from '../../svgs/arrow-right';
-import Cart from '../../svgs/cart';
-import Facebook from '../../svgs/facebook';
-import GitHub from '../../svgs/github';
-import Instagram from '../../svgs/instagram';
-import LinkedIn from '../../svgs/linkedin';
-import Twitter from '../../svgs/twitter';
-
+import Link from '@stackbit/components/dist/utils/link';
+import ArrowLeft from '@stackbit/components/dist/svgs/arrow-left';
+import ArrowRight from '@stackbit/components/dist/svgs/arrow-right';
+import Cart from '@stackbit/components/dist/svgs/cart';
+import GitHub from '@stackbit/components/dist/svgs/github';
+import LinkedIn from '@stackbit/components/dist/svgs/linkedin';
+import Twitter from '@stackbit/components/dist/svgs/twitter';
+import Facebook from '@stackbit/components/dist/svgs/facebook';
+import Instagram from '@stackbit/components/dist/svgs/instagram';
 const iconMap = {
     arrowLeft: ArrowLeft,
     arrowRight: ArrowRight,
@@ -41,28 +40,36 @@ export default function Action(props) {
     const cssClasses = props.className || null;
     const cssId = props.elementId || null;
 
+
     return (
-        <Link
-            href={url}
-            aria-label={altText}
-            id={cssId}
-            className={classNames('sb-component', 'sb-component-block', style === 'link' ? 'sb-component-link' : 'sb-component-button', cssClasses, {
-                'sb-component-button-primary': style === 'primary',
-                'sb-component-button-secondary': style === 'secondary',
-                'justify-center': buttonPosition === 'center'
+        <div
+            className={classNames('flex', 'w-full', {
+                'justify-center': buttonPosition === 'center',
+                'justify-start': buttonPosition === 'left',
+                'justify-end': buttonPosition === 'right'
             })}
-            data-sb-field-path={annotations.join(' ').trim()}
         >
-            {label && <span>{label}</span>}
-            {showIcon && IconComponent && (
-                <IconComponent
-                    className={classNames('fill-current h-5 w-5', {
-                        'order-first': iconPosition === 'left',
-                        'mr-1.5': label && iconPosition === 'left',
-                        'ml-1.5': label && iconPosition === 'right'
-                    })}
-                />
-            )}
-        </Link>
+            <Link
+                href={url}
+                aria-label={altText}
+                id={cssId}
+                className={classNames('sb-component', 'sb-component-block', style === 'link' ? 'sb-component-link' : 'sb-component-button', cssClasses, {
+                    'sb-component-button-primary': style === 'primary',
+                    'sb-component-button-secondary': style === 'secondary'
+                })}
+                data-sb-field-path={annotations.join(' ').trim()}
+            >
+                {label && <span>{label}</span>}
+                {showIcon && IconComponent && (
+                    <IconComponent
+                        className={classNames('fill-current h-5 w-5', {
+                            'order-first': iconPosition === 'left',
+                            'mr-1.5': label && iconPosition === 'left',
+                            'ml-1.5': label && iconPosition === 'right'
+                        })}
+                    />
+                )}
+            </Link>
+        </div>
     );
 }
