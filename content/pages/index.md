@@ -174,6 +174,7 @@ sections:
         style: link
         showIcon: true
         icon: arrowRight
+        buttonPosition: right
     styles:
       self:
         height: auto
