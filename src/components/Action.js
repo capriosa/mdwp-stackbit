@@ -1,6 +1,6 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import Link from '@stackbit/utils/src';
+import Link from '@stackbit/components/dist/utils/link';
 import ArrowLeft from '@stackbit/components/dist/svgs/arrow-left';
 import ArrowRight from '@stackbit/components/dist/svgs/arrow-right';
 import Cart from '@stackbit/components/dist/svgs/cart';
