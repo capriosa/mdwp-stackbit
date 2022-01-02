@@ -7,6 +7,7 @@ import Cart from '@stackbit/components/dist/svgs/cart';
 import GitHub from '@stackbit/components/dist/svgs/github';
 import LinkedIn from '@stackbit/components/dist/svgs/linkedin';
 import Twitter from '@stackbit/components/dist/svgs/twitter';
+import Facebook from '@stackbit/components/dist/svgs/facebook';
 const iconMap = {
     arrowLeft: ArrowLeft,
     arrowRight: ArrowRight,
