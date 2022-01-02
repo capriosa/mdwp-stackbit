@@ -123,6 +123,7 @@ sections:
         style: primary
         buttonPosition: center
         showIcon: true
+        icon: cart
     styles:
       self:
         height: screen
