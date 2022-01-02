@@ -120,7 +120,7 @@ sections:
       - type: Button
         label: Sign up
         url: /
-        style: primary
+        style: secondary
         buttonPosition: center
         showIcon: true
         icon: cart
