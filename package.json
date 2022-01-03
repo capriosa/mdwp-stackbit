@@ -15,7 +15,7 @@
         "analyze:browser": "BUNDLE_ANALYZE=browser next build"
     },
     "dependencies": {
-        "@stackbit/cli": "^0.1.14",
+        "@stackbit/cli": "^0.1.1",
         "@stackbit/components": "^0.1.55",
         "axios": "^0.24.0",
         "classnames": "^2.3.1",
