@@ -1,17 +1,6 @@
 ---
 title: Home
 sections:
-  - colors: colors-a
-    body: lorem-ipsum
-    label: Learn more
-    altText: Learn more
-    url: /
-    showIcon: false
-    icon: arrowRight
-    iconPosition: right
-    style: secondary
-    elementId: ''
-    type: PopupLink
   - title: lorem-ipsum
     body: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
