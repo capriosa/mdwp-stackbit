@@ -1,14 +1,6 @@
 ---
 title: Home
 sections:
-  - title: lorem-ipsum
-    body: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-    testimonial: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-    type: TestimonialCard
   - colors: colors-h
     elementId: ''
     title: Key value propositions
