@@ -25,7 +25,7 @@ const cssId = props.elementId || null;
     const response = res.data;
     setLogo(response.logo.original.url);
     setDescription(response.description.html);
-    set(response.start.local);
+    setUR(response.start.local);
       });
       
     return (
