@@ -85,6 +85,7 @@ const cssId = props.elementId || null;
           </div>
       </div>
     </div>
+    <p dangerouslySetInnerHTML={{ __html: event }} />
   </div>
   
 </div>
