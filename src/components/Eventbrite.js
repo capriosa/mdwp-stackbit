@@ -38,7 +38,7 @@ export default function Eventbrite(props) {
 
     /*setEvent(props.event)
     setLogo(props.logo.original.url);*/
-    setDescription(props.name.text);
+    setDescription(props.posts.name.text);
     setURL(props.url);
 
 
