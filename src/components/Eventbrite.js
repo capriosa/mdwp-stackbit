@@ -8,7 +8,10 @@ import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/ut
 // This function gets called at build time
 export async function getStaticProps() {
   // Call an external API endpoint to get posts
-  
+  const key = 'EDMO3BWIFXRUIQSDP7IZ';
+    const id = props.eventbriteId || "169603411369";
+    const url = 'https://www.eventbriteapi.com/v3/events/' + id + '/?token=' + key + '&expand=venue';
+    
   const res = await fetch('https://.../posts')
   const posts = await res.json()
 
