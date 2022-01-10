@@ -21,7 +21,7 @@ const cssId = props.elementId || null;
         const response = res.data;
 
       });
-      console.log(response)
+      console.log(res)
     return (
         <div
         id={cssId}
