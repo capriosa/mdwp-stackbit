@@ -14,7 +14,7 @@ const cssId = props.elementId || null;
     const key = 'EDMO3BWIFXRUIQSDP7IZ';
     const id = '169603411369';
     const url = 'https://www.eventbriteapi.com/v3/events/' + id + '/?token=' + key + '&expand=venue';
-    //const [description,setDescription] = React.useState(null);
+    const [description,setDescription] = React.useState(null);
     const [logo,setLogo] = React.useState(null);
     const [date,setDate] = React.useState(null);
     const [link,setURL] = React.useState(null);
@@ -34,7 +34,7 @@ const cssId = props.elementId || null;
 
     const response = res.data;
     setLogo(response.logo.original.url);
-    //setDescription(response.name.text);
+    setDescription(response.name.text);
     setURL(response.url);
       });
       
@@ -61,7 +61,7 @@ const cssId = props.elementId || null;
                 borderWidth: `${sectionBorderWidth}px`
             }}
             >
-            <h1></h1> 
+            <h1>{description}</h1> 
             <a href={link}>Anmelden</a>
             <img src={logo} />  
             <p dangerouslySetInnerHTML={{ __html: event }}/>
