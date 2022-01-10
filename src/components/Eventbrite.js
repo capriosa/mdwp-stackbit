@@ -20,10 +20,10 @@ const cssId = props.elementId || null;
       .then(res => {
 
     response = res.data;
-    console.log(response.description)
+    
       });
       
-    return (
+    return (console.log(response.description)
         <div
         id={cssId}
             className={classNames(
