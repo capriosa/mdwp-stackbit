@@ -35,7 +35,7 @@ export default function Eventbrite(props) {
     const [link, setURL] = React.useState(null);
     const [event, setEvent] = React.useState(null);
     //const desc_url = 'https://www.eventbriteapi.com/v3/events/' + id + '/description/?token=' + key + '&expand=venue'
-    console.log(props)
+    console.log("PROPS ", props)
     /*setEvent(props.event)
     setLogo(props.logo.original.url);*/
     //setDescription(props.posts.name.text);
