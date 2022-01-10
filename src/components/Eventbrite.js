@@ -70,22 +70,23 @@ export default function Eventbrite(props) {
                                     {description}
                                 </h1>
 
-                                <div class="relative flex flex-col sm:flex-row sm:space-x-4">
-                                    <a href={link} class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-indigo-600 rounded-md sm:mb-0 hover:bg-indigo-700 sm:w-auto">
-                                        Anmelden
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                                    </a>
 
-                                </div>
                             </div>
                         </div>
                         <div class="w-full md:w-1/2">
                             <div class="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={logo} />
                             </div>
+                            <div class="relative flex flex-col sm:flex-row sm:space-x-4">
+                                <a href={link} class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-indigo-600 rounded-md sm:mb-0 hover:bg-indigo-700 sm:w-auto">
+                                    Anmelden
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                                </a>
+
+                            </div>
                         </div>
                     </div>
-                    <p mt-24 dangerouslySetInnerHTML={{ __html: event }} />
+                    <p mt-12 dangerouslySetInnerHTML={{ __html: event }} />
                 </div>
 
             </div>
