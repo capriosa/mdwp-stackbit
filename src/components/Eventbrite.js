@@ -61,6 +61,7 @@ const cssId = props.elementId || null;
                 borderWidth: `${sectionBorderWidth}px`
             }}
             >
+                
             <h1>{description}</h1> 
             <a href={link}>Anmelden</a>
             <img src={logo} />  
