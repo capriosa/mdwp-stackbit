@@ -12,7 +12,7 @@ export default function Eventbrite(props) {
     const sectionStyles = props.styles?.self || {};
     const sectionBorderWidth = sectionStyles.borderWidth ? sectionStyles.borderWidth : 0;
     const key = 'EDMO3BWIFXRUIQSDP7IZ';
-    const id = props.eventbriteId;
+    const id = props.eventbriteId || "169603411369";
     const url = 'https://www.eventbriteapi.com/v3/events/' + id + '/?token=' + key + '&expand=venue';
     const [description, setDescription] = React.useState(null);
     const [logo, setLogo] = React.useState(null);
@@ -69,7 +69,7 @@ export default function Eventbrite(props) {
                                 <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
                                     {description}
                                 </h1>
-
+                                <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">Für diese Veranstaltung können Sie sich auf der Website von Eventbrite anmelden.</p>
 
                             </div>
                         </div>
