@@ -14,7 +14,7 @@ const cssId = props.elementId || null;
     const key = 'EDMO3BWIFXRUIQSDP7IZ';
     const id = '169603411369';
     const url = 'https://www.eventbriteapi.com/v3/events/' + id + '/?token=' + key + '&expand=venue';
-    
+    const []
     var response = '';
 
     axios.get(url)
