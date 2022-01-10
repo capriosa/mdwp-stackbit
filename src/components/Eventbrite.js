@@ -20,7 +20,7 @@ const cssId = props.elementId || null;
     axios.get(url)
       .then(res => {
 
-    response = res.data;
+    constresponse = res.data;
     setDescription(response)
       });
       
