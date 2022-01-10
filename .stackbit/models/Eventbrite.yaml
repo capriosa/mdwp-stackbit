@@ -1,5 +1,5 @@
 name: Eventbrite
-label: Alert Section
+label: Eventbrite
 groups:
   - sectionComponent
 fields:
