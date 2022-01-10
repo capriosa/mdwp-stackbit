@@ -13,7 +13,7 @@ const cssId = props.elementId || null;
     const sectionBorderWidth = sectionStyles.borderWidth ? sectionStyles.borderWidth : 0;
     const key = 'EDMO3BWIFXRUIQSDP7IZ';
     const id = '171785443887';
-    const url = 'https://www.eventbriteapi.com/v3/events/' + id + '/?token=' + key + '&expand=venue'
+    const url = 'https://www.eventbriteapi.com/v3/events/' + id + '/?token=' + key + '&expand=venue';
 
     axios.get(url)
       .then(res => {
