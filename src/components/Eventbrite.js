@@ -7,21 +7,21 @@ import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/ut
 
 // This function gets called at build time
 export async function getStaticProps() {
-  // Call an external API endpoint to get posts
-  const key = 'EDMO3BWIFXRUIQSDP7IZ';
+    // Call an external API endpoint to get posts
+    const key = 'EDMO3BWIFXRUIQSDP7IZ';
     const id = props.eventbriteId || "169603411369";
     const url = 'https://www.eventbriteapi.com/v3/events/' + id + '/?token=' + key + '&expand=venue';
-    
-  const res = await fetch(url)
-  const posts = await res.json()
 
-  // By returning { props: { posts } }, the Blog component
-  // will receive `posts` as a prop at build time
-  return {
-    props: {
-      posts,
-    },
-  }
+    const res = await fetch(url)
+    const posts = await res.json()
+
+    // By returning { props: { posts } }, the Blog component
+    // will receive `posts` as a prop at build time
+    return {
+        props: {
+            posts,
+        },
+    }
 }
 
 export default function Eventbrite(props) {
@@ -29,32 +29,19 @@ export default function Eventbrite(props) {
     const colors = props.colors || 'colors-a';
     const sectionStyles = props.styles?.self || {};
     const sectionBorderWidth = sectionStyles.borderWidth ? sectionStyles.borderWidth : 0;
-    const key = 'EDMO3BWIFXRUIQSDP7IZ';
-    const id = props.eventbriteId || "169603411369";
-    const url = 'https://www.eventbriteapi.com/v3/events/' + id + '/?token=' + key + '&expand=venue';
     const [description, setDescription] = React.useState(null);
     const [logo, setLogo] = React.useState(null);
     const [date, setDate] = React.useState(null);
     const [link, setURL] = React.useState(null);
     const [event, setEvent] = React.useState(null);
-    const desc_url = 'https://www.eventbriteapi.com/v3/events/' + id + '/description/?token=' + key + '&expand=venue'
+    //const desc_url = 'https://www.eventbriteapi.com/v3/events/' + id + '/description/?token=' + key + '&expand=venue'
 
-    setEvent(props.event)
+    /*setEvent(props.event)
+    setLogo(props.logo.original.url);*/
+    setDescription(props.name.text);
+    setURL(props.url);
 
-    axios.get(desc_url).then(res => {
-        const response = res.data;
-        const event = response.description;
-        setEvent(event)
-    })
 
-    axios.get(url)
-        .then(res => {
-
-            const response = res.data;
-            setLogo(response.logo.original.url);
-            setDescription(response.name.text);
-            setURL(response.url);
-        });
 
     return (
         <div
