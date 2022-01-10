@@ -14,7 +14,7 @@ export async function getStaticProps() {
 
     const res = await fetch(url)
     const posts = await res.json()
-
+    console.log(posts)
     // By returning { props: { posts } }, the Blog component
     // will receive `posts` as a prop at build time
     return {
@@ -35,7 +35,7 @@ export default function Eventbrite(props) {
     const [link, setURL] = React.useState(null);
     const [event, setEvent] = React.useState(null);
     //const desc_url = 'https://www.eventbriteapi.com/v3/events/' + id + '/description/?token=' + key + '&expand=venue'
-    console.log("PROPS ", props)
+    //console.log("PROPS ", props)
     /*setEvent(props.event)
     setLogo(props.logo.original.url);*/
     //setDescription(props.posts.name.text);
