@@ -12,7 +12,7 @@ export async function getStaticProps() {
     const id = props.eventbriteId || "169603411369";
     const url = 'https://www.eventbriteapi.com/v3/events/' + id + '/?token=' + key + '&expand=venue';
     
-  const res = await fetch('https://.../posts')
+  const res = await fetch(url)
   const posts = await res.json()
 
   // By returning { props: { posts } }, the Blog component
