@@ -1,77 +1,8 @@
 ---
 title: Home
 sections:
-  - colors: colors-h
-    elementId: ''
-    title: Key value propositions
-    subtitle: ''
-    items:
-      - type: FeaturedItem
-        title: Faster
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
-        featuredImage: null
-        styles:
-          title:
-            textAlign: center
-          subtitle:
-            textAlign: center
-          text:
-            textAlign: center
-      - type: FeaturedItem
-        title: Smarter
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
-        featuredImage: null
-        styles:
-          title:
-            textAlign: center
-          subtitle:
-            textAlign: center
-          text:
-            textAlign: center
-      - type: FeaturedItem
-        title: Focused
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
-        featuredImage: null
-        styles:
-          title:
-            textAlign: center
-          subtitle:
-            textAlign: center
-          text:
-            textAlign: center
-    actions: []
-    columns: 1
-    styles:
-      self:
-        height: screen
-        width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-4
-          - pb-24
-          - pl-4
-          - pr-4
-        justifyContent: center
-      title:
-        textAlign: center
-      subtitle:
-        textAlign: center
-      actions:
-        justifyContent: center
-    type: FeaturedItemsSection
+  - eventbriteId: '228377472167'
+    type: Eventbrite
   - elementId: ''
     colors: colors-a
     title: The Section Title
@@ -120,8 +51,10 @@ sections:
       - type: Button
         label: Sign up
         url: /
-        style: primary
+        style: secondary
         buttonPosition: center
+        showIcon: true
+        icon: cart
     styles:
       self:
         height: screen
@@ -165,12 +98,14 @@ sections:
         label: Sign up
         url: /
         style: primary
+        buttonPosition: left
       - type: Button
         label: Watch Video
         url: /
         style: link
         showIcon: true
         icon: arrowRight
+        buttonPosition: right
     styles:
       self:
         height: auto
@@ -187,7 +122,7 @@ sections:
           - pr-4
         alignItems: center
         justifyContent: center
-        flexDirection: row
+        flexDirection: row-reverse
       title:
         textAlign: left
       subtitle:
