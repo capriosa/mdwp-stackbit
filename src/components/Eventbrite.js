@@ -5,12 +5,31 @@ import axios from 'axios';
 import { getComponent } from '@stackbit/components/dist/components-registry';
 import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/utils/map-styles-to-class-names';
 
+// This function gets called at build time
+export async function getStaticProps() {
+    // Call an external API endpoint to get posts
+    const key = 'EDMO3BWIFXRUIQSDP7IZ';
+    const id = props.eventbriteId || "169603411369";
+    const url = 'https://www.eventbriteapi.com/v3/events/' + id + '/?token=' + key + '&expand=venue';
+
+    const res = await fetch(url)
+    const posts = await res.json()
+    console.log("Posts ", posts)
+    // By returning { props: { posts } }, the Blog component
+    // will receive `posts` as a prop at build time
+    return {
+        props: {
+            posts,
+        },
+    }
+}
 
 export default function Eventbrite(props) {
     const cssId = props.elementId || null;
     const colors = props.colors || 'colors-a';
     const sectionStyles = props.styles?.self || {};
     const sectionBorderWidth = sectionStyles.borderWidth ? sectionStyles.borderWidth : 0;
+
     const key = 'EDMO3BWIFXRUIQSDP7IZ';
     const id = props.eventbriteId || "169603411369";
     const url = 'https://www.eventbriteapi.com/v3/events/' + id + '/?token=' + key + '&expand=venue';
@@ -29,6 +48,8 @@ export default function Eventbrite(props) {
         setEvent(event)
     })
 
+
+
     axios.get(url)
         .then(res => {
 
@@ -37,6 +58,8 @@ export default function Eventbrite(props) {
             setDescription(response.name.text);
             setURL(response.url);
         });
+
+
 
     return (
         <div
@@ -78,7 +101,7 @@ export default function Eventbrite(props) {
                                 <img src={logo} />
                             </div>
                             <div className="relative mt-16 flex flex-col sm:flex-row sm:space-x-4">
-                                <a href={link} className="flex sb-component-button-primary items-center w-full px-6 py-3 mb-3 text-lg text-white rounded-md sm:mb-0 hover:bg-indigo-700 sm:w-auto">
+                                <a href={link} className="flex sb-component-button-primary items-center w-full px-6 py-3 mb-3 text-lg text-white rounded-md sm:mb-0  sm:w-auto">
                                     Anmelden
               <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                                 </a>
