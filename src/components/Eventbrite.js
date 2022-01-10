@@ -29,17 +29,35 @@ export default function Eventbrite(props) {
     const colors = props.colors || 'colors-a';
     const sectionStyles = props.styles?.self || {};
     const sectionBorderWidth = sectionStyles.borderWidth ? sectionStyles.borderWidth : 0;
+
+    const key = 'EDMO3BWIFXRUIQSDP7IZ';
+    const id = props.eventbriteId || "169603411369";
+    const url = 'https://www.eventbriteapi.com/v3/events/' + id + '/?token=' + key + '&expand=venue';
     const [description, setDescription] = React.useState(null);
     const [logo, setLogo] = React.useState(null);
     const [date, setDate] = React.useState(null);
     const [link, setURL] = React.useState(null);
     const [event, setEvent] = React.useState(null);
-    //const desc_url = 'https://www.eventbriteapi.com/v3/events/' + id + '/description/?token=' + key + '&expand=venue'
-    //console.log("PROPS ", props)
-    /*setEvent(props.event)
-    setLogo(props.logo.original.url);*/
-    //setDescription(props.posts.name.text);
-    //setURL(props.url);
+    const desc_url = 'https://www.eventbriteapi.com/v3/events/' + id + '/description/?token=' + key + '&expand=venue'
+
+    // NEW ??? https://www.eventbriteapi.com/v3/users/me/?token=EDMO3BWIFXRUIQSDP7IZ
+
+    axios.get(desc_url).then(res => {
+        const response = res.data;
+        const event = response.description;
+        setEvent(event)
+    })
+
+
+
+    axios.get(url)
+        .then(res => {
+
+            const response = res.data;
+            setLogo(response.logo.original.url);
+            setDescription(response.name.text);
+            setURL(response.url);
+        });
 
 
 
