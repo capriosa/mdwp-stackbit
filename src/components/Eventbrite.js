@@ -12,7 +12,7 @@ export default function Eventbrite(props) {
     const sectionStyles = props.styles?.self || {};
     const sectionBorderWidth = sectionStyles.borderWidth ? sectionStyles.borderWidth : 0;
     const key = 'EDMO3BWIFXRUIQSDP7IZ';
-    const id = '169603411369';
+    const id = props.eventbriteId;
     const url = 'https://www.eventbriteapi.com/v3/events/' + id + '/?token=' + key + '&expand=venue';
     const [description, setDescription] = React.useState(null);
     const [logo, setLogo] = React.useState(null);
