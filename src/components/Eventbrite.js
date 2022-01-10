@@ -64,7 +64,7 @@ const cssId = props.elementId || null;
             <h1>{description}</h1> 
             <a href={link}>Anmelden</a>
             <img src={logo} />  
-            <p>{event}</p>
+            <p>dangerouslySetInnerHTML={{ __html: props.body }}</p>
             </div>
     )
 
