@@ -21,7 +21,7 @@ const cssId = props.elementId || null;
       .then(res => {
 
     const response = res.data;
-    setLog0
+    setLogo =
     setDescription(response.description.html)
       });
       
