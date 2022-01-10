@@ -25,6 +25,7 @@ export async function getStaticProps() {
 }
 
 export default function Eventbrite(props) {
+    console.log(props.posts)
     const cssId = props.elementId || null;
     const colors = props.colors || 'colors-a';
     const sectionStyles = props.styles?.self || {};
