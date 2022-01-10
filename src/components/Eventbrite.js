@@ -15,7 +15,7 @@ const cssId = props.elementId || null;
     const id = '169603411369';
     const url = 'https://www.eventbriteapi.com/v3/events/' + id + '/?token=' + key + '&expand=venue';
     const [description,setDescription] = React.useState(null);
-    const [description,setDescription] = React.useState(null);
+    const [logo,setDescription] = React.useState(null);
     
 
     axios.get(url)
