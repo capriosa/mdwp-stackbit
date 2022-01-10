@@ -4,4 +4,4 @@ groups:
   - sectionComponent
 fields:
   - type: string
-    name: eventbrite
+    name: eventbriteId
