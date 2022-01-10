@@ -1,7 +1,7 @@
 ---
 title: Home
 sections:
-  - eventbriteId: '169603411369'
+  - eventbriteId: '228377472167'
     type: Eventbrite
   - elementId: ''
     colors: colors-a
