@@ -17,7 +17,7 @@ const cssId = props.elementId || null;
     const [description,setDescription] = React.useState(null);
     const [logo,setLogo] = React.useState(null);
     const [date,setDate] = React.useState(null);
-    const [url,setURL] = React.useState(null);
+    const [link,setURL] = React.useState(null);
     
 
     axios.get(url)
