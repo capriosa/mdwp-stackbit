@@ -11,7 +11,12 @@ const cssId = props.elementId || null;
     const colors = props.colors || 'colors-a';
     const sectionStyles = props.styles?.self || {};
     const sectionBorderWidth = sectionStyles.borderWidth ? sectionStyles.borderWidth : 0;
-    
+    const url = 'https://www.eventbriteapi.com/v3/events/' + id + '/?token=' + key + '&expand=venue'
+
+    axios.get(url)
+      .then(res => {
+
+        const response = res.data;
     return (
         <div
         id={cssId}
