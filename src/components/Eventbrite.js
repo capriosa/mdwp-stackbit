@@ -21,7 +21,7 @@ const cssId = props.elementId || null;
       .then(res => {
 
     const response = res.data;
-    console.log(response)
+    setLog0
     setDescription(response.description.html)
       });
       
