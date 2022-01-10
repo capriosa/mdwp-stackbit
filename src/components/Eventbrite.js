@@ -53,7 +53,7 @@ const cssId = props.elementId || null;
             }}
             >
             <h1>{description}</h1> 
-            
+            <
             <img src={logo} />  
             </div>
     )
