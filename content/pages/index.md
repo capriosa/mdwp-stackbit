@@ -1,6 +1,8 @@
 ---
 title: Home
 sections:
+  - eventbriteId: lorem-ipsum
+    type: Eventbrite
   - colors: colors-h
     elementId: ''
     title: Key value propositions
