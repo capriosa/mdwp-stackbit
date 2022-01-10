@@ -46,7 +46,7 @@ const cssId = props.elementId || null;
                 borderWidth: `${sectionBorderWidth}px`
             }}
             >
-            {response.description.html;}    
+            {response.description.html}    
             </div>
     )
 
