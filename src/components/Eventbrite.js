@@ -84,7 +84,7 @@ const cssId = props.elementId || null;
       </div>
       <div class="w-full md:w-1/2">
         <div class="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
-            <img src="https://cdn.devdojo.com/images/november2020/hero-image.jpeg">
+            <img src="https://cdn.devdojo.com/images/november2020/hero-image.jpeg" />
           </div>
       </div>
     </div>
