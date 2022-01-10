@@ -20,7 +20,7 @@ const cssId = props.elementId || null;
       .then(res => {
 
     response = res.data;
-        
+
       });
       
     return (
@@ -46,7 +46,7 @@ const cssId = props.elementId || null;
                 borderWidth: `${sectionBorderWidth}px`
             }}
             >
-            {response.description.html}    
+            {console.log(response)}    
             </div>
     )
 
