@@ -11,7 +11,8 @@ const cssId = props.elementId || null;
     const colors = props.colors || 'colors-a';
     const sectionStyles = props.styles?.self || {};
     const sectionBorderWidth = sectionStyles.borderWidth ? sectionStyles.borderWidth : 0;
-    const key = 'EDMO3BWIFXRUIQSDP7IZ'
+    const key = 'EDMO3BWIFXRUIQSDP7IZ';
+    const id = '171785443887'
     const url = 'https://www.eventbriteapi.com/v3/events/' + id + '/?token=' + key + '&expand=venue'
 
     axios.get(url)
