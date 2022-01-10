@@ -39,7 +39,7 @@ export default function Eventbrite(props) {
     const [event, setEvent] = React.useState(null);
     const desc_url = 'https://www.eventbriteapi.com/v3/events/' + id + '/description/?token=' + key + '&expand=venue'
 
-    setEvent(propsevent)
+    setEvent(props.event)
 
     axios.get(desc_url).then(res => {
         const response = res.data;
