@@ -18,13 +18,12 @@ export async function getStaticProps() {
     // By returning { props: { posts } }, the Blog component
     // will receive `posts` as a prop at build time
     return {
-        props: {
-            posts,
-        },
+        props: {}, // will be passed to the page component as props
     }
 }
 
 export default function Eventbrite(props) {
+    console.log(props)
     const cssId = props.elementId || null;
     const colors = props.colors || 'colors-a';
     const sectionStyles = props.styles?.self || {};
