@@ -26,9 +26,7 @@ const cssId = props.elementId || null;
     axios.get(desc_url).then(res => {
       const response = res.data;
       const event = response.description;
-      this.setState({
-        event,
-      })
+      set
     })
 
     axios.get(url)
