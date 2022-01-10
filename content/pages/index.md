@@ -1,7 +1,7 @@
 ---
 title: Home
 sections:
-  - eventbriteId: lorem-ipsum
+  - eventbriteId: '169603411369'
     type: Eventbrite
   - colors: colors-h
     elementId: ''
