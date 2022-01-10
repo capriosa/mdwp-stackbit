@@ -6,13 +6,13 @@ import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/ut
 
 
 export default function CTA(props) {
-const cssId = props.elementId || null;
+    const cssId = props.elementId || null;
     const colors = props.colors || 'colors-a';
     const sectionStyles = props.styles?.self || {};
     const sectionBorderWidth = sectionStyles.borderWidth ? sectionStyles.borderWidth : 0;
     return (
         <div
-        id={cssId}
+            id={cssId}
             className={classNames(
                 'sb-component',
                 'sb-component-section',
@@ -32,8 +32,8 @@ const cssId = props.elementId || null;
             style={{
                 borderWidth: `${sectionBorderWidth}px`
             }}
-            >
-            </div>
+        >
+        </div>
     )
 
 }
