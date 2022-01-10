@@ -3,5 +3,5 @@ label: Alert Section
 groups:
   - sectionComponent
 fields:
-  - type: text
+  - type: string
     name: body
