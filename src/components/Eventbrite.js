@@ -18,7 +18,7 @@ const cssId = props.elementId || null;
     const [logo,setLogo] = React.useState(null);
     const [date,setDate] = React.useState(null);
     const [link,setURL] = React.useState(null);
-    
+    const [link,setURL] = React.useState(null);
     const desc_url = 'https://www.eventbriteapi.com/v3/events/' + id + '/description/?token=' + key + '&expand=venue'
 
     // NEW ??? https://www.eventbriteapi.com/v3/users/me/?token=EDMO3BWIFXRUIQSDP7IZ
