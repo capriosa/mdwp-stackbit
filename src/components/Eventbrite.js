@@ -20,7 +20,7 @@ const cssId = props.elementId || null;
       .then(res => {
 
     response = res.data;
-    console.log(response.description)
+    
       });
       
     return (
