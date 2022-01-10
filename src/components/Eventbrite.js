@@ -53,7 +53,7 @@ const cssId = props.elementId || null;
             }}
             >
             <h1>{description}</h1> 
-            <a href=
+            <a href={url}
             <img src={logo} />  
             </div>
     )
