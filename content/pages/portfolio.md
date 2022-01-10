@@ -1,6 +1,8 @@
 ---
 title: Portfolio
 sections:
+  - eventbriteId: lorem-ipsum
+    type: Eventbrite
   - elementId: ''
     colors: colors-a
     title: BID EQUITY
