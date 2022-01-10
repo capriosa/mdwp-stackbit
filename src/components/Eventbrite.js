@@ -81,7 +81,7 @@ const cssId = props.elementId || null;
       </div>
       <div class="w-full md:w-1/2">
         <div class="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
-            <img src={logo}>
+            <img src={logo} />
           </div>
       </div>
     </div>
