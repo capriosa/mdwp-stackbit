@@ -34,7 +34,7 @@ const cssId = props.elementId || null;
 
     const response = res.data;
     setLogo(response.logo.original.url);
-    setDescription(response.name);
+    setDescription(response.name.text);
     setURL(response.url);
       });
       
