@@ -2,7 +2,7 @@ import * as React from 'react';
 import axios from 'axios';
 import useSWR from 'swr';
 
-function Event(props) {
+export default function Event(props) {
     const fetcher = async (url) => await axios.get(url).then((res) => res.data);
     const key = 'EDMO3BWIFXRUIQSDP7IZ';
     const id = props.eventbriteId || '169603411369';
