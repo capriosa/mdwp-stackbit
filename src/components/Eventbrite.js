@@ -1,12 +1,13 @@
 import * as React from 'react';
 import Markdown from 'markdown-to-jsx';
 import classNames from 'classnames';
+import axios from 'axios';
 import useSWR from 'swr';
 import { getComponent } from '@stackbit/components/dist/components-registry';
 import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/utils/map-styles-to-class-names';
 
 function Event(props) {
-    const fetcher = (url) => fetch(url).then((res) => res.json());
+    const fetcher = async (url) => await axios.get(url).then((res) => res.data);
     const key = 'EDMO3BWIFXRUIQSDP7IZ';
     const id = props.eventbriteId || '169603411369';
     const url = 'https://www.eventbriteapi.com/v3/events/' + id + '/?token=' + key + '&expand=venue';
