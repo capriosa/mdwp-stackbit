@@ -31,7 +31,7 @@ export default function Eventbrite(props) {
     if (!data) {
         return <p>Loading ...</p>;
     }
-    //console.log(data);
+    console.log(data);
 
     /*axios.get(desc_url).then(res => {
         const response = res.data;
