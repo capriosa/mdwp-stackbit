@@ -16,6 +16,9 @@ function Event(props) {
     if (error) {
         return <p>Failed to load Data</p>;
     }
+    if (!data) {
+        return <p>Loading ...</p>;
+    }
     console.log(data);
 
     return (
