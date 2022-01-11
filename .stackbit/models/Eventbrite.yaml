@@ -2,6 +2,3 @@ name: Eventbrite
 label: Eventbrite
 groups:
   - sectionComponent
-fields:
-  - type: string
-    name: eventbriteId
