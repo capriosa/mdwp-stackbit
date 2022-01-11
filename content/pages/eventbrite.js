@@ -20,7 +20,6 @@ function Event(props) {
     if (!data) {
         return <p>Loading ...</p>;
     }
-    console.log(data);
 
     return (
         <div className="px-2 py-32 bg-white md:px-0">
@@ -61,13 +60,12 @@ function Event(props) {
                         </div>
                     </div>
                 </div>
-                <p className="mt-16" dangerouslySetInnerHTML={{ __html: event }} />
             </div>
         </div>
     );
 }
 
-export default function Eventbrite(props) {
+export default function eventbrite(props) {
     const cssId = props.elementId || null;
     const colors = props.colors || 'colors-a';
     const sectionStyles = props.styles?.self || {};
