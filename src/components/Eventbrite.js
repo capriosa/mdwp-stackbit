@@ -12,6 +12,7 @@ export default function Eventbrite(props) {
     const colors = props.colors || 'colors-a';
     const sectionStyles = props.styles?.self || {};
     const sectionBorderWidth = sectionStyles.borderWidth ? sectionStyles.borderWidth : 0;
+
     const key = 'EDMO3BWIFXRUIQSDP7IZ';
     const id = props.eventbriteId || '169603411369';
     const url = 'https://www.eventbriteapi.com/v3/events/' + id + '/?token=' + key + '&expand=venue';
@@ -37,6 +38,8 @@ export default function Eventbrite(props) {
         const event = response.description;
         setEvent(event)
     })
+
+
 
     axios.get(url)
         .then(res => {
