@@ -16,9 +16,7 @@ function Event(props) {
     if (error) {
         return <p>Failed to load Data</p>;
     }
-    if (!data) {
-        return <p>Loading ...</p>;
-    }
+    console.log(data);
 
     return (
         <div className="px-2 py-32 bg-white md:px-0">
