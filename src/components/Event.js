@@ -16,7 +16,7 @@ export default function Event(props) {
     if (!data) {
         return <p>Loading ...</p>;
     }
-    console.log(data);
+
 
     return (
         <div className="px-2 py-32 bg-white md:px-0">
@@ -28,7 +28,7 @@ export default function Event(props) {
                                 {data.name.text}
                             </h1>
                             <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">{data.description.text}</p>
-                            <span className="text-sm">{data.start.local.slice(0, 10).split('-').reverse().join('.')}</span>
+                            <span className="text-sm text-gray-500">{data.start.local.slice(0, 10).split('-').reverse().join('.')}</span>
                         </div>
                     </div>
                     <div className="w-full md:w-1/2">
