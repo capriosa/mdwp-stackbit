@@ -28,8 +28,8 @@ export default function Event(props) {
                                 {data.name.text}
                             </h1>
                             <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">{data.description.text}</p>
-                            <span className="text-xs">Start: {data.start.local}</span>
-                            <span className="text-xs">Ende: {data.end.local}</span>
+                            <span className="text-sm">Start: {data.start.local}</span>
+                            <span className="text-sm inline-block ml-2">Ende: {data.end.local}</span>
                         </div>
                     </div>
                     <div className="w-full md:w-1/2">
