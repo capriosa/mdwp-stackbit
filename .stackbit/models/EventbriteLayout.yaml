@@ -7,3 +7,10 @@ fields:
     name: eventbriteId
     label: Eventbrite Id
     required: true
+  - type: list
+    name: bottomSections
+    label: Sections
+    items:
+      type: model
+      groups:
+        - sectionComponent
