@@ -57,7 +57,6 @@ export default function Event(props) {
                         </div>
                     </div>
                 </div>
-                <p className="mt-16" dangerouslySetInnerHTML={{ __html: event }} />
             </div>
         </div>
     );
