@@ -1,0 +1,16 @@
+name: EventbriteLayout
+label: Eventbrite
+layout: PostLayout
+thumbnail: https://assets.stackbit.com/components/models/thumbnails/default.png
+fields:
+  - type: text
+    name: eventbriteId
+    label: Eventbrite Id
+    required: true
+  - type: list
+    name: bottomSections
+    label: Sections
+    items:
+      type: model
+      groups:
+        - sectionComponent

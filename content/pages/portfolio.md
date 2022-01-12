@@ -1,8 +1,6 @@
 ---
 title: Portfolio
 sections:
-  - type: Eventbrite
-    eventbriteId: '228377472167'
   - elementId: ''
     colors: colors-a
     title: BID EQUITY
