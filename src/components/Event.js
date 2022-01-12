@@ -38,7 +38,7 @@ export default function Event(props) {
                         <div className="relative mt-16 flex flex-col sm:flex-row sm:space-x-4">
                             <a
                                 href={data.url}
-                                className="flex sb-component-button-primary items-center w-full px-6 py-3 mb-3 text-lg text-white rounded-md sm:mb-0 hover:bg-indigo-700 sm:w-auto"
+                                className="flex sb-component-button sb-component-button-primary items-center w-full px-6 py-3 mb-3 text-lg text-white rounded-md sm:mb-0 sm:w-auto"
                             >
                                 Anmelden
                                 <svg
