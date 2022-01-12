@@ -1,6 +1,7 @@
 ---
 title: Home
 sections:
+  - type: Eventbrite
   - eventbriteId: '228377472167'
     type: Eventbrite
   - elementId: ''
