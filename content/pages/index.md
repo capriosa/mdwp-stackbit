@@ -58,6 +58,14 @@ sections:
       text:
         textAlign: left
     type: ContactSection
+  - title: lorem-ipsum
+    body: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    testimonial: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    type: TestimonialCard
   - type: Eventbrite
   - elementId: ''
     colors: colors-a
