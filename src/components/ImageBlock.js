@@ -14,6 +14,7 @@ export default function ImageBlock(props) {
     const imageOpacity = styles.opacity || styles.opacity === 0 ? styles.opacity : 100;
 
     return (
+        <Fade top></Fade>
         <Image
             id={cssId}
             className={classNames('sb-component', 'sb-component-block', 'sb-component-image-block', cssClasses)}
