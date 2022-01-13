@@ -1,45 +1,66 @@
 ---
 title: Home
 sections:
+  - url: /images/hero-3.jpg
+    altText: altText of the image
+    caption: Caption of the image
+    elementId: ''
+    styles:
+      self:
+        opacity: 100
+    type: ImageBlock
+  - url: /images/post-4.jpg
+    altText: altText of the image
+    caption: Caption of the image
+    elementId: ''
+    styles:
+      self:
+        opacity: 100
+    type: ImageBlock
+  - url: /images/post-1.jpg
+    altText: altText of the image
+    caption: Caption of the image
+    elementId: ''
+    styles:
+      self:
+        opacity: 100
+    type: ImageBlock
+  - url: /images/hero-4.jpg
+    altText: altText of the image
+    caption: Caption of the image
+    elementId: ''
+    styles:
+      self:
+        opacity: 100
+    type: ImageBlock
   - elementId: ''
-    colors: colors-h
-    title: Contact us
-    text: We look forward to hearing from you.
-    form:
-      type: FormBlock
-      elementId: contact-form
-      action: /.netlify/functions/submission_created
-      destination: ''
-      fields:
-        - type: TextFormControl
-          name: name
-          label: Name
-          placeholder: Your name
-          isRequired: 'true'
-          width: 1/2
-        - type: EmailFormControl
-          name: email
-          label: Email
-          placeholder: Your email
-          isRequired: 'true'
-          width: 1/2
-        - type: TextFormControl
-          name: address
-          label: Home address
-          placeholder: Your home address
-          isRequired: 'false'
-          width: full
-        - type: CheckboxFormControl
-          name: updates
-          label: Sign me up to receive updates
-          isRequired: 'false'
-          width: full
-      submitLabel: Send Message
-    media: null
+    colors: colors-f
+    title: Love where you work
+    subtitle: ''
+    text: >-
+      One platform, one community, getting to the bottom line of everything
+      employment.  Figure out your benefits, practice for interviews, get
+      mentored, help peers, get helped in return.
+    actions:
+      - type: Button
+        label: Sign Up
+        url: /
+        style: primary
+      - type: Link
+        label: Learn More
+        url: /
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+    media:
+      type: ImageBlock
+      url: /images/hero-3.jpg
+      altText: Hero image
+    backgroundImage: null
     styles:
       self:
         height: auto
-        width: narrow
+        width: full
         margin:
           - mt-0
           - mb-0
@@ -55,35 +76,166 @@ sections:
         flexDirection: row
       title:
         textAlign: left
+      subtitle:
+        textAlign: left
       text:
         textAlign: left
-    type: ContactSection
+      actions:
+        justifyContent: flex-start
+    type: HeroSection
+  - elementId: ''
+    variant: variant-c
+    colors: colors-h
+    title: About us
+    subtitle: Featured people section example
+    actions: []
+    people:
+      - content/data/team/desmond-eagle.json
+      - content/data/team/hilary-ouse.json
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+      actions:
+        justifyContent: center
+    type: FeaturedPeopleSection
+  - elementId: ''
+    variant: variant-b
+    colors: colors-h
+    title: Featured
+    subtitle: Featured blog posts section example
+    actions:
+      - type: Button
+        label: View All
+        altText: View All Posts
+        url: /blog
+        style: primary
+    posts:
+      - content/pages/blog/post-three.md
+      - content/pages/blog/post-two.md
+      - content/pages/blog/post-one.md
+      - content/pages/blog/post-four.md
+    showDate: false
+    showAuthor: false
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+      actions:
+        justifyContent: center
+    type: FeaturedPostsSection
   - colors: colors-a
-    body: lorem-ipsum
-    label: Learn more
-    altText: Learn more
-    url: /
-    showIcon: false
-    icon: arrowRight
-    iconPosition: right
-    style: secondary
     elementId: ''
-    type: PopupLink
-  - name: lorem-ipsum
-    job: lorem-ipsum
-    location: lorem-ipsum
-    description: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-    button: lorem-ipsum
-    facebook: lorem-ipsum
-    twitter: lorem-ipsum
-    github: lorem-ipsum
-    unsplash: lorem-ipsum
-    dribbble: lorem-ipsum
-    instagram: lorem-ipsum
-    youtube: lorem-ipsum
-    type: ProfileCard
+    title: Gallery
+    subtitle: This is the subtitle
+    images:
+      - type: ImageBlock
+        url: 'https://assets.stackbit.com/components/images/default/image-1.jpeg'
+        altText: Image one
+        caption: Image one caption
+      - type: ImageBlock
+        url: 'https://assets.stackbit.com/components/images/default/image-2.jpeg'
+        altText: Image two
+        caption: Image two caption
+      - type: ImageBlock
+        url: 'https://assets.stackbit.com/components/images/default/image-3.jpeg'
+        altText: Image three
+        caption: Image three caption
+      - type: ImageBlock
+        url: 'https://assets.stackbit.com/components/images/default/image-4.jpeg'
+        altText: Image four
+        caption: Image four caption
+    spacing: 1
+    columns: 2
+    aspectRatio: '1:1'
+    imageSizePx: 300
+    showCaption: true
+    enableHover: true
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+    type: MediaGallerySection
+  - elementId: ''
+    variant: variant-b
+    colors: colors-f
+    title: Latest news
+    subtitle: Latest blog posts section example
+    actions:
+      - type: Button
+        label: View All
+        altText: View All Posts
+        url: /blog
+        style: primary
+    showRecent: true
+    recentCount: 3
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+      actions:
+        justifyContent: center
+    type: PostFeedSection
   - title: lorem-ipsum
     body: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
