@@ -14,7 +14,7 @@ registerComponents({
     ProfileCard: dynamic(() => import('./ProfileCard')),
     Action: dynamic(() => import('./Action')),
     Eventbrite: dynamic(() => import('./Eventbrite')),
-    Eventbrite: dynamic(() => import('./Eventbrite')),
+    ImageBlock: dynamic(() => import('./Eventbrite')),
 });
 
 /**
