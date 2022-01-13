@@ -2,9 +2,8 @@ type: object
 name: ImageBlock
 label: Image
 labelField: altText
-fieldGroups:
-  - name: settings
-    label: Settings
+roups:
+  - sectionComponent
 fields:
   - type: image
     name: url
