@@ -2,7 +2,7 @@ type: object
 name: ImageBlock
 label: Image
 labelField: altText
-roups:
+groups:
   - sectionComponent
 fields:
   - type: image
