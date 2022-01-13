@@ -22,7 +22,7 @@ export default function ImageBlock(props) {
             alt="Bild"
             style={{ opacity: imageOpacity * 0.01 }}
             data-sb-field-path=".url#@src .altText#@alt .elementId#@id"
-            layout=""
+            layout="fill"
         />
         </Fade>
     );
