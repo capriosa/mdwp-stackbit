@@ -12,21 +12,6 @@ sections:
     style: secondary
     elementId: ''
     type: PopupLink
-  - name: lorem-ipsum
-    job: lorem-ipsum
-    location: lorem-ipsum
-    description: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-    button: lorem-ipsum
-    facebook: lorem-ipsum
-    twitter: lorem-ipsum
-    github: lorem-ipsum
-    unsplash: lorem-ipsum
-    dribbble: lorem-ipsum
-    instagram: lorem-ipsum
-    youtube: lorem-ipsum
-    type: ProfileCard
   - title: lorem-ipsum
     body: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
