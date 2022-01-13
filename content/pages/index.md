@@ -9,7 +9,7 @@ sections:
       self:
         opacity: 100
     type: ImageBlock
-  - url: /images/careers.jpg
+  - url: /images/hero-4.jpg
     altText: altText of the image
     caption: Caption of the image
     elementId: ''
