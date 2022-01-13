@@ -19,7 +19,7 @@ export default function ImageBlock(props) {
             id={cssId}
             className={classNames('sb-component', 'sb-component-block', 'sb-component-image-block', cssClasses)}
             src={url}
-            alt={altText || ''}
+            alt={altText || 'Bild'}
             style={{ opacity: imageOpacity * 0.01 }}
             data-sb-field-path=".url#@src .altText#@alt .elementId#@id"
         />
