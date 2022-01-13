@@ -16,9 +16,7 @@ module.exports = withBundleAnalyzer({
         // Allow production builds to successfully complete even if your project has ESLint errors.
         ignoreDuringBuilds: true
     },
-    images: {
-        domains: ['app.stackbit.com','assets.stackbit.com', 'd33wubrfki0l68.cloudfront.net/8e1fee3d1b961f40f38ec935161f62fd53436a36/636ef/images/'],
-    },
+   
     webpack: (config, { webpack, dev }) => {
         // temporary: for local development -  edit package.json "@stackbit/components": "file:../stackbit-components" and uncomment the alias below.
         // config.resolve.alias['react'] = path.resolve('./node_modules/react');
