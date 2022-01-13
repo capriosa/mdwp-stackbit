@@ -1,14 +1,6 @@
 ---
 title: Home
 sections:
-  - url: /images/post-1.jpg
-    altText: altText of the image
-    caption: Caption of the image
-    elementId: ''
-    styles:
-      self:
-        opacity: 100
-    type: ImageBlock
   - url: /images/hero-4.jpg
     altText: altText of the image
     caption: Caption of the image
