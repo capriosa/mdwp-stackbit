@@ -17,7 +17,7 @@ module.exports = withBundleAnalyzer({
         ignoreDuringBuilds: true
     },
     images: {
-    domains: [''],
+    domains: ['https://d33wubrfki0l68.cloudfront.net/'],
   },
     webpack: (config, { webpack, dev }) => {
         // temporary: for local development -  edit package.json "@stackbit/components": "file:../stackbit-components" and uncomment the alias below.
