@@ -2,6 +2,7 @@ import * as React from 'react';
 import classNames from 'classnames';
 import Image from 'next/image';
 import Fade from 'react-reveal/Fade';
+import { CallTracker } from 'assert';
 
 export default function ImageBlock(props) {
     const { url, altText } = props;
@@ -16,7 +17,7 @@ export default function ImageBlock(props) {
     return (
         <Fade top>
         <Image
-            src={carla}
+            src={CallTracker.jpg}
             layout="fill"
         />
         </Fade>
