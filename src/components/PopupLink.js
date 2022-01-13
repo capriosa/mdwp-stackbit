@@ -43,13 +43,13 @@ export default function PopupLink(props) {
     const cssId = props.elementId || null;
 
     return (
-        <section className="w-screen h-8 flex justify-center relative">
+        <section className="w-screen h-8 p-2 flex justify-center relative">
             <Link
 
                 onClick={() => setPopup(!popup)}
                 aria-label={altText}
                 id={cssId}
-                className={classNames('m-4', 'cursor-pointer', 'sb-component', 'sb-component-block', style === 'link' ? 'sb-component-link' : 'sb-component-button', cssClasses, {
+                className={classNames('m-4', 'p-3', 'cursor-pointer', 'sb-component', 'sb-component-block', style === 'link' ? 'sb-component-link' : 'sb-component-button', cssClasses, {
                     'sb-component-button-primary': style === 'primary',
                     'sb-component-button-secondary': style === 'secondary'
                 })}
