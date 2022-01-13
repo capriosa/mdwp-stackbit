@@ -1,8 +1,7 @@
 ---
 title: Home
 sections:
-  - url: /images/post-4.jpg
-    altText: altText of the image
+  - altText: altText of the image
     caption: Caption of the image
     elementId: ''
     styles:
