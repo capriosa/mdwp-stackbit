@@ -16,7 +16,6 @@ export default function ImageBlock(props) {
     return (
         <Fade top>
         <Image
-            id={cssId}
             src={url}
             alt="Bild"
             data-sb-field-path=".url#@src .altText#@alt .elementId#@id"
