@@ -6,7 +6,7 @@ const ProfileCard = ({ annotationPrefix, name, job, location, description, butto
         <div className="transition ease-in-out delay-15 hover:rotate-0 -rotate-1 max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0" data-sb-field-path={annotationPrefix}>
             <div id="profile" className=" before:rounded-tl-md before:block before:bg-green-700 before:w-64 before:h-3 w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
                 <div className="p-4 md:p-12 text-center lg:text-left">
-                    
+
 
                     <h1 className="text-3xl font-bold pt-8 lg:pt-0" data-sb-field-path=".name">{name}</h1>
                     <div className="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
@@ -110,7 +110,7 @@ const ProfileCard = ({ annotationPrefix, name, job, location, description, butto
                 </div>
             </div>
 
-            
+
         </div>
     );
 };
