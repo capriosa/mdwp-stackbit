@@ -2,8 +2,6 @@
 title: Home
 sections:
   - type: Eventbrite
-  - eventbriteId: '228377472167'
-    type: Eventbrite
   - elementId: ''
     colors: colors-a
     title: The Section Title
