@@ -13,7 +13,7 @@ export default function ImageBlock(props) {
     const imageOpacity = styles.opacity || styles.opacity === 0 ? styles.opacity : 100;
 
     return (
-        <img
+        <Image
             id={cssId}
             className={classNames('sb-component', 'sb-component-block', 'sb-component-image-block', cssClasses)}
             src={url}
