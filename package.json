@@ -44,7 +44,7 @@
         "sass": "^1.40.0",
         "webpack-bundle-analyzer": "^4.4.2",
         "@stackbit/cli": "^0.1.25",
-        "@netlify/plugin-nextjs": "4.1.1"
+        "@netlify/plugin-nextjs": "4.1.3"
     },
     "description": "A Nextjs page builder, component library and data source mapper all in one.",
     "main": "next.config.js",
