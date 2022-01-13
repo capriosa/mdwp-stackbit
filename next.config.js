@@ -17,8 +17,8 @@ module.exports = withBundleAnalyzer({
         ignoreDuringBuilds: true
     },
     images: {
-    domains: ['d33wubrfki0l68.cloudfront.net/'],
-  },
+        domains: ['d33wubrfki0l68.cloudfront.net/'],
+    },
     webpack: (config, { webpack, dev }) => {
         // temporary: for local development -  edit package.json "@stackbit/components": "file:../stackbit-components" and uncomment the alias below.
         // config.resolve.alias['react'] = path.resolve('./node_modules/react');
