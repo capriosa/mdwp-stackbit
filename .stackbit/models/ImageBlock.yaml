@@ -1,6 +1,6 @@
 type: object
 name: ImageBlock
-label: OptimizedImage
+label: Optimized Image
 labelField: altText
 groups:
   - sectionComponent
