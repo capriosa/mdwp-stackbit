@@ -58,6 +58,17 @@ sections:
       text:
         textAlign: left
     type: ContactSection
+  - colors: colors-a
+    body: lorem-ipsum
+    label: Learn more
+    altText: Learn more
+    url: /
+    showIcon: false
+    icon: arrowRight
+    iconPosition: right
+    style: secondary
+    elementId: ''
+    type: PopupLink
   - name: lorem-ipsum
     job: lorem-ipsum
     location: lorem-ipsum
