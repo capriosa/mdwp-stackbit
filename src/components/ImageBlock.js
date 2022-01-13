@@ -14,7 +14,7 @@ export default function ImageBlock(props) {
     const imageOpacity = styles.opacity || styles.opacity === 0 ? styles.opacity : 100;
 
     return (
-        <Fade top></Fade>
+        <Fade top>
         <Image
             id={cssId}
             className={classNames('sb-component', 'sb-component-block', 'sb-component-image-block', cssClasses)}
@@ -22,6 +22,6 @@ export default function ImageBlock(props) {
             alt={altText || ''}
             style={{ opacity: imageOpacity * 0.01 }}
             data-sb-field-path=".url#@src .altText#@alt .elementId#@id"
-        />
+        /></Fade>
     );
 }
