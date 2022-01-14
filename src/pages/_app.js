@@ -1,5 +1,5 @@
 import '../components/register-components';
-import styles from '../css/main.css';
+import '../css/main.css';
 import Head from 'next/head';
 
 export default function MyApp({ Component, pageProps }) {
