@@ -23,7 +23,7 @@ sections:
         altText: Image four
         caption: Image four caption
     spacing: 1
-    columns: 1
+    columns: 13
     aspectRatio: '16:9'
     imageSizePx: 300
     showCaption: true
