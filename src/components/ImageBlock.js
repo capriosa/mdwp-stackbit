@@ -1,7 +1,7 @@
 import * as React from 'react';
 import classNames from 'classnames';
 import Image from 'next/image';
-import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 import { CallTracker } from 'assert';
 
 export default function ImageBlock(props) {
@@ -15,11 +15,11 @@ export default function ImageBlock(props) {
     const imageOpacity = styles.opacity || styles.opacity === 0 ? styles.opacity : 100;
 
     return (
-        <Fade top>
+        <Slide top>
         <img
             src={url}
             layout="fill"
         />
-        </Fade>
+        </Slide>
     );
 }
