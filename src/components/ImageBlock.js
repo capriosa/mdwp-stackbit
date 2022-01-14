@@ -1,7 +1,7 @@
 import * as React from 'react';
 import classNames from 'classnames';
 import Image from 'next/image';
-import Slide from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 import { CallTracker } from 'assert';
 
 export default function ImageBlock(props) {
