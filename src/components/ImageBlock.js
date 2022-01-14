@@ -16,7 +16,7 @@ export default function ImageBlock(props) {
 
     return (
         <Fade top>
-        <Image
+        <img
             src={url}
             layout="fill"
         />
