@@ -20,6 +20,6 @@ export default function ImageBlock(props) {
             src={url}
             layout="fill"
         />
-        </Fade>
+        </Slide>
     );
 }
