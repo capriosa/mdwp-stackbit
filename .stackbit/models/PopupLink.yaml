@@ -21,7 +21,7 @@ fields:
     default: Learn more
   - type: text
     name: title
-    label: Label
+    label: Title
     default: Learn more
   - type: string
     name: altText
