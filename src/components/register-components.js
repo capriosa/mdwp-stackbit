@@ -13,6 +13,7 @@ registerComponents({
     PopupLink: dynamic(() => import('./PopupLink')),
     ProfileCard: dynamic(() => import('./ProfileCard')),
     Action: dynamic(() => import('./Action')),
+    Tabs: dynamic(() => import('./Tabs')),
     Eventbrite: dynamic(() => import('./Eventbrite')),
     //ImageBlock: dynamic(() => import('./ImageBlock')),
 });
