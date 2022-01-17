@@ -80,6 +80,9 @@ sections:
 
         Sunt voluptate minim consectetur elit enim cillum eu dolor eiusmod
         commodo.
+      - >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
     type: Tabs
   - colors: colors-a
     body: >-
