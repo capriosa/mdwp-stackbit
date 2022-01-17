@@ -55,7 +55,7 @@ sections:
     elementId: ''
     tabs:
       - Tab 1
-      - lorem-ipsum
+      - Tab 2
     item: []
     type: Tabs
   - colors: colors-a
