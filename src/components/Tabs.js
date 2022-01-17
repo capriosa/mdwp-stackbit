@@ -47,7 +47,7 @@ export default function Tabs(props) {
                                         }
                                         onClick={e => {
                                             e.preventDefault();
-                                            setOpenTab(1);
+                                            setOpenTab(index + 1);
                                         }}
                                         data-toggle="tab"
                                         href="#link1"
