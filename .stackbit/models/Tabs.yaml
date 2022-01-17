@@ -13,12 +13,12 @@ fieldGroups:
     label: Settings
 fields:
   - type: list
-    name: tabtitle
+    name: tabs
     label: Tab title
     items:
       type: string
   - type: list
-    name: tabbody
+    name: items
     label: Tab body
     items:
       type: text
