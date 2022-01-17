@@ -37,8 +37,8 @@ export default function Tabs(props) {
                                 className={
                                     "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                                     (openTab === 1
-                                        ? "text-white bg-lightBlue-600"
-                                        : "text-lightBlue-600 bg-white")
+                                        ? "text-white bg-indigo-600"
+                                        : "text-black bg-white")
                                 }
                                 onClick={e => {
                                     e.preventDefault();
@@ -56,8 +56,8 @@ export default function Tabs(props) {
                                 className={
                                     "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                                     (openTab === 2
-                                        ? "text-white bg-lightBlue-600"
-                                        : "text-lightBlue-600 bg-white")
+                                        ? "text-white bg-indigo-600"
+                                        : "text-black bg-white")
                                 }
                                 onClick={e => {
                                     e.preventDefault();
@@ -75,8 +75,8 @@ export default function Tabs(props) {
                                 className={
                                     "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                                     (openTab === 3
-                                        ? "text-white bg-lightBlue-600"
-                                        : "text-lightBlue-600 bg-white")
+                                        ? "text-white bg-indigo-600"
+                                        : "text-black bg-white")
                                 }
                                 onClick={e => {
                                     e.preventDefault();
