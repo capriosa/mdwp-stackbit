@@ -82,7 +82,7 @@ export default function PopupLink(props) {
                                         type="button"
                                         onClick={() => setShowModal(false)}
                                     >
-                                        Close
+                                        {props.close}
                                     </button>
                                 </div>
                             </div>
