@@ -14,25 +14,25 @@ export default function Event(props) {
         return <p>Failed to load Data</p>;
     }
     if (!data) {
-        return <div class="flex justify-center items-center">
-            <div class="spinner-border animate-spin inline-block w-8 h-8 border-4 rounded-full" role="status">
-                <span class="hidden">Loading...</span>
+        return (
+            <div className="flex justify-center items-center">
+                <div className="spinner-border animate-spin inline-block w-8 h-8 border-4 rounded-full" role="status">
+                    <span className="hidden">Loading...</span>
+                </div>
             </div>
-        </div>
-    }
-
-    else {
+        );
+    } else {
         return (
             <div className="px-2 py-32 bg-white md:px-0">
                 <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
                     <div className="flex flex-wrap items-center sm:-mx-3">
                         <div className="w-full md:w-1/2 md:px-3">
                             <div className="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
-                                <h1 className="text-2xl font-extrabold tracking-tight text-gray-900">
-                                    {data.name.text}
-                                </h1>
+                                <h1 className="text-2xl font-extrabold tracking-tight text-gray-900">{data.name.text}</h1>
                                 <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">{data.description.text}</p>
-                                <span className="text-sm text-gray-500 font-semibold">Veranstaltungsdatum: {data.start.local.slice(0, 10).split('-').reverse().join('.')}</span>
+                                <span className="text-sm text-gray-500 font-semibold">
+                                    Veranstaltungsdatum: {data.start.local.slice(0, 10).split('-').reverse().join('.')}
+                                </span>
                             </div>
                         </div>
                         <div className="w-full md:w-1/2">
@@ -45,7 +45,7 @@ export default function Event(props) {
                                     className="flex sb-component-button sb-component-button-primary items-center w-full px-6 py-3 mb-3 text-lg text-white rounded-md sm:mb-0 sm:w-auto"
                                 >
                                     Anmelden
-                                <svg
+                                    <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         className="w-5 h-5 ml-1"
                                         viewBox="0 0 24 24"
@@ -64,7 +64,6 @@ export default function Event(props) {
                     </div>
                 </div>
             </div>
-
         );
     }
 }

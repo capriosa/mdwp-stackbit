@@ -19,15 +19,19 @@ fields:
     name: label
     label: Label
     default: Learn more
+  - type: strin
+    name: title
+    label: Title
+    default: Modal title
   - type: string
     name: altText
     label: Alt text
     default: Learn more
     description: The alternative text for screen readers
   - type: string
-    name: url
-    label: URL
-    default: '/'
+    name: close
+    label: Close label
+    default: Close
   - type: boolean
     name: showIcon
     group: styles

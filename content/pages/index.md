@@ -51,6 +51,55 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
+  - colors: colors-a
+    elementId: ''
+    tabs:
+      - Tab 1
+      - Tab 2
+      - Tab 3
+    item:
+      - >-
+        Elit sit minim dolore ut. Excepteur veniam ipsum duis qui id sit
+        reprehenderit. 
+
+        Aliquip nostrud eiusmod nisi amet ea reprehenderit proident occaecat
+        irure excepteur commodo ullamco. 
+
+        Dolor aliquip nulla nisi magna cillum officia exercitation officia Lorem
+        do do labore. 
+
+        Ex nisi ea ad aute duis velit labore sit magna enim voluptate Lorem. 
+
+        Do aliquip et magna laborum nisi. Mollit est nostrud in aliqua sint.
+      - >-
+        Sint adipisicing adipisicing laborum eiusmod deserunt consequat nisi
+        deserunt adipisicing anim in laborum ad do. 
+
+        Eu non minim dolor anim ex. Lorem aliqua laborum fugiat irure culpa
+        minim amet ipsum ipsum labore. 
+
+        Sunt voluptate minim consectetur elit enim cillum eu dolor eiusmod
+        commodo.
+      - >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+    type: Tabs
+  - colors: colors-a
+    body: >-
+      One platform, one community, getting to the bottom line of everything
+      employment.  Figure out your benefits, practice for interviews, get
+      mentored, help peers, get helped in return.
+    label: Infos
+    altText: Learn more
+    url: Schliessen
+    showIcon: true
+    icon: arrowRight
+    iconPosition: right
+    style: secondary
+    elementId: ''
+    type: PopupLink
+    title: Popup Titel
+    close: Schliessen
   - elementId: ''
     variant: variant-c
     colors: colors-h
