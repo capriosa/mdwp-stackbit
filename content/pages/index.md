@@ -59,7 +59,7 @@ sections:
     label: Infos
     altText: Learn more
     url: Schliessen
-    showIcon: false
+    showIcon: true
     icon: arrowRight
     iconPosition: right
     style: secondary
