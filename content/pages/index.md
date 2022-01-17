@@ -52,14 +52,6 @@ sections:
         justifyContent: flex-start
     type: HeroSection
   - colors: colors-a
-    elementId: ''
-    tabtitle:
-      - Tab 1
-      - Tab 2
-      - Tab 3
-    tabbody: []
-    type: Tabs
-  - colors: colors-a
     body: >-
       One platform, one community, getting to the bottom line of everything
       employment.  Figure out your benefits, practice for interviews, get
