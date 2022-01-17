@@ -24,10 +24,15 @@ const iconMap = {
 
 export default function Tabs(props) {
     const [openTab, setOpenTab] = React.useState(1);
-    console.log(props)
+
     return (
 
         <>
+            {
+                props.tabs.map((tab, index) =>
+                    <div>{tab[index]}</div>
+                )
+            }
 
             <div className="flex flex-wrap justify-center">
                 <div className="w-3/4">
