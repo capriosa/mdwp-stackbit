@@ -28,9 +28,9 @@ fields:
     label: Alt text
     default: Learn more
     description: The alternative text for screen readers
-  - type: string
+  - type: text
     name: close
-    label: Close labeö
+    label: Close label
     default: Close
   - type: boolean
     name: showIcon
