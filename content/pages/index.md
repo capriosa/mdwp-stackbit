@@ -56,7 +56,7 @@ sections:
     tabtitle:
       - Tab 1
       - Tab 2
-      - 'Tab '
+      - Tab 3
     tabbody: []
     type: Tabs
   - colors: colors-a
