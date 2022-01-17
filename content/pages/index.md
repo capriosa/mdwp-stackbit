@@ -54,7 +54,7 @@ sections:
   - colors: colors-a
     elementId: ''
     tabtitle:
-      - lorem-ipsum
+      - Tab 1
       - Tab 2
     tabbody: []
     type: Tabs
