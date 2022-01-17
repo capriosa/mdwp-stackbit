@@ -58,8 +58,18 @@ sections:
       - Tab 2
     item:
       - >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        Elit sit minim dolore ut. Excepteur veniam ipsum duis qui id sit
+        reprehenderit. 
+
+        Aliquip nostrud eiusmod nisi amet ea reprehenderit proident occaecat
+        irure excepteur commodo ullamco. 
+
+        Dolor aliquip nulla nisi magna cillum officia exercitation officia Lorem
+        do do labore. 
+
+        Ex nisi ea ad aute duis velit labore sit magna enim voluptate Lorem. 
+
+        Do aliquip et magna laborum nisi. Mollit est nostrud in aliqua sint.
     type: Tabs
   - colors: colors-a
     body: >-
