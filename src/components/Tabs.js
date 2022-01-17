@@ -53,7 +53,7 @@ export default function Tabs(props) {
                                         href="#link1"
                                         role="tablist"
                                     >
-                                        {tab[index]}
+                                        {tab}
                                     </a>
                                 </li>
                             )}
