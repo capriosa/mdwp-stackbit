@@ -19,7 +19,7 @@ fields:
     name: label
     label: Label
     default: Learn more
-  - type: text
+  - type: strin
     name: title
     label: Title
     default: Modal title
@@ -28,7 +28,7 @@ fields:
     label: Alt text
     default: Learn more
     description: The alternative text for screen readers
-  - type: text
+  - type: string
     name: close
     label: Close label
     default: Close
