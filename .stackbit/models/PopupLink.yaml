@@ -20,7 +20,7 @@ fields:
     label: Label
     default: Learn more
   - type: text
-    name: label
+    name: title
     label: Label
     default: Learn more
   - type: string
