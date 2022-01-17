@@ -52,7 +52,10 @@ sections:
         justifyContent: flex-start
     type: HeroSection
   - colors: colors-a
-    body: lorem-ipsum
+    body: >-
+      One platform, one community, getting to the bottom line of everything
+      employment.  Figure out your benefits, practice for interviews, get
+      mentored, help peers, get helped in return.
     label: Learn more
     altText: Learn more
     url: /
