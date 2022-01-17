@@ -65,7 +65,7 @@ sections:
     style: secondary
     elementId: ''
     type: PopupLink
-    title: Pop
+    title: Popup Titel
   - elementId: ''
     variant: variant-c
     colors: colors-h
