@@ -19,7 +19,10 @@ fields:
     name: label
     label: Label
     default: Learn more
-  
+  - type: string
+    name: label
+    label: Label
+    default: Learn more
   - type: string
     name: altText
     label: Alt text
