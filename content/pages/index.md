@@ -71,8 +71,14 @@ sections:
 
         Do aliquip et magna laborum nisi. Mollit est nostrud in aliqua sint.
       - >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        Sint adipisicing adipisicing laborum eiusmod deserunt consequat nisi
+        deserunt adipisicing anim in laborum ad do. 
+
+        Eu non minim dolor anim ex. Lorem aliqua laborum fugiat irure culpa
+        minim amet ipsum ipsum labore. 
+
+        Sunt voluptate minim consectetur elit enim cillum eu dolor eiusmod
+        commodo.
     type: Tabs
   - colors: colors-a
     body: >-
