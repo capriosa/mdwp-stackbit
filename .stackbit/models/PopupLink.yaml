@@ -29,9 +29,9 @@ fields:
     default: Learn more
     description: The alternative text for screen readers
   - type: string
-    name: url
-    label: URL
-    default: '/'
+    name: close
+    label: Close labeö
+    default: Close
   - type: boolean
     name: showIcon
     group: styles
