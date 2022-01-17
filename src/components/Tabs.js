@@ -24,6 +24,7 @@ const iconMap = {
 
 export default function Tabs(props) {
     const [openTab, setOpenTab] = React.useState(1);
+    console.log(props)
     return (
         <>
             <div className="flex flex-wrap justify-center">
