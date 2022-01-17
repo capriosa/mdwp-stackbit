@@ -1,6 +1,6 @@
 type: object
-name: PopupLink
-label: Popup Link
+name: Tabs
+label: Tabs
 labelField: label
 extends:
   - Section
