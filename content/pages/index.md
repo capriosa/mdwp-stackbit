@@ -58,7 +58,7 @@ sections:
       mentored, help peers, get helped in return.
     label: Infos
     altText: Learn more
-    url: /
+    url: Schliessen
     showIcon: false
     icon: arrowRight
     iconPosition: right
