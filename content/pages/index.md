@@ -66,6 +66,7 @@ sections:
     elementId: ''
     type: PopupLink
     title: Popup Titel
+    close: Schlissen
   - elementId: ''
     variant: variant-c
     colors: colors-h
