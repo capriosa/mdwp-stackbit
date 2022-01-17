@@ -26,8 +26,8 @@ export default function Tabs(props) {
     const [openTab, setOpenTab] = React.useState(1);
     return (
         <>
-            <div className="flex flex-wrap">
-                <div className="w-full">
+            <div className="flex flex-wrap justify-center">
+                <div className="w-3/4">
                     <ul
                         className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
                         role="tablist"
