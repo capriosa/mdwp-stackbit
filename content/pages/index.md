@@ -70,6 +70,9 @@ sections:
         Ex nisi ea ad aute duis velit labore sit magna enim voluptate Lorem. 
 
         Do aliquip et magna laborum nisi. Mollit est nostrud in aliqua sint.
+      - >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
     type: Tabs
   - colors: colors-a
     body: >-
