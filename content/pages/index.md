@@ -53,7 +53,8 @@ sections:
     type: HeroSection
   - colors: colors-a
     elementId: ''
-    tabtitle: []
+    tabtitle:
+      - lorem-ipsum
     tabbody: []
     type: Tabs
   - colors: colors-a
