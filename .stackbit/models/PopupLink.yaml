@@ -19,7 +19,7 @@ fields:
     name: label
     label: Label
     default: Learn more
-  - type: string
+  - type: text
     name: label
     label: Label
     default: Learn more
