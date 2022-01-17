@@ -51,6 +51,17 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
+  - colors: colors-a
+    body: lorem-ipsum
+    label: Learn more
+    altText: Learn more
+    url: /
+    showIcon: false
+    icon: arrowRight
+    iconPosition: right
+    style: secondary
+    elementId: ''
+    type: PopupLink
   - elementId: ''
     variant: variant-c
     colors: colors-h
