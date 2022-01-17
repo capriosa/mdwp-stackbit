@@ -56,7 +56,10 @@ sections:
     tabs:
       - Tab 1
       - Tab 2
-    item: []
+    item:
+      - >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
     type: Tabs
   - colors: colors-a
     body: >-
