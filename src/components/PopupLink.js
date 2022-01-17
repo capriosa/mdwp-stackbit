@@ -50,7 +50,7 @@ export default function PopupLink(props) {
                 type="button"
                 onClick={() => setShowModal(true)}
             >
-                Open small modal
+                {props.label}
             </button>
             {showModal ? (
                 <>
