@@ -24,7 +24,7 @@ const iconMap = {
 
 export default function Tabs(props) {
     const [openTab, setOpenTab] = React.useState(1);
-    console.log(props.tabs)
+    console.log(props.tabs[0])
     return (
 
         <>
