@@ -56,7 +56,7 @@ sections:
     tabs:
       - Tab 1
       - Tab 2
-      - lorem-ipsum
+      - Tab 3
     item:
       - >-
         Elit sit minim dolore ut. Excepteur veniam ipsum duis qui id sit
