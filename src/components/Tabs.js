@@ -52,6 +52,7 @@ export default function Tabs(props) {
                                         data-toggle="tab"
                                         href="#link1"
                                         role="tablist"
+                                        data-sb-field-path=".tabs"
                                     >
                                         {tab}
                                     </a>
@@ -65,7 +66,7 @@ export default function Tabs(props) {
                                 {
                                     props.item.map((item, index) =>
                                         <div className={openTab === index + 1 ? "block" : "hidden"} id="link1">
-                                            <p>
+                                            <p data-sb-field-path=".item">
                                                 {item}
                                             </p>
                                         </div>
