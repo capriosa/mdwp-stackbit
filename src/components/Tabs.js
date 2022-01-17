@@ -22,75 +22,113 @@ const iconMap = {
     twitter: Twitter
 };
 
-export default function PopupLink(props) {
-    const [popup, setPopup] = useState(false);
-    const { type, label, altText, url, showIcon } = props;
-    const icon = props.icon || 'arrowLeft';
-    const iconPosition = props.iconPosition || 'right';
-    const IconComponent = iconMap[icon];
-    const annotationPrefix = props['data-sb-field-path'] || '';
-    const annotations = [
-        `${annotationPrefix}`,
-        `${annotationPrefix}.url#@href`,
-        `${annotationPrefix}.altText#@aria-label`,
-        `${annotationPrefix}.elementId#@id`,
-        `${annotationPrefix}.label#span[1]`,
-        `${annotationPrefix}.icon#svg[1]`
-    ];
-    const defaultStyle = type === 'Link' ? 'link' : 'secondary';
-    const style = props.style || defaultStyle;
-    const cssClasses = props.className || null;
-    const cssId = props.elementId || null;
-
-    const [showModal, setShowModal] = React.useState(false);
+export default function Tabs(props) {
+    const [openTab, setOpenTab] = React.useState(1);
     return (
-        <section className="flex justify-center items-center h-60">
-            <button
-                className="bg-pink-500 h-12 text-white active:bg-pink-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                type="button"
-                onClick={() => setShowModal(true)}
-            >
-                {props.label}
-            </button>
-            {showModal ? (
-                <>
-                    <div
-                        className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
-                        onClick={() => setShowModal(false)}
+        <>
+            <div className="flex flex-wrap">
+                <div className="w-full">
+                    <ul
+                        className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
+                        role="tablist"
                     >
-                        <div className="relative w-auto my-6 mx-auto max-w-sm">
-                            {/*content*/}
-                            <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                                {/*header*/}
-                                <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
-                                    <h3 className="text-3xl font-semibold">{props.title}</h3>
-                                    <button
-                                        className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-                                        onClick={() => setShowModal(false)}
-                                    >
-                                        <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">×</span>
-                                    </button>
+                        <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                            <a
+                                className={
+                                    "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
+                                    (openTab === 1
+                                        ? "text-white bg-lightBlue-600"
+                                        : "text-lightBlue-600 bg-white")
+                                }
+                                onClick={e => {
+                                    e.preventDefault();
+                                    setOpenTab(1);
+                                }}
+                                data-toggle="tab"
+                                href="#link1"
+                                role="tablist"
+                            >
+                                Profile
+              </a>
+                        </li>
+                        <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                            <a
+                                className={
+                                    "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
+                                    (openTab === 2
+                                        ? "text-white bg-lightBlue-600"
+                                        : "text-lightBlue-600 bg-white")
+                                }
+                                onClick={e => {
+                                    e.preventDefault();
+                                    setOpenTab(2);
+                                }}
+                                data-toggle="tab"
+                                href="#link2"
+                                role="tablist"
+                            >
+                                Settings
+              </a>
+                        </li>
+                        <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                            <a
+                                className={
+                                    "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
+                                    (openTab === 3
+                                        ? "text-white bg-lightBlue-600"
+                                        : "text-lightBlue-600 bg-white")
+                                }
+                                onClick={e => {
+                                    e.preventDefault();
+                                    setOpenTab(3);
+                                }}
+                                data-toggle="tab"
+                                href="#link3"
+                                role="tablist"
+                            >
+                                Options
+              </a>
+                        </li>
+                    </ul>
+                    <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
+                        <div className="px-4 py-5 flex-auto">
+                            <div className="tab-content tab-space">
+                                <div className={openTab === 1 ? "block" : "hidden"} id="link1">
+                                    <p>
+                                        Collaboratively administrate empowered markets via
+                                        plug-and-play networks. Dynamically procrastinate B2C users
+                                        after installed base benefits.
+                    <br />
+                                        <br /> Dramatically visualize customer directed convergence
+                                        without revolutionary ROI.
+                  </p>
                                 </div>
-                                {/*body*/}
-                                <div className="relative p-6 flex-auto">
-                                    <p className="my-4 text-blueGray-500 text-lg leading-relaxed">{props.body}</p>
+                                <div className={openTab === 2 ? "block" : "hidden"} id="link2">
+                                    <p>
+                                        Completely synergize resource taxing relationships via
+                                        premier niche markets. Professionally cultivate one-to-one
+                                        customer service with robust ideas.
+                    <br />
+                                        <br />
+                                        Dynamically innovate resource-leveling customer service for
+                                        state of the art customer service.
+                  </p>
                                 </div>
-                                {/*footer*/}
-                                <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
-                                    <button
-                                        className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                                        type="button"
-                                        onClick={() => setShowModal(false)}
-                                    >
-                                        {props.close}
-                                    </button>
+                                <div className={openTab === 3 ? "block" : "hidden"} id="link3">
+                                    <p>
+                                        Efficiently unleash cross-media information without
+                                        cross-media value. Quickly maximize timely deliverables for
+                                        real-time schemas.
+                    <br />
+                                        <br /> Dramatically maintain clicks-and-mortar solutions
+                                        without functional solutions.
+                  </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
-                </>
-            ) : null}
-        </section>
+                </div>
+            </div>
+        </>
     );
 }
