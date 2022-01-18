@@ -57,6 +57,7 @@ sections:
       - Question 1
       - Question 2
       - Qustion 3
+      - lorem-ipsum
     items: []
     type: Accordions
   - colors: colors-a
