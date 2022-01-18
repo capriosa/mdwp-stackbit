@@ -76,8 +76,13 @@ sections:
         Reprehenderit eiusmod veniam qui do laborum adipisicing culpa cillum
         irure amet.
       - >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        Aliqua laboris veniam minim velit elit enim officia. 
+
+        Cupidatat anim reprehenderit sint veniam officia elit Lorem cillum irure
+        aute dolore. 
+
+        Officia incididunt proident eu laboris eiusmod officia ipsum laboris
+        occaecat minim pariatur dolor ut.
     type: Accordions
   - colors: colors-a
     elementId: ''
