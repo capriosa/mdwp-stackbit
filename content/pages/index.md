@@ -53,6 +53,11 @@ sections:
     type: HeroSection
   - colors: colors-a
     elementId: ''
+    accordions: []
+    items: []
+    type: Accordions
+  - colors: colors-a
+    elementId: ''
     tabs:
       - Tab 1
       - Tab 2
