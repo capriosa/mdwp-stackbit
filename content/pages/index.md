@@ -53,7 +53,8 @@ sections:
     type: HeroSection
   - colors: colors-a
     elementId: ''
-    accordions: []
+    accordions:
+      - lorem-ipsum
     items: []
     type: Accordions
   - colors: colors-a
