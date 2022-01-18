@@ -68,6 +68,9 @@ sections:
 
         Dolor sit irure dolor qui officia anim qui culpa elit pariatur quis
         velit. Nostrud irure exercitation eu id.
+      - >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
     type: Accordions
   - colors: colors-a
     elementId: ''
