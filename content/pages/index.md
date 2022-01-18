@@ -58,7 +58,6 @@ sections:
       - Question 2
       - Question 3
       - 'Question 4 '
-      - Question 5
     items:
       - >-
         Mollit culpa amet dolore consequat enim ut esse. Veniam nostrud amet sit
@@ -91,14 +90,54 @@ sections:
 
         Esse qui Lorem commodo id laboris. Et ea duis in sint amet cillum
         fugiat.
-      - >
-        Esse nostrud anim dolore tempor occaecat sit commodo exercitation aliqua
-        quis officia duis ex sit. 
-
-        Velit sunt reprehenderit exercitation mollit. Reprehenderit aliquip sunt
-        voluptate laboris ut mollit in deserunt. Esse nostrud anim dolore tempor
-        occaecat sit commodo exercitation aliqua quis officia duis ex sit. 
     type: Accordions
+  - elementId: ''
+    variant: variant-c
+    colors: colors-h
+    title: About us
+    subtitle: Featured people section example
+    actions: []
+    people:
+      - content/data/team/desmond-eagle.json
+      - content/data/team/hilary-ouse.json
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+      actions:
+        justifyContent: center
+    type: FeaturedPeopleSection
+  - colors: colors-a
+    body: >-
+      One platform, one community, getting to the bottom line of everything
+      employment.  Figure out your benefits, practice for interviews, get
+      mentored, help peers, get helped in return.
+    label: Infos
+    altText: Learn more
+    url: Schliessen
+    showIcon: true
+    icon: arrowRight
+    iconPosition: right
+    style: secondary
+    elementId: ''
+    type: PopupLink
+    title: Popup Titel
+    close: Schliessen
   - colors: colors-a
     elementId: ''
     tabs:
@@ -132,53 +171,6 @@ sections:
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.
     type: Tabs
-  - colors: colors-a
-    body: >-
-      One platform, one community, getting to the bottom line of everything
-      employment.  Figure out your benefits, practice for interviews, get
-      mentored, help peers, get helped in return.
-    label: Infos
-    altText: Learn more
-    url: Schliessen
-    showIcon: true
-    icon: arrowRight
-    iconPosition: right
-    style: secondary
-    elementId: ''
-    type: PopupLink
-    title: Popup Titel
-    close: Schliessen
-  - elementId: ''
-    variant: variant-c
-    colors: colors-h
-    title: About us
-    subtitle: Featured people section example
-    actions: []
-    people:
-      - content/data/team/desmond-eagle.json
-      - content/data/team/hilary-ouse.json
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-12
-          - pb-12
-          - pl-4
-          - pr-4
-        justifyContent: center
-      title:
-        textAlign: center
-      subtitle:
-        textAlign: center
-      actions:
-        justifyContent: center
-    type: FeaturedPeopleSection
   - elementId: ''
     variant: variant-b
     colors: colors-h
