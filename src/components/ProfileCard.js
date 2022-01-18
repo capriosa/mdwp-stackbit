@@ -3,7 +3,7 @@ import React from 'react';
 
 const ProfileCard = ({ annotationPrefix, name, job, location, description, button, facebook, twitter, github, unsplash, dribbble, instagram, youtube }) => {
     return (
-        <div className="w-screen">
+        <div className="w-screen flex justify-center">
             <blockquote className="flex items-center justify-center  w-1/2 col-span-1 p-6 mt-4 bg-white rounded-lg shadow">
                 <div className="flex flex-col pr-10 w-1/2 ">
                     <div className="relative pl-12">
