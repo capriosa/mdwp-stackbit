@@ -1,6 +1,6 @@
 type: object
-name: Tabs
-label: Tabs
+name: GridCard
+label: GridCard
 labelField: label
 extends:
   - Section
@@ -11,14 +11,3 @@ fieldGroups:
     label: Styles
   - name: settings
     label: Settings
-fields:
-  - type: list
-    name: tabs
-    label: Tab title
-    items:
-      type: string
-  - type: list
-    name: item
-    label: Tab body
-    items:
-      type: text
