@@ -62,8 +62,7 @@ export default function Accordions(props) {
 
                                                 <div className={'transition-all', openTab === index ? "block" : "hidden"} id="link1">
                                                     <p key={index} data-sb-field-path=".items">
-                                                        {props.items[index]} <br />
-                                                        {index}
+                                                        {props.items[index]}
                                                     </p>
                                                 </div>
 
