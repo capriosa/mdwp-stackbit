@@ -37,7 +37,7 @@ export default function Accordions(props) {
                     >
                         {
                             props.accordions.map((tab, index) =>
-                                <li key={index} className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                                <li key={index} className="-mb-px mr-2 last:mr-0 flex-auto">
                                     <a
                                         className={
                                             "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
@@ -62,7 +62,7 @@ export default function Accordions(props) {
                                                 {
                                                     props.items.map((item, index) =>
                                                         <div className={openTab === index ? "block" : "hidden"} id="link1">
-                                                            <p data-sb-field-path=".item">
+                                                            <p key={index} data-sb-field-path=".items">
                                                                 {item}
                                                             </p>
                                                         </div>
