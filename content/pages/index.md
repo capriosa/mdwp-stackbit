@@ -55,6 +55,7 @@ sections:
     elementId: ''
     accordions:
       - Question 1
+      - lorem-ipsum
     items: []
     type: Accordions
   - colors: colors-a
