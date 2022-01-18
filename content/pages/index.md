@@ -56,7 +56,7 @@ sections:
     accordions:
       - Question 1
       - Question 2
-      - Qustions
+      - Qustion 3
     items: []
     type: Accordions
   - colors: colors-a
