@@ -11,19 +11,10 @@ import Instagram from '@stackbit/components/dist/svgs/instagram';
 import LinkedIn from '@stackbit/components/dist/svgs/linkedin';
 import Twitter from '@stackbit/components/dist/svgs/twitter';
 
-const iconMap = {
-    arrowLeft: ArrowLeft,
-    arrowRight: ArrowRight,
-    cart: Cart,
-    facebook: Facebook,
-    github: GitHub,
-    instagram: Instagram,
-    linkedin: LinkedIn,
-    twitter: Twitter
-};
 
-export default function Tabs(props) {
-    const [openTab, setOpenTab] = React.useState(0);
+
+export default function GridCard(props) {
+
 
     return (
         <>
@@ -105,7 +96,7 @@ export default function Tabs(props) {
 
                         </article>
                         <!-- END Article -->
-            
+
         </div>
 
                     <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
