@@ -23,7 +23,7 @@ const iconMap = {
 };
 
 export default function Tabs(props) {
-    const [openTab, setOpenTab] = React.useState(1);
+    const [openTab, setOpenTab] = React.useState(0);
 
     return (
 
@@ -41,13 +41,13 @@ export default function Tabs(props) {
                                     <a
                                         className={
                                             "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
-                                            (openTab === index + 1
+                                            (openTab === index
                                                 ? "text-white bg-indigo-600"
                                                 : "text-black bg-white")
                                         }
                                         onClick={e => {
                                             e.preventDefault();
-                                            setOpenTab(index + 1);
+                                            setOpenTab(index);
                                         }}
                                         data-toggle="tab"
                                         href="#link1"
@@ -65,7 +65,7 @@ export default function Tabs(props) {
                             <div className="tab-content tab-space">
                                 {
                                     props.item.map((item, index) =>
-                                        <div className={openTab === index + 1 ? "block" : "hidden"} id="link1">
+                                        <div className={openTab === index ? "block" : "hidden"} id="link1">
                                             <p data-sb-field-path=".item">
                                                 {item}
                                             </p>
