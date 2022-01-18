@@ -22,7 +22,7 @@ const iconMap = {
     twitter: Twitter
 };
 
-export default function Tabs(props) {
+export default function Accordions(props) {
     const [openTab, setOpenTab] = React.useState(0);
 
     return (
@@ -30,19 +30,19 @@ export default function Tabs(props) {
         <>
 
             <div className="flex flex-wrap justify-center">
-                <div className="w-3/4">
+                <div className="lg:w-1/2 w-3/4">
                     <ul
-                        className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
+                        className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-col"
                         role="tablist"
                     >
                         {
-                            props.tabs.map((tab, index) =>
-                                <li key={index} className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                            props.accordions.map((tab, index) =>
+                                <li key={index} className="-mb-px mr-2 last:mr-0 flex-auto transition-all">
                                     <a
                                         className={
-                                            "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
+                                            "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded-t-sm  block leading-normal " +
                                             (openTab === index
-                                                ? "text-white bg-indigo-600"
+                                                ? "text-white bg-gray-400"
                                                 : "text-black bg-white")
                                         }
                                         onClick={e => {
@@ -56,25 +56,25 @@ export default function Tabs(props) {
                                     >
                                         {tab}
                                     </a>
+                                    <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-3 shadow-lg rounded-b-sm">
+                                        <div className="px-4 py-1 pt-1 flex-auto">
+                                            <div className="tab-content tab-space">
+
+                                                <div className={'transition-all', openTab === index ? "block" : "hidden"} id="link1">
+                                                    <p className="h-full" key={index} >
+                                                        {props.items[index]}
+                                                    </p>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
                                 </li>
                             )}
 
                     </ul>
-                    <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
-                        <div className="px-4 py-5 flex-auto">
-                            <div className="tab-content tab-space">
-                                {
-                                    props.item.map((item, index) =>
-                                        <div className={openTab === index ? "block" : "hidden"} id="link1">
-                                            <p data-sb-field-path=".item">
-                                                {item}
-                                            </p>
-                                        </div>
-                                    )}
-                            </div>
 
-                        </div>
-                    </div>
                 </div>
             </div>
         </>

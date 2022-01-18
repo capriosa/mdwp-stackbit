@@ -53,6 +53,54 @@ sections:
     type: HeroSection
   - colors: colors-a
     elementId: ''
+    accordions:
+      - Question 1
+      - Question 2
+      - Question 3
+      - 'Question 4 '
+      - Question 5
+    items:
+      - >-
+        Mollit culpa amet dolore consequat enim ut esse. Veniam nostrud amet sit
+        do fugiat in veniam adipisicing dolore. 
+
+        Qui consequat ut mollit eiusmod deserunt laborum occaecat laboris. 
+
+        Dolor sit irure dolor qui officia anim qui culpa elit pariatur quis
+        velit. Nostrud irure exercitation eu id.
+      - >-
+        Nostrud pariatur tempor irure incididunt in. Aute elit esse ad laborum. 
+
+        Pariatur officia deserunt non enim esse fugiat esse exercitation. 
+
+        Reprehenderit eiusmod veniam qui do laborum adipisicing culpa cillum
+        irure amet.
+      - >-
+        Aliqua laboris veniam minim velit elit enim officia. 
+
+        Cupidatat anim reprehenderit sint veniam officia elit Lorem cillum irure
+        aute dolore. 
+
+        Officia incididunt proident eu laboris eiusmod officia ipsum laboris
+        occaecat minim pariatur dolor ut.
+      - >-
+        Elit aute ipsum Lorem aute nostrud veniam exercitation irure eiusmod. 
+
+        Aute laborum adipisicing sunt duis nulla incididunt ipsum eu voluptate
+        ad velit. 
+
+        Esse qui Lorem commodo id laboris. Et ea duis in sint amet cillum
+        fugiat.
+      - >
+        Esse nostrud anim dolore tempor occaecat sit commodo exercitation aliqua
+        quis officia duis ex sit. 
+
+        Velit sunt reprehenderit exercitation mollit. Reprehenderit aliquip sunt
+        voluptate laboris ut mollit in deserunt. Esse nostrud anim dolore tempor
+        occaecat sit commodo exercitation aliqua quis officia duis ex sit. 
+    type: Accordions
+  - colors: colors-a
+    elementId: ''
     tabs:
       - Tab 1
       - Tab 2
