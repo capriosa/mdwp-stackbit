@@ -57,7 +57,7 @@ sections:
       - Question 1
       - Question 2
       - Qustion 3
-      - 'Qustion '
+      - 'Question '
     items: []
     type: Accordions
   - colors: colors-a
