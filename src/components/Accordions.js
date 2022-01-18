@@ -24,7 +24,7 @@ const iconMap = {
 
 export default function Accordions(props) {
     const [openTab, setOpenTab] = React.useState(0);
-
+    console.log(props.items)
     return (
 
         <>
