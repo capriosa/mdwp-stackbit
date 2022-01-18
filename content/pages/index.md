@@ -83,6 +83,9 @@ sections:
 
         Officia incididunt proident eu laboris eiusmod officia ipsum laboris
         occaecat minim pariatur dolor ut.
+      - >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
     type: Accordions
   - colors: colors-a
     elementId: ''
