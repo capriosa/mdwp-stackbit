@@ -3,7 +3,7 @@ import React from 'react';
 
 const ProfileCard = ({ annotationPrefix, name, job, location, description, button, facebook, twitter, github, unsplash, dribbble, instagram, youtube }) => {
     return (
-        <blockquote class="flex items-center justify-between w-1/2 col-span-1 p-6 mt-4 bg-white rounded-lg shadow">
+        <blockquote class="flex items-center justify-center w-1/2 col-span-1 p-6 mt-4 bg-white rounded-lg shadow">
             <div class="flex flex-col pr-10">
                 <div class="relative pl-12">
                     <svg class="absolute left-0 w-10 h-10 text-indigo-500 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 125">
