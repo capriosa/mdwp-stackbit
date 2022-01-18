@@ -91,22 +91,6 @@ sections:
         Esse qui Lorem commodo id laboris. Et ea duis in sint amet cillum
         fugiat.
     type: Accordions
-  - colors: colors-a
-    body: >-
-      One platform, one community, getting to the bottom line of everything
-      employment.  Figure out your benefits, practice for interviews, get
-      mentored, help peers, get helped in return.
-    label: Infos
-    altText: Learn more
-    url: Schliessen
-    showIcon: true
-    icon: arrowRight
-    iconPosition: right
-    style: secondary
-    elementId: ''
-    type: PopupLink
-    title: Popup Titel
-    close: Schliessen
   - elementId: ''
     variant: variant-c
     colors: colors-h
@@ -138,6 +122,22 @@ sections:
       actions:
         justifyContent: center
     type: FeaturedPeopleSection
+  - colors: colors-a
+    body: >-
+      One platform, one community, getting to the bottom line of everything
+      employment.  Figure out your benefits, practice for interviews, get
+      mentored, help peers, get helped in return.
+    label: Infos
+    altText: Learn more
+    url: Schliessen
+    showIcon: true
+    icon: arrowRight
+    iconPosition: right
+    style: secondary
+    elementId: ''
+    type: PopupLink
+    title: Popup Titel
+    close: Schliessen
   - colors: colors-a
     elementId: ''
     tabs:
