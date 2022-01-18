@@ -63,7 +63,8 @@ export default function Accordions(props) {
                                                     props.items.map((item, index) =>
                                                         <div className={openTab === index ? "block" : "hidden"} id="link1">
                                                             <p key={index} data-sb-field-path=".items">
-                                                                {item}
+                                                                {item} <br />
+                                                                {index}
                                                             </p>
                                                         </div>
                                                     )}
