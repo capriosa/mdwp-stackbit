@@ -26,55 +26,241 @@ export default function Tabs(props) {
     const [openTab, setOpenTab] = React.useState(0);
 
     return (
-
         <>
+            <div class="container my-12 mx-auto px-4 md:px-12">
+                <div class="flex flex-wrap -mx-1 lg:-mx-4">
 
-            <div className="flex flex-wrap justify-center">
-                <div className="w-3/4">
-                    <ul
-                        className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
-                        role="tablist"
-                    >
-                        {
-                            props.tabs.map((tab, index) =>
-                                <li key={index} className="-mb-px mr-2 last:mr-0 flex-auto text-center">
-                                    <a
-                                        className={
-                                            "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
-                                            (openTab === index
-                                                ? "text-white bg-indigo-600"
-                                                : "text-black bg-white")
-                                        }
-                                        onClick={e => {
-                                            e.preventDefault();
-                                            setOpenTab(index);
-                                        }}
-                                        data-toggle="tab"
-                                        href="#link1"
-                                        role="tablist"
-                                        data-sb-field-path=".tab"
-                                    >
-                                        {tab}
-                                    </a>
-                                </li>
-                            )}
+                    <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
 
-                    </ul>
-                    <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
-                        <div className="px-4 py-5 flex-auto">
-                            <div className="tab-content tab-space">
-                                {
-                                    props.item.map((item, index) =>
-                                        <div className={openTab === index ? "block" : "hidden"} id="link1">
-                                            <p data-sb-field-path=".item">
-                                                {item}
-                                            </p>
-                                        </div>
-                                    )}
-                            </div>
 
-                        </div>
+                        <article class="overflow-hidden rounded-lg shadow-lg">
+
+                            <a href="#">
+                                <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random" />
+                            </a>
+
+                            <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                                <h1 class="text-lg">
+                                    <a class="no-underline hover:underline text-black" href="#">
+                                        Article Title
+                        </a>
+                                </h1>
+                                <p class="text-grey-darker text-sm">
+                                    11/1/19
+                    </p>
+                            </header>
+
+                            <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                                <a class="flex items-center no-underline hover:underline text-black" href="#">
+                                    <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random" />
+                                    <p class="ml-2 text-sm">
+                                        Author Name
+                        </p>
+                                </a>
+                                <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
+                                    <span class="hidden">Like</span>
+                                    <i class="fa fa-heart"></i>
+                                </a>
+                            </footer>
+
+                        </article>
+
+
                     </div>
+
+
+
+                    <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+
+                        <article class="overflow-hidden rounded-lg shadow-lg">
+
+                            <a href="#">
+                                <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random" />
+                            </a>
+
+                            <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                                <h1 class="text-lg">
+                                    <a class="no-underline hover:underline text-black" href="#">
+                                        Article Title
+                        </a>
+                                </h1>
+                                <p class="text-grey-darker text-sm">
+                                    11/1/19
+                    </p>
+                            </header>
+
+                            <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                                <a class="flex items-center no-underline hover:underline text-black" href="#">
+                                    <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random" />
+                                    <p class="ml-2 text-sm">
+                                        Author Name
+                        </p>
+                                </a>
+                                <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
+                                    <span class="hidden">Like</span>
+                                    <i class="fa fa-heart"></i>
+                                </a>
+                            </footer>
+
+                        </article>
+                        <!-- END Article -->
+            
+        </div>
+
+                    <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+
+                        <article class="overflow-hidden rounded-lg shadow-lg">
+
+                            <a href="#">
+                                <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random" />
+                            </a>
+
+                            <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                                <h1 class="text-lg">
+                                    <a class="no-underline hover:underline text-black" href="#">
+                                        Article Title
+                        </a>
+                                </h1>
+                                <p class="text-grey-darker text-sm">
+                                    11/1/19
+                    </p>
+                            </header>
+
+                            <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                                <a class="flex items-center no-underline hover:underline text-black" href="#">
+                                    <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random" />
+                                    <p class="ml-2 text-sm">
+                                        Author Name
+                        </p>
+                                </a>
+                                <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
+                                    <span class="hidden">Like</span>
+                                    <i class="fa fa-heart"></i>
+                                </a>
+                            </footer>
+
+                        </article>
+
+
+                    </div>
+
+                    <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+
+                        <article class="overflow-hidden rounded-lg shadow-lg">
+
+                            <a href="#">
+                                <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random" />
+                            </a>
+
+                            <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                                <h1 class="text-lg">
+                                    <a class="no-underline hover:underline text-black" href="#">
+                                        Article Title
+                        </a>
+                                </h1>
+                                <p class="text-grey-darker text-sm">
+                                    11/1/19
+                    </p>
+                            </header>
+
+                            <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                                <a class="flex items-center no-underline hover:underline text-black" href="#">
+                                    <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random" />
+                                    <p class="ml-2 text-sm">
+                                        Author Name
+                        </p>
+                                </a>
+                                <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
+                                    <span class="hidden">Like</span>
+                                    <i class="fa fa-heart"></i>
+                                </a>
+                            </footer>
+
+                        </article>
+
+
+                    </div>
+
+                    <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+
+                        <article class="overflow-hidden rounded-lg shadow-lg">
+
+                            <a href="#">
+                                <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random" />
+                            </a>
+
+                            <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                                <h1 class="text-lg">
+                                    <a class="no-underline hover:underline text-black" href="#">
+                                        Article Title
+                        </a>
+                                </h1>
+                                <p class="text-grey-darker text-sm">
+                                    11/1/19
+                    </p>
+                            </header>
+
+                            <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                                <a class="flex items-center no-underline hover:underline text-black" href="#">
+                                    <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random" />
+                                    <p class="ml-2 text-sm">
+                                        Author Name
+                        </p>
+                                </a>
+                                <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
+                                    <span class="hidden">Like</span>
+                                    <i class="fa fa-heart"></i>
+                                </a>
+                            </footer>
+
+                        </article>
+
+
+                    </div>
+
+                    <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+
+                        <article class="overflow-hidden rounded-lg shadow-lg">
+
+                            <a href="#">
+                                <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random" />
+                            </a>
+
+                            <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                                <h1 class="text-lg">
+                                    <a class="no-underline hover:underline text-black" href="#">
+                                        Article Title
+                        </a>
+                                </h1>
+                                <p class="text-grey-darker text-sm">
+                                    11/1/19
+                    </p>
+                            </header>
+
+                            <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                                <a class="flex items-center no-underline hover:underline text-black" href="#">
+                                    <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random" />
+                                    <p class="ml-2 text-sm">
+                                        Author Name
+                        </p>
+                                </a>
+                                <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
+                                    <span class="hidden">Like</span>
+                                    <i class="fa fa-heart"></i>
+                                </a>
+                            </footer>
+
+                        </article>
+
+
+                    </div>
+
+
                 </div>
             </div>
         </>
