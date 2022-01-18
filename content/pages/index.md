@@ -92,8 +92,11 @@ sections:
         Esse qui Lorem commodo id laboris. Et ea duis in sint amet cillum
         fugiat.
       - >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        Esse nostrud anim dolore tempor occaecat sit commodo exercitation aliqua
+        quis officia duis ex sit. 
+
+        Velit sunt reprehenderit exercitation mollit. Reprehenderit aliquip sunt
+        voluptate laboris ut mollit in deserunt.
     type: Accordions
   - colors: colors-a
     elementId: ''
