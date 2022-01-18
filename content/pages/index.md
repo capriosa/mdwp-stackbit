@@ -54,7 +54,7 @@ sections:
   - colors: colors-a
     elementId: ''
     accordions:
-      - Question
+      - Question 1
     items: []
     type: Accordions
   - colors: colors-a
