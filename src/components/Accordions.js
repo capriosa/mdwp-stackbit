@@ -30,7 +30,7 @@ export default function Accordions(props) {
         <>
 
             <div className="flex flex-wrap justify-center">
-                <div className="w-3/4">
+                <div className="w-1/4">
                     <ul
                         className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-col"
                         role="tablist"
@@ -60,7 +60,7 @@ export default function Accordions(props) {
                                         <div className="px-4 py-1 pt-1 flex-auto">
                                             <div className="tab-content tab-space">
 
-                                                <div className={openTab === index ? "block" : "hidden"} id="link1">
+                                                <div className={'transition-all', openTab === index ? "block" : "hidden"} id="link1">
                                                     <p key={index} data-sb-field-path=".items">
                                                         {props.items[index]} <br />
                                                         {index}
