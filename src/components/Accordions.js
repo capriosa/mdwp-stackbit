@@ -37,7 +37,7 @@ export default function Accordions(props) {
                     >
                         {
                             props.accordions.map((tab, index) =>
-                                <li key={index} className="-mb-px mr-2 last:mr-0 flex-auto">
+                                <li key={index} className="-mb-px mr-2 last:mr-0 flex-auto transition-all">
                                     <a
                                         className={
                                             "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded-t-sm rounded-r-sm block leading-normal " +
