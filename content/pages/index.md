@@ -91,12 +91,13 @@ sections:
 
         Esse qui Lorem commodo id laboris. Et ea duis in sint amet cillum
         fugiat.
-      - >-
+      - >
         Esse nostrud anim dolore tempor occaecat sit commodo exercitation aliqua
         quis officia duis ex sit. 
 
         Velit sunt reprehenderit exercitation mollit. Reprehenderit aliquip sunt
-        voluptate laboris ut mollit in deserunt.
+        voluptate laboris ut mollit in deserunt. Esse nostrud anim dolore tempor
+        occaecat sit commodo exercitation aliqua quis officia duis ex sit. 
     type: Accordions
   - colors: colors-a
     elementId: ''
