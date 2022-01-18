@@ -42,7 +42,7 @@ export default function Accordions(props) {
                                         className={
                                             "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                                             (openTab === index
-                                                ? "text-white bg-gray-200"
+                                                ? "text-white bg-gray-400"
                                                 : "text-black bg-white")
                                         }
                                         onClick={e => {
