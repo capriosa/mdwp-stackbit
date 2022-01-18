@@ -54,12 +54,13 @@ export default function Accordions(props) {
                                         role="tablist"
                                         data-sb-field-path=".tab"
                                     >
-                                        <span>{tab}</span>
+
                                         <span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="inline h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="inline-block mr-6 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3.586L7.707 9.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 10.586V7z" clip-rule="evenodd" />
                                             </svg>
                                         </span>
+                                        <span>{tab}</span>
                                     </a>
                                     <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-3 shadow-lg rounded-b-sm">
                                         <div className="px-4 py-1 pt-1 flex-auto">
