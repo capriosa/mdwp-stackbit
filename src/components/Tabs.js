@@ -52,7 +52,7 @@ export default function Tabs(props) {
                                         data-toggle="tab"
                                         href="#link1"
                                         role="tablist"
-                                        data-sb-field-path=".tabs"
+                                        data-sb-field-path=".tab"
                                     >
                                         {tab}
                                     </a>
