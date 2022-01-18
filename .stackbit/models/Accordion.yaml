@@ -1,6 +1,6 @@
 type: object
-name: Tabs
-label: Tabs
+name: Accordions
+label: Accordions
 labelField: label
 extends:
   - Section
@@ -13,12 +13,12 @@ fieldGroups:
     label: Settings
 fields:
   - type: list
-    name: tabs
-    label: Tab title
+    name: accordions
+    label: Item title
     items:
       type: string
   - type: list
-    name: item
-    label: Tab body
+    name: items
+    label: Accordion body
     items:
       type: text
