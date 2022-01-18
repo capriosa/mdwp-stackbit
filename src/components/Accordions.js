@@ -30,7 +30,7 @@ export default function Accordions(props) {
         <>
 
             <div className="flex flex-wrap justify-center">
-                <div className="lg:w-1/4 w-3/4">
+                <div className="lg:w-1/2 w-3/4">
                     <ul
                         className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-col"
                         role="tablist"
