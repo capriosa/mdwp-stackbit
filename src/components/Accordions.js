@@ -22,7 +22,7 @@ const iconMap = {
     twitter: Twitter
 };
 
-export default function Tabs(props) {
+export default function Accordions(props) {
     const [openTab, setOpenTab] = React.useState(0);
 
     return (
@@ -36,13 +36,13 @@ export default function Tabs(props) {
                         role="tablist"
                     >
                         {
-                            props.tabs.map((tab, index) =>
+                            props.accordions.map((tab, index) =>
                                 <li key={index} className="-mb-px mr-2 last:mr-0 flex-auto text-center">
                                     <a
                                         className={
                                             "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                                             (openTab === index
-                                                ? "text-white bg-indigo-600"
+                                                ? "text-white bg-gray-600"
                                                 : "text-black bg-white")
                                         }
                                         onClick={e => {
@@ -56,25 +56,26 @@ export default function Tabs(props) {
                                     >
                                         {tab}
                                     </a>
+                                    <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
+                                        <div className="px-4 py-5 flex-auto">
+                                            <div className="tab-content tab-space">
+                                                {
+                                                    props.items.map((item, index) =>
+                                                        <div className={openTab === index ? "block" : "hidden"} id="link1">
+                                                            <p data-sb-field-path=".item">
+                                                                {item}
+                                                            </p>
+                                                        </div>
+                                                    )}
+                                            </div>
+
+                                        </div>
+                                    </div>
                                 </li>
                             )}
 
                     </ul>
-                    <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
-                        <div className="px-4 py-5 flex-auto">
-                            <div className="tab-content tab-space">
-                                {
-                                    props.item.map((item, index) =>
-                                        <div className={openTab === index ? "block" : "hidden"} id="link1">
-                                            <p data-sb-field-path=".item">
-                                                {item}
-                                            </p>
-                                        </div>
-                                    )}
-                            </div>
 
-                        </div>
-                    </div>
                 </div>
             </div>
         </>
