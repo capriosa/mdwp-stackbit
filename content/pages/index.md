@@ -51,6 +51,9 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
+  - colors: colors-a
+    elementId: ''
+    type: GridCard
   - name: lorem-ipsum
     job: lorem-ipsum
     location: lorem-ipsum
