@@ -69,8 +69,12 @@ sections:
         Dolor sit irure dolor qui officia anim qui culpa elit pariatur quis
         velit. Nostrud irure exercitation eu id.
       - >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        Nostrud pariatur tempor irure incididunt in. Aute elit esse ad laborum. 
+
+        Pariatur officia deserunt non enim esse fugiat esse exercitation. 
+
+        Reprehenderit eiusmod veniam qui do laborum adipisicing culpa cillum
+        irure amet.
     type: Accordions
   - colors: colors-a
     elementId: ''
