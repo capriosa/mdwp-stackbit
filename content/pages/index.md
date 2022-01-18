@@ -84,8 +84,13 @@ sections:
         Officia incididunt proident eu laboris eiusmod officia ipsum laboris
         occaecat minim pariatur dolor ut.
       - >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        Elit aute ipsum Lorem aute nostrud veniam exercitation irure eiusmod. 
+
+        Aute laborum adipisicing sunt duis nulla incididunt ipsum eu voluptate
+        ad velit. 
+
+        Esse qui Lorem commodo id laboris. Et ea duis in sint amet cillum
+        fugiat.
     type: Accordions
   - colors: colors-a
     elementId: ''
