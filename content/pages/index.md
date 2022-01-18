@@ -92,6 +92,22 @@ sections:
         fugiat.
     type: Accordions
   - colors: colors-a
+    body: >-
+      One platform, one community, getting to the bottom line of everything
+      employment.  Figure out your benefits, practice for interviews, get
+      mentored, help peers, get helped in return.
+    label: Infos
+    altText: Learn more
+    url: Schliessen
+    showIcon: true
+    icon: arrowRight
+    iconPosition: right
+    style: secondary
+    elementId: ''
+    type: PopupLink
+    title: Popup Titel
+    close: Schliessen
+  - colors: colors-a
     elementId: ''
     tabs:
       - Tab 1
@@ -124,22 +140,6 @@ sections:
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.
     type: Tabs
-  - colors: colors-a
-    body: >-
-      One platform, one community, getting to the bottom line of everything
-      employment.  Figure out your benefits, practice for interviews, get
-      mentored, help peers, get helped in return.
-    label: Infos
-    altText: Learn more
-    url: Schliessen
-    showIcon: true
-    icon: arrowRight
-    iconPosition: right
-    style: secondary
-    elementId: ''
-    type: PopupLink
-    title: Popup Titel
-    close: Schliessen
   - elementId: ''
     variant: variant-c
     colors: colors-h
