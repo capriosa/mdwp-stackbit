@@ -1,56 +1,24 @@
 ---
 title: Home
 sections:
-  - elementId: ''
-    colors: colors-f
-    title: Love where you work
-    subtitle: ''
-    text: >-
-      One platform, one community, getting to the bottom line of everything
-      employment.  Figure out your benefits, practice for interviews, get
-      mentored, help peers, get helped in return.
-    actions:
-      - type: Button
-        label: Sign Up
-        url: /
-        style: primary
-      - type: Link
-        label: Learn More
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-    media:
-      type: ImageBlock
-      url: /images/hero-3.jpg
-      altText: Hero image
-    backgroundImage: null
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-12
-          - pb-12
-          - pl-4
-          - pr-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
-    type: HeroSection
+  - colors: colors-a
+    elementId: ''
+    type: GridCard
+  - name: lorem-ipsum
+    job: lorem-ipsum
+    location: lorem-ipsum
+    description: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    button: lorem-ipsum
+    facebook: lorem-ipsum
+    twitter: lorem-ipsum
+    github: lorem-ipsum
+    unsplash: lorem-ipsum
+    dribbble: lorem-ipsum
+    instagram: lorem-ipsum
+    youtube: lorem-ipsum
+    type: ProfileCard
   - colors: colors-a
     elementId: ''
     accordions:
