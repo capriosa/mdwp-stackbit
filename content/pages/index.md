@@ -59,7 +59,10 @@ sections:
       - Qustion 3
       - 'Question 4 '
       - Qustion 5
-    items: []
+    items:
+      - >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
     type: Accordions
   - colors: colors-a
     elementId: ''
