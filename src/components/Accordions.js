@@ -40,7 +40,7 @@ export default function Accordions(props) {
                                 <li key={index} className="-mb-px mr-2 last:mr-0 flex-auto transition-all">
                                     <a
                                         className={
-                                            "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded-t-sm rounded-l-lg block leading-normal " +
+                                            "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded-t-sm  block leading-normal " +
                                             (openTab === index
                                                 ? "text-white bg-gray-400"
                                                 : "text-black bg-white")
