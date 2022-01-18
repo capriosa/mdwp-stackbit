@@ -59,15 +59,14 @@ export default function Accordions(props) {
                                     <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
                                         <div className="px-4 py-5 flex-auto">
                                             <div className="tab-content tab-space">
-                                                {
-                                                    props.items.map((item, index) =>
-                                                        <div className={openTab === index ? "block" : "hidden"} id="link1">
-                                                            <p key={index} data-sb-field-path=".items">
-                                                                {item} <br />
-                                                                {index}
-                                                            </p>
-                                                        </div>
-                                                    )}
+
+                                                <div className={openTab === index ? "block" : "hidden"} id="link1">
+                                                    <p key={index} data-sb-field-path=".items">
+                                                        {props.items[index]} <br />
+                                                        {index}
+                                                    </p>
+                                                </div>
+
                                             </div>
 
                                         </div>
