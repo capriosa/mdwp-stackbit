@@ -34,6 +34,7 @@ export default function Section(props) {
                 borderWidth: `${sectionBorderWidth}px`
             }}
         >
+            Hello Section
         </div>
     )
 
