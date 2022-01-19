@@ -15,13 +15,12 @@ export default function Eventbrite(props) {
     const sectionBorderWidth = sectionStyles.borderWidth ? sectionStyles.borderWidth : 0;
 
     return (
-
         <Section
             cssId={cssId}
             colors={colors}
             sectionStyles={sectionStyles}
-            event={<Event eventbriteId={props.eventbriteId} />} />
-
+            event={<Event eventbriteId={props.eventbriteId} />}
+        />
     );
 }
 
