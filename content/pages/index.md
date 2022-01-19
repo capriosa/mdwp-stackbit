@@ -1,7 +1,7 @@
 ---
 title: Home
 sections:
-  - colors: colors-f
+  - colors: colors-h
     elementId: ''
     type: GridCard
   - name: lorem-ipsum
