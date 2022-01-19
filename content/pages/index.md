@@ -1,8 +1,7 @@
 ---
 title: Home
 sections:
-  - eventbriteId: lorem-ipsum
-    type: Eventbrite
+  - type: Eventbrite
   - colors: colors-a
     elementId: ''
     type: GridCard
