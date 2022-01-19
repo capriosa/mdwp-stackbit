@@ -6,6 +6,7 @@ import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/ut
 
 
 export default function Section(props) {
+    console.log(props)
     const cssId = props.cssId;
     const colors = props.colors;
     const sectionStyles = props.sectionStyles;
