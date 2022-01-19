@@ -34,7 +34,7 @@ export default function Section(props) {
                 borderWidth: `${sectionBorderWidth}px`
             }}
         >
-            {props.event}
+            {props.component}
         </div>
     )
 
