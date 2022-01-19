@@ -19,7 +19,7 @@ export default function Eventbrite(props) {
             cssId={cssId}
             colors={colors}
             sectionStyles={sectionStyles}
-            event={<Event eventbriteId={props.eventbriteId} />}
+            component={<Event eventbriteId={props.eventbriteId} />}
         />
     );
 }
