@@ -1,13 +1,31 @@
 import * as React from 'react';
 import { useState } from 'react';
 import classNames from 'classnames';
+import Section from './Section';
 
 
 
 
 export default function GridCard(props) {
 
+    const cssId = props.elementId || null;
+    const colors = props.colors || 'colors-a';
+    const sectionStyles = props.styles?.self || {};
+    const sectionBorderWidth = sectionStyles.borderWidth ? sectionStyles.borderWidth : 0;
 
+    return (
+
+        <Section
+            cssId={cssId}
+            colors={colors}
+            sectionStyles={sectionStyles}
+            component={<Grid />} />
+
+    );
+}
+
+
+function Grid() {
     return (
         <>
             <div class="container my-12 mx-auto px-4 md:px-12">
@@ -214,7 +232,7 @@ export default function GridCard(props) {
                                 <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random" />
                             </a>
 
-                            <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                            <header class="flex items-center bg-white justify-between leading-tight p-2 md:p-4">
                                 <h1 class="text-lg">
                                     <a class="no-underline hover:underline text-black" href="#">
                                         Article Title
@@ -225,7 +243,7 @@ export default function GridCard(props) {
                     </p>
                             </header>
 
-                            <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                            <footer class="flex items-center bg-white justify-between leading-none p-2 md:p-4">
                                 <a class="flex items-center no-underline hover:underline text-black" href="#">
                                     <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random" />
                                     <p class="ml-2 text-sm">
@@ -249,3 +267,4 @@ export default function GridCard(props) {
         </>
     );
 }
+
