@@ -51,6 +51,7 @@ sections:
     styles:
       self:
         width: wide
+        justifyContent: center
   - name: lorem-ipsum
     job: lorem-ipsum
     location: lorem-ipsum
