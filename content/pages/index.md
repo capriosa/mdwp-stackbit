@@ -53,6 +53,7 @@ sections:
         width: wide
         justifyContent: center
         flexDirection: row
+        height: auto
   - name: lorem-ipsum
     job: lorem-ipsum
     location: lorem-ipsum
