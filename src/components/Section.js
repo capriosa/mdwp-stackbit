@@ -7,10 +7,10 @@ import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/ut
 
 export default function Section(props) {
 
-    const cssId = props.cssId;
-    const colors = props.colors;
-    const sectionStyles = props.sectionStyles;
-    const sectionBorderWidth = sectionStyles.borderWidth ? sectionStyles.borderWidth : 0;
+    const cssId = props.cssId || 0;
+    const colors = props.colors || 'color-a';
+    const sectionStyles = props.sectionStyles || '';
+    const sectionBorderWidth = sectionStyles.borderWidth || 0;
     return (
         <div
             id={cssId}
