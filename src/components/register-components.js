@@ -17,7 +17,7 @@ registerComponents({
     GridCard: dynamic(() => import('./GridCard')),
     Accordions: dynamic(() => import('./Accordions')),
     Eventbrite: dynamic(() => import('./Eventbrite')),
-    //Section: dynamic(() => import('./Section')),
+    Section: dynamic(() => import('./Section')),
     //ImageBlock: dynamic(() => import('./ImageBlock')),
 });
 
