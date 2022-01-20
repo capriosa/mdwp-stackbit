@@ -10,7 +10,7 @@ export default function Section(props) {
     const cssId = props.cssId;
     const colors = props.colors;
     const sectionStyles = props.sectionStyles;
-    //const sectionBorderWidth = sectionStyles.borderWidth ? sectionStyles.borderWidth : 0;
+    const sectionBorderWidth = sectionStyles.borderWidth ? sectionStyles.borderWidth : 0;
     return (
         <div
             id={cssId}
@@ -23,7 +23,7 @@ export default function Section(props) {
                 'flex-col',
                 'justify-center',
                 'relative',
-                //sectionStyles.height ? mapMinHeightStyles(sectionStyles.height) : null,
+                sectionStyles.height ? mapMinHeightStyles(sectionStyles.height) : null,
                 sectionStyles.margin,
                 sectionStyles.padding,
                 sectionStyles.borderColor,
