@@ -50,7 +50,7 @@ sections:
     type: GridCard
     styles:
       self:
-        width: narrow
+        width: wide
         justifyContent: center
         flexDirection: row
   - name: lorem-ipsum
