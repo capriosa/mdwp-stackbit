@@ -50,7 +50,7 @@ sections:
     type: GridCard
     styles:
       self:
-        width: narrow
+        width: wide
   - name: lorem-ipsum
     job: lorem-ipsum
     location: lorem-ipsum
