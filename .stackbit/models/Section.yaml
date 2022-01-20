@@ -1,6 +1,6 @@
 type: object
 name: Section
-label: CTA
+label: Section
 labelField: title
 thumbnail: https://assets.stackbit.com/components/models/thumbnails/default.png
 extends:
