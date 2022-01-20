@@ -23,7 +23,7 @@ export default function Section(props) {
                 'flex-col',
                 'justify-center',
                 'relative',
-                sectionStyles.height ? mapMinHeightStyles(sectionStyles.height) : null,
+                //sectionStyles.height ? mapMinHeightStyles(sectionStyles.height) : null,
                 sectionStyles.margin,
                 sectionStyles.padding,
                 sectionStyles.borderColor,
