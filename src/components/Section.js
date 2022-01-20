@@ -34,7 +34,26 @@ export default function Section(props) {
                 borderWidth: `${sectionBorderWidth}px`
             }}
         >
-            {props.component}
+            <div
+                className={classNames(
+                    'flex',
+                    'relative',
+                    'w-full',
+                    sectionStyles.justifyContent ? mapStyles({ justifyContent: sectionStyles.justifyContent }) : null
+                )}
+            >
+                <div className={classNames('w-full', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null)}>
+                    <div
+                        className={classNames(
+                            'flex',
+                            '-mx-4',
+                            sectionStyles.flexDirection ? mapFlexDirectionStyles(sectionStyles.flexDirection) : null,
+                            sectionStyles.alignItems ? mapStyles({ alignItems: sectionStyles.alignItems }) : null
+                        )}
+                    ></div>
+                    {props.component}
+                </div>
+            </div>
         </div>
     )
 
