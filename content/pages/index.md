@@ -48,6 +48,9 @@ sections:
   - colors: colors-a
     elementId: ''
     type: GridCard
+    styles:
+      self:
+        width: wide
   - name: lorem-ipsum
     job: lorem-ipsum
     location: lorem-ipsum
