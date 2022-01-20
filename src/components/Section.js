@@ -34,8 +34,59 @@ export default function Section(props) {
                 borderWidth: `${sectionBorderWidth}px`
             }}
         >
-            {props.component}
+            <div
+                className={classNames(
+                    'flex',
+                    'relative',
+                    'w-full',
+                    sectionStyles.justifyContent ? mapStyles({ justifyContent: sectionStyles.justifyContent }) : null
+                )}
+            >
+                <div className={classNames('w-full', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null)}>
+                    <div
+                        className={classNames(
+                            'flex',
+                            '-mx-4',
+                            sectionStyles.flexDirection ? mapFlexDirectionStyles(sectionStyles.flexDirection) : null,
+                            sectionStyles.alignItems ? mapStyles({ alignItems: sectionStyles.alignItems }) : null
+                        )}
+                    ></div>
+                    {props.component}
+                </div>
+            </div>
         </div>
     )
 
+}
+
+function mapMinHeightStyles(height) {
+    switch (height) {
+        case 'auto':
+            return 'min-h-0';
+        case 'screen':
+            return 'min-h-screen';
+    }
+    return null;
+}
+
+function mapMaxWidthStyles(width) {
+    switch (width) {
+        case 'narrow':
+            return 'max-w-screen-md';
+        case 'wide':
+            return 'max-w-screen-xl';
+        case 'full':
+            return 'max-w-full';
+    }
+    return null;
+}
+
+function mapFlexDirectionStyles(flexDirection) {
+    switch (flexDirection) {
+        case 'row':
+            return ['flex-col', 'lg:flex-row', 'lg:justify-between'];
+        case 'col':
+            return ['flex-col'];
+    }
+    return null;
 }
