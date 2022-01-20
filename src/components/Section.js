@@ -58,3 +58,35 @@ export default function Section(props) {
     )
 
 }
+
+function mapMinHeightStyles(height) {
+    switch (height) {
+        case 'auto':
+            return 'min-h-0';
+        case 'screen':
+            return 'min-h-screen';
+    }
+    return null;
+}
+
+function mapMaxWidthStyles(width) {
+    switch (width) {
+        case 'narrow':
+            return 'max-w-screen-md';
+        case 'wide':
+            return 'max-w-screen-xl';
+        case 'full':
+            return 'max-w-full';
+    }
+    return null;
+}
+
+function mapFlexDirectionStyles(flexDirection) {
+    switch (flexDirection) {
+        case 'row':
+            return ['flex-col', 'lg:flex-row', 'lg:justify-between'];
+        case 'col':
+            return ['flex-col'];
+    }
+    return null;
+}
