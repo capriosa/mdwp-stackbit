@@ -120,17 +120,6 @@ sections:
       text:
         textAlign: center
     type: CodeSection
-    text: |2-
-
-
-        return (
-          <div>
-          <Highlight className='javascript'>
-           {code}
-          </Highlight>
-          </div>
-        );
-      });
   - elementId: ''
     colors: colors-a
     title: Love where you work
