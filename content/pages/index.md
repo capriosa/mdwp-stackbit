@@ -90,7 +90,7 @@ sections:
           opacity: 100
       type: ImageBlock
     colors: colors-f
-    title: The Section Title
+    title: Code
     subtitle: The section subtitle
     styles:
       self:
