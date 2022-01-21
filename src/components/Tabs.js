@@ -29,10 +29,10 @@ export default function Tabs(props) {
 
         <>
 
-            <div className="flex flex-wrap justify-center flex-col">
+            <div className="flex flex-wrap justify-center">
                 <div className="w-3/4">
                     <ul
-                        className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-col"
+                        className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
                         role="tablist"
                     >
                         {
