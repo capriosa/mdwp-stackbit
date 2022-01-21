@@ -91,7 +91,7 @@ sections:
       type: ImageBlock
     colors: colors-f
     title: Code
-    subtitle: The section subtitle
+    subtitle: Syntax Highlighting in Stackbit
     styles:
       self:
         height: auto
