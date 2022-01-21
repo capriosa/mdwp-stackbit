@@ -5,7 +5,7 @@ sections:
     quote: |
       This is a Stackbit Demo-Site. It shows some of my Stackbit components.
     name: Meinolf Droste
-    title: Product Marketing Manager at Acme
+    title: mdwp
     backgroundImage:
       url: 'https://assets.stackbit.com/components/images/default/bg.jpg'
       altText: Product Marketing Manager Quote
