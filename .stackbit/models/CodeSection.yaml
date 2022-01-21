@@ -1,6 +1,6 @@
 type: object
-name: Section
-label: Section
+name: CodeSection
+label: Code block
 labelField: title
 thumbnail: https://assets.stackbit.com/components/models/thumbnails/default.png
 extends:
@@ -15,12 +15,24 @@ fieldGroups:
 fields:
   - name: colors
     default: colors-f
-  - type: model
-    name: backgroundImage
-    group: styles
-    label: Background image
-    models:
-      - ImageBlock
+  - type: string
+    name: title
+    label: Title
+    default: The Section Title
+  - type: string
+    name: subtitle
+    label: Subtitle
+    default: The section subtitle
+  - type: markdown
+    name: text
+    label: Text
+    default: |-
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
+      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+      Sed ut perspiciatis undeomnis iste natus error sit voluptatem accusantium
+      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
+      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
   - type: style
     name: styles
     styles:
@@ -29,9 +41,7 @@ fields:
         width: ['narrow', 'wide', 'full']
         margin: ['tw0:36']
         padding: ['tw4:36']
-        alignItems: ['flex-start', 'flex-end', 'center']
         justifyContent: ['flex-start', 'flex-end', 'center']
-        flexDirection: ['row', 'col']
         borderRadius: '*'
         borderWidth: ['0:8']
         borderStyle: '*'
@@ -55,26 +65,28 @@ fields:
         fontWeight: ['400', '700']
         fontStyle: ['normal', 'italic']
         textAlign: ['left', 'center', 'right']
+      subtitle:
+        fontWeight: ['400', '700']
+        fontStyle: ['normal', 'italic']
+        textAlign: ['left', 'center', 'right']
       text:
         textAlign: ['left', 'center', 'right']
-      actions:
-        justifyContent: ['flex-start', 'flex-end', 'center']
     default:
       self:
         height: auto
         width: wide
         margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
         padding: ['pt-12', 'pb-12', 'pl-4', 'pr-4']
-        alignItems: center
         justifyContent: center
-        flexDirection: row
         borderRadius: none
         borderWidth: 0
         borderStyle: none
         borderColor: border-dark
       title:
-        textAlign: left
+        textAlign: center
+      subtitle:
+        fontWeight: 400
+        fontStyle: normal
+        textAlign: center
       text:
-        textAlign: left
-      actions:
-        justifyContent: 'flex-start'
+        textAlign: center

@@ -1,6 +1,85 @@
 ---
 title: Home
 sections:
+  - colors: colors-a
+    quote: |-
+      “It’s great to see someone taking action while still maintaining a
+      sustainable fish supply to home cooks.”
+    name: Johnna Doe
+    title: Product Marketing Manager at Acme
+    backgroundImage:
+      url: 'https://assets.stackbit.com/components/images/default/bg.jpg'
+      altText: Product Marketing Manager Quote
+      styles:
+        self:
+          opacity: 100
+    styles:
+      self:
+        height: auto
+        width: narrow
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-36
+          - pb-36
+          - pl-4
+          - pr-4
+        justifyContent: center
+      quote:
+        textAlign: left
+      name:
+        fontWeight: 400
+        fontStyle: normal
+        textAlign: left
+      title:
+        fontWeight: 400
+        fontStyle: normal
+        textAlign: left
+    type: QuoteSection
+  - backgroundImage:
+      url: 'https://assets.stackbit.com/components/images/default/default-image.png'
+      altText: altText of the image
+      caption: Caption of the image
+      elementId: ''
+      styles:
+        self:
+          opacity: 100
+      type: ImageBlock
+    colors: colors-a
+    title: The Section Title
+    subtitle: ''
+    text: >-
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
+      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+      Sed ut perspiciatis undeomnis iste natus error sit voluptatem accusantium
+      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
+      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+    styles:
+      self:
+        height: auto
+        width: narrow
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-24
+          - pb-24
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+      text:
+        textAlign: center
+    type: TextSection
   - elementId: ''
     colors: colors-a
     title: Love where you work
@@ -45,6 +124,54 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
+  - backgroundImage:
+      url: 'https://assets.stackbit.com/components/images/default/default-image.png'
+      altText: altText of the image
+      caption: Caption of the image
+      elementId: ''
+      styles:
+        self:
+          opacity: 100
+      type: ImageBlock
+    variant: variant-c
+    colors: colors-h
+    title: Featured
+    subtitle: Featured blog posts section example
+    actions:
+      - type: Button
+        label: View All
+        altText: View All Posts
+        url: /blog
+        style: primary
+    posts:
+      - content/pages/blog/post-three.md
+      - content/pages/blog/post-two.md
+      - content/pages/blog/postlayout-9s1at0idp.md
+      - content/pages/blog/post-one.md
+    showDate: false
+    showAuthor: false
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+      actions:
+        justifyContent: center
+    type: FeaturedPostsSection
   - colors: colors-a
     elementId: ''
     type: GridCard
