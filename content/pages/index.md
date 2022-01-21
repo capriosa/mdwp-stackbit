@@ -2,9 +2,8 @@
 title: Home
 sections:
   - colors: colors-a
-    quote: |-
-      “It’s great to see someone taking action while still maintaining a
-      sustainable fish supply to home cooks.”
+    quote: |
+      This is a Stackbit Demo-Site. It shows some of my Stackbit components.
     name: Johnna Doe
     title: Product Marketing Manager at Acme
     backgroundImage:
