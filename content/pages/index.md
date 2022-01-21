@@ -120,6 +120,40 @@ sections:
       text:
         textAlign: center
     type: CodeSection
+    text: >-
+      //CodeWidgetComponent.js - Hier wird die React-Komponente importiert und
+      im Scrivito Widget aufgerufen
+
+      import * as React from 'react';
+
+      import * as Scrivito from 'scrivito';
+
+      import Highlight from 'react-highlight';
+
+      import InPlaceEditingPlaceholder from
+      '../../Components/InPlaceEditingPlaceholder';
+
+
+      Scrivito.provideComponent('CodeWidget', ({ widget }) => {
+
+      const code = widget.get('text')
+        
+      if (!code.length) {
+          return (
+            <InPlaceEditingPlaceholder center={ true }>
+              Select blocks in the widget properties.
+            </InPlaceEditingPlaceholder>
+          );
+        }
+
+        return (
+          <div>
+          <Highlight className='javascript'>
+           {code}
+          </Highlight>
+          </div>
+        );
+      });
   - elementId: ''
     colors: colors-a
     title: Love where you work
