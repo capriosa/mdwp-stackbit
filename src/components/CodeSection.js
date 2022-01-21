@@ -59,6 +59,7 @@ function textBody(props) {
             {props.text && (
                 <Highlight
                     data-sb-field-path=".text"
+                    mt-12
                 >
                     {props.text}
                 </Highlight>
