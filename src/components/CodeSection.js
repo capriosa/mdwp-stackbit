@@ -59,7 +59,7 @@ function textBody(props) {
             {props.text && (
                 <Highlight
                     data-sb-field-path=".text"
-                    className="javascript mt-12 shadow-2xl rounded"
+                    className="react mt-12 shadow-2xl rounded"
                 >
                     {props.text}
                 </Highlight>
