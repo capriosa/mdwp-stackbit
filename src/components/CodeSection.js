@@ -58,8 +58,6 @@ function textBody(props) {
             )}
             {props.text && (
                 <Highlight
-                    options={{ forceBlock: true, forceWrapper: true }}
-                    className={classNames('sb-markdown', 'sm:text-lg', styles.text ? mapStyles(styles.text) : null, { 'mt-6': props.title || props.subtitle })}
                     data-sb-field-path=".text"
                 >
                     {props.text}
