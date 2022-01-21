@@ -1,7 +1,9 @@
 import * as React from 'react';
 import Markdown from 'markdown-to-jsx';
 import classNames from 'classnames';
-import { mapStylesToClassNames as mapStyles } from '../../utils/map-styles-to-class-names';
+import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/utils/map-styles-to-class-names';
+
+import Highlight from 'react-highlight';
 
 export default function CodeSection(props) {
     const cssId = props.elementId || null;
@@ -55,13 +57,12 @@ function textBody(props) {
                 </p>
             )}
             {props.text && (
-                <Markdown
-                    options={{ forceBlock: true, forceWrapper: true }}
-                    className={classNames('sb-markdown', 'sm:text-lg', styles.text ? mapStyles(styles.text) : null, { 'mt-6': props.title || props.subtitle })}
+                <Highlight
                     data-sb-field-path=".text"
+                    className="javascript mt-12 shadow-2xl rounded"
                 >
                     {props.text}
-                </Markdown>
+                </Highlight>
             )}
         </div>
     );
