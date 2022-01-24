@@ -1,0 +1,13 @@
+type: object
+name: Cart
+label: Cart
+labelField: label
+extends:
+  - Section
+groups:
+  - sectionComponent
+fieldGroups:
+  - name: styles
+    label: Styles
+  - name: settings
+    label: Settings
