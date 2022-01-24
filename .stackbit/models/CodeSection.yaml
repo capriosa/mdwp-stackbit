@@ -23,7 +23,7 @@ fields:
     name: subtitle
     label: Subtitle
     default: The section subtitle
-  - type: markdown
+  - type: text
     name: text
     label: Text
     default: |-

@@ -2,11 +2,10 @@
 title: Home
 sections:
   - colors: colors-a
-    quote: |-
-      “It’s great to see someone taking action while still maintaining a
-      sustainable fish supply to home cooks.”
-    name: Johnna Doe
-    title: Product Marketing Manager at Acme
+    quote: |
+      This is a Stackbit Demo-Site. It shows some of my Stackbit components.
+    name: Meinolf Droste
+    title: mdwp
     backgroundImage:
       url: 'https://assets.stackbit.com/components/images/default/bg.jpg'
       altText: Product Marketing Manager Quote
@@ -80,6 +79,75 @@ sections:
       text:
         textAlign: center
     type: TextSection
+  - backgroundImage:
+      url: 'https://assets.stackbit.com/components/images/default/default-image.png'
+      altText: altText of the image
+      caption: Caption of the image
+      elementId: ''
+      styles:
+        self:
+          opacity: 100
+      type: ImageBlock
+    colors: colors-f
+    title: Code
+    subtitle: Syntax Highlighting in Stackbit
+    styles:
+      self:
+        height: auto
+        width: full
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        justifyContent: flex-start
+        borderRadius: none
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-dark
+      title:
+        textAlign: center
+      subtitle:
+        fontWeight: 400
+        fontStyle: normal
+        textAlign: center
+      text:
+        textAlign: center
+    type: CodeSection
+    text: |-
+      function textBody(props) {
+          const styles = props.styles || {};
+          return (
+              <div>
+                  {props.title && (
+                      <h2 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path=".title">
+                          {props.title}
+                      </h2>
+                  )}
+                  {props.subtitle && (
+                      <p
+                          className={classNames('text-xl', 'sm:text-2xl', styles.subtitle ? mapStyles(styles.subtitle) : null, { 'mt-2': props.title })}
+                          data-sb-field-path=".subtitle"
+                      >
+                          {props.subtitle}
+                      </p>
+                  )}
+                  {props.text && (
+                      <Highlight
+                          data-sb-field-path=".text"
+                          className="mt-12 shadow-2xl rounded"
+                      >
+                          {props.text}
+                      </Highlight>
+                  )}
+              </div>
+          );
+      }
   - elementId: ''
     colors: colors-a
     title: Love where you work
@@ -278,7 +346,7 @@ sections:
     showIcon: true
     icon: arrowRight
     iconPosition: right
-    style: secondary
+    style: primary
     elementId: ''
     type: PopupLink
     title: Popup Titel
