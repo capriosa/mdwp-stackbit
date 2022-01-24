@@ -1,9 +1,4 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import '@stackbit/components/styles/default.css';
-import "tailwindcss/base";
-import "tailwindcss/components";
-import "tailwindcss/utilities";
-import '../css/theme.css';
 
 class MyDocument extends Document {
   render() {
