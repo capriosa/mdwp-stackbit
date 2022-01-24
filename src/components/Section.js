@@ -4,9 +4,8 @@ import classNames from 'classnames';
 import { getComponent } from '@stackbit/components/dist/components-registry';
 import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/utils/map-styles-to-class-names';
 
-
 export default function Section(props) {
-
+    console.log(props);
     const cssId = props.cssId || 0;
     const colors = props.colors || 'color-a';
     const sectionStyles = props.sectionStyles || '';
@@ -50,13 +49,14 @@ export default function Section(props) {
                             sectionStyles.flexDirection ? mapFlexDirectionStyles(sectionStyles.flexDirection) : null,
                             sectionStyles.alignItems ? mapStyles({ alignItems: sectionStyles.alignItems }) : null
                         )}
-                    ></div>
+                    >
+                        Hallo
+                    </div>
                     {props.component}
                 </div>
             </div>
         </div>
-    )
-
+    );
 }
 
 function mapMinHeightStyles(height) {
