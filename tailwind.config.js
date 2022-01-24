@@ -1,19 +1,7 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
-
 module.exports = {
-    content: ['./src/**/*.{js,ts,jsx,tsx}'],
-    darkMode: false,
+    content: [],
     theme: {
-        extend: {
-            fontFamily: {
-                sans: ['Inter', ...defaultTheme.fontFamily.sans]
-            }
-        }
+        extend: {}
     },
-    variants: {
-        extend: {
-            backgroundColor: ['checked']
-        }
-    },
-    plugins: [require('@tailwindcss/typography')]
+    plugins: []
 };
