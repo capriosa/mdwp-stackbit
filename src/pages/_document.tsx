@@ -3,7 +3,7 @@ import '@stackbit/components/styles/default.css';
 import "tailwindcss/base";
 import "tailwindcss/components";
 import "tailwindcss/utilities";
-import 'theme.css';
+import '../css/theme.css';
 
 class MyDocument extends Document {
   render() {
