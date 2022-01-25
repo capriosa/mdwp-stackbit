@@ -50,7 +50,7 @@ export default function Section(props) {
                             sectionStyles.alignItems ? mapStyles({ alignItems: sectionStyles.alignItems }) : null
                         )}
                     >
-                        Hallo
+
                     </div>
                     {props.component}
                 </div>
