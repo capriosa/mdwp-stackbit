@@ -1,0 +1,13 @@
+{
+  "/[[...slug]]": "pages/[[...slug]].js",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/api/products/[id]": "pages/api/products/[id].js",
+  "/api/snipcart/shipping": "pages/api/snipcart/shipping.js",
+  "/api/snipcart/tax": "pages/api/snipcart/tax.js",
+  "/api/snipcart/webhook": "pages/api/snipcart/webhook.js",
+  "/shop": "pages/shop.js",
+  "/wishlist": "pages/wishlist.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
