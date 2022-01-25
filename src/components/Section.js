@@ -9,6 +9,7 @@ export default function Section(props) {
     const colors = props.colors || 'color-a';
     const sectionStyles = props.sectionStyles || '';
     const sectionBorderWidth = sectionStyles.borderWidth || 0;
+    console.log(props)
     return (
         <div
             id={cssId}
