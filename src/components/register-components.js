@@ -19,7 +19,8 @@ registerComponents({
     Eventbrite: dynamic(() => import('./Eventbrite')),
     Section: dynamic(() => import('./Section')),
     Cart: dynamic(() => import('./Cart')),
-    CodeSection: dynamic(() => import('./CodeSection'))
+    CodeSection: dynamic(() => import('./CodeSection')),
+    Product: dynamic(() => import('./Product')),
     //ImageBlock: dynamic(() => import('./ImageBlock')),
 });
 
