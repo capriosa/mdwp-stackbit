@@ -28,7 +28,7 @@ export const getStaticProps: GetStaticProps = async () => {
     const allProducts = await Promise.all(
         productIds.map(async ({ id }) => await printful.get(`sync/products/${id}`))
     );
-    console.log(allProducts)
+    console.log("All: ", allProducts)
     const products: PrintfulProduct[] = allProducts.map(
         ({ result: { sync_product, sync_variants } }) => ({
             ...sync_product,
