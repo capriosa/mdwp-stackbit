@@ -10,7 +10,7 @@ import { withRemoteDataUpdates } from 'sourcebit-target-next/with-remote-data-up
 import { getComponent } from '@stackbit/components';
 
 const ProductGrid = ({ products }) => {
-    //if (!products || products.length === 0) return null;
+    if (!products || products.length === 0) return null;
     console.log(products)
     return (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
