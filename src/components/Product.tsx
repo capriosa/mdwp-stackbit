@@ -13,7 +13,7 @@ const Product = (product) => {
     const { id, name, variants } = product;
     const [firstVariant] = variants;
     const oneStyle = variants.length === 1;
-
+    console.log(product);
     const [activeVariantExternalId, setActiveVariantExternalId] = useState(
         firstVariant.external_id
     );
@@ -37,6 +37,7 @@ const Product = (product) => {
 
     return (
         <article className="border border-gray-200 rounded bg-white flex flex-col relative">
+            <h1>Shop</h1>
             <button
                 aria-label="Add to wishlist"
                 className="appearance-none absolute top-0 right-0 mt-3 mr-3 text-gray-300 focus:text-gray-500 hover:text-red-500 transition focus:outline-none"
