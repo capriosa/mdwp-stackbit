@@ -11,7 +11,7 @@ import { getComponent } from '@stackbit/components';
 
 const ProductGrid = ({ products }) => {
     if (!products || products.length === 0) return null;
-    console.log(products)
+    console.log("products: ", products)
     return (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <h1>Shop</h1>
@@ -28,7 +28,7 @@ export const getStaticProps: GetStaticProps = async () => {
     const allProducts = await Promise.all(
         productIds.map(async ({ id }) => await printful.get(`sync/products/${id}`))
     );
-
+    console.log(allProducts)
     const products: PrintfulProduct[] = allProducts.map(
         ({ result: { sync_product, sync_variants } }) => ({
             ...sync_product,
