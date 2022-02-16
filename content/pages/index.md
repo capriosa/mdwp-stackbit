@@ -39,43 +39,6 @@ sections:
       actions:
         justifyContent: flex-start
     type: ProductGrid
-  - colors: colors-a
-    quote: |
-      This is a Stackbit Demo-Site. It shows some of my Stackbit components.
-    name: Meinolf Droste
-    title: mdwp
-    backgroundImage:
-      url: 'https://assets.stackbit.com/components/images/default/bg.jpg'
-      altText: Product Marketing Manager Quote
-      styles:
-        self:
-          opacity: 100
-    styles:
-      self:
-        height: auto
-        width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-36
-          - pb-36
-          - pl-4
-          - pr-4
-        justifyContent: center
-      quote:
-        textAlign: left
-      name:
-        fontWeight: 400
-        fontStyle: normal
-        textAlign: left
-      title:
-        fontWeight: 400
-        fontStyle: normal
-        textAlign: left
-    type: QuoteSection
   - colors: colors-f
     backgroundImage:
       url: 'https://assets.stackbit.com/components/images/default/default-image.png'
@@ -114,6 +77,43 @@ sections:
       actions:
         justifyContent: flex-start
     type: ProductGrid
+  - colors: colors-a
+    quote: |
+      This is a Stackbit Demo-Site. It shows some of my Stackbit components.
+    name: Meinolf Droste
+    title: mdwp
+    backgroundImage:
+      url: 'https://assets.stackbit.com/components/images/default/bg.jpg'
+      altText: Product Marketing Manager Quote
+      styles:
+        self:
+          opacity: 100
+    styles:
+      self:
+        height: auto
+        width: narrow
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-36
+          - pb-36
+          - pl-4
+          - pr-4
+        justifyContent: center
+      quote:
+        textAlign: left
+      name:
+        fontWeight: 400
+        fontStyle: normal
+        textAlign: left
+      title:
+        fontWeight: 400
+        fontStyle: normal
+        textAlign: left
+    type: QuoteSection
   - backgroundImage:
       url: 'https://assets.stackbit.com/components/images/default/default-image.png'
       altText: altText of the image
