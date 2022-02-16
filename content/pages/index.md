@@ -1,6 +1,44 @@
 ---
 title: Home
 sections:
+  - colors: colors-f
+    backgroundImage:
+      url: 'https://assets.stackbit.com/components/images/default/default-image.png'
+      altText: altText of the image
+      caption: Caption of the image
+      elementId: ''
+      styles:
+        self:
+          opacity: 100
+      type: ImageBlock
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: row
+        borderRadius: none
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-dark
+      title:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    type: ProductGrid
   - colors: colors-a
     quote: |
       This is a Stackbit Demo-Site. It shows some of my Stackbit components.
@@ -38,82 +76,6 @@ sections:
         fontStyle: normal
         textAlign: left
     type: QuoteSection
-  - colors: colors-f
-    backgroundImage:
-      url: 'https://assets.stackbit.com/components/images/default/default-image.png'
-      altText: altText of the image
-      caption: Caption of the image
-      elementId: ''
-      styles:
-        self:
-          opacity: 100
-      type: ImageBlock
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-12
-          - pb-12
-          - pl-4
-          - pr-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
-    type: ProductGrid
-  - colors: colors-f
-    backgroundImage:
-      url: 'https://assets.stackbit.com/components/images/default/default-image.png'
-      altText: altText of the image
-      caption: Caption of the image
-      elementId: ''
-      styles:
-        self:
-          opacity: 100
-      type: ImageBlock
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-12
-          - pb-12
-          - pl-4
-          - pr-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
-    type: ProductGrid
   - backgroundImage:
       url: 'https://assets.stackbit.com/components/images/default/default-image.png'
       altText: altText of the image
