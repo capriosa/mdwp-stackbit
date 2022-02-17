@@ -22,7 +22,7 @@ const AllProductsPage: React.FC<IndexPageProps> = ({ products }) => (
       </h1>
     
     
-    <ProductGrid products={products} grid={true}/>
+    <ProductGrid products={products} />
     
   </>
 );
