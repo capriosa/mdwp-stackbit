@@ -8,7 +8,7 @@ import { PrintfulProduct } from "../types";
 
 import ProductGrid from "./ProductGrid";
 
-export default function Products(products) {
+const Products = ({ products }) => {
     return (
         <>
             <div className="text-center pb-6 md:pb-12">
@@ -45,3 +45,5 @@ export const getStaticProps: GetStaticProps = async () => {
         },
     };
 };
+
+export default Products;
