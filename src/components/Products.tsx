@@ -6,7 +6,7 @@ import { printful } from "../lib/printful-client";
 import { formatVariantName } from "../lib/format-variant-name";
 import { PrintfulProduct } from "../types";
 
-import ProductGrid from "../components/ProductGrid";
+import ProductGrid from "./ProductGrid";
 
 export default function Products(products) {
     return (
