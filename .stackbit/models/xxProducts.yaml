@@ -1,0 +1,8 @@
+type: object
+name: xxProducts
+label: xxProducts
+labelField: label
+extends:
+  - Section
+groups:
+  - sectionComponent
