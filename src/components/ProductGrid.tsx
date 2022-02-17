@@ -15,7 +15,7 @@ const ProductGrid = ({ products }) => {
     return (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <h1>Shop</h1>
-            {products.map((product) => (
+            {products.map((product: { id: any; }) => (
                 <Product key={product.id} {...product} />
             ))}
         </div>
