@@ -1,0 +1,8 @@
+type: object
+name: ProductGrid
+label: ProductGrid
+labelField: label
+extends:
+  - Section
+groups:
+  - sectionComponent
