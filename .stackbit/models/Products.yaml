@@ -1,8 +1,0 @@
-type: object
-name: Products
-label: Products
-labelField: label
-extends:
-  - Section
-groups:
-  - sectionComponent
