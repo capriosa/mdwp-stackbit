@@ -22,7 +22,7 @@ const ProductGrid = ({ products }) => {
     );
 };
 
-export const getStaticProps: GetStaticProps = async () => {
+/*export const getStaticProps: GetStaticProps = async () => {
     const { result: productIds } = await printful.get("sync/products");
 
     const allProducts = await Promise.all(
@@ -44,6 +44,6 @@ export const getStaticProps: GetStaticProps = async () => {
             products: shuffle(products),
         },
     };
-};
+};*/
 
 export default ProductGrid;
