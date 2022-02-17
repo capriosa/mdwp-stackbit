@@ -6,10 +6,6 @@ import { printful } from "../lib/printful-client";
 import { formatVariantName } from "../lib/format-variant-name";
 import { PrintfulProduct } from "../types";
 import ProductGrid from "../components/ProductGrid";
-import { sourcebitDataClient } from 'sourcebit-target-next';
-import { withRemoteDataUpdates } from 'sourcebit-target-next/with-remote-data-updates';
-import { getComponent } from '@stackbit/components';
-
 
 type IndexPageProps = {
   products: PrintfulProduct[];
