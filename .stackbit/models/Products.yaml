@@ -1,6 +1,6 @@
 type: object
-name: xxProducts
-label: xxProducts
+name: Products
+label: Products
 labelField: label
 extends:
   - Section
