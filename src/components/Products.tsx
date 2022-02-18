@@ -7,19 +7,22 @@ import { formatVariantName } from "../lib/format-variant-name";
 import { PrintfulProduct } from "../types";
 
 import ProductGrid from "./ProductGrid";
+import Section from "./Section";
 
 
 
 
 
-const Products = ({ products, body }) => (
+const Products = ({ products }) => (
 
     <>
 
         <h1 className="products-headline">
-            All Products {body}
+            All Products
         </h1>
-
+        <Section
+            component={<ProductGrid products={products} />}
+        />
 
 
 
