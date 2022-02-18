@@ -20,8 +20,7 @@ import { getComponent } from '@stackbit/components';
             ))}
         </div>
     );
-};
+};*/
 
 
 export default ProductGrid;
-*/
