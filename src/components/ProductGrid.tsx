@@ -9,7 +9,7 @@ import { sourcebitDataClient } from 'sourcebit-target-next';
 import { withRemoteDataUpdates } from 'sourcebit-target-next/with-remote-data-updates';
 import { getComponent } from '@stackbit/components';
 
-const ProductGrid = ({ products, body }) => {
+const ProductGrid = ({ body }) => {
     //if (!products || products.length === 0) return null;
     //console.log("products: ", products)
     return (
