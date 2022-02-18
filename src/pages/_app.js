@@ -8,12 +8,12 @@ import { WishlistProvider } from '../context/wishlist';
 
 export default function MyApp({ Component, pageProps }) {
     return (
-        <WishlistProvider>
+        <>
             <Head>
                 <link rel="icon" href="/favicon.svg" />
                 <DefaultSeo {...defaultSEO} />
             </Head>
             <Component {...pageProps} />
-        </WishlistProvider>
+        </>
     );
 }
