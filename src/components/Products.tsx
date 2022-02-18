@@ -20,7 +20,7 @@ const Products = ({ products }) => (
       </h1>
 
 
-        <ProductGrid products={products} />
+
 
     </>
 );
