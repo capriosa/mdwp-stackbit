@@ -65,7 +65,7 @@ export default function Tabs(props) {
                             <div className="tab-content tab-space">
                                 {
                                     props.item.map((item, index) =>
-                                        <div key={index} className={openTab === index ? "block" : "hidden"} id="link1">
+                                        <div className={openTab === index ? "block" : "hidden"} id="link1">
                                             <p data-sb-field-path=".item">
                                                 {item}
                                             </p>
