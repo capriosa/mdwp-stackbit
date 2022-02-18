@@ -20,29 +20,7 @@ const ProductGrid = ({ body }) => {
     );
 };
 
-export const getStaticProps: GetStaticProps = async () => {
-    const { result: productIds } = await printful.get("sync/products");
 
-    const allProducts = await Promise.all(
-        productIds.map(async ({ id }) => await printful.get(`sync/products/${id}`))
-    );
-
-    const products: PrintfulProduct[] = allProducts.map(
-        ({ result: { sync_product, sync_variants } }) => ({
-            ...sync_product,
-            variants: sync_variants.map(({ name, ...variant }) => ({
-                name: formatVariantName(name),
-                ...variant,
-            })),
-        })
-    );
-    console.log(allProducts)
-    return {
-        props: {
-            products: shuffle(products),
-        },
-    };
-};
 
 
 
