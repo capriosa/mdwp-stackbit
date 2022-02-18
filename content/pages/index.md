@@ -38,7 +38,6 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-  - colors: colors-a
     quote: |
       This is a Stackbit Demo-Site. It shows some of my Stackbit components.
     name: Meinolf Droste
