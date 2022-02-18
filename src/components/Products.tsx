@@ -12,13 +12,13 @@ import ProductGrid from "./ProductGrid";
 
 
 
-const Products = ({ products }) => (
+const Products = ({ products, body }) => (
 
     <>
 
         <h1 className="products-headline">
-            All Products
-      </h1>
+            All Products {body}
+        </h1>
 
 
 
