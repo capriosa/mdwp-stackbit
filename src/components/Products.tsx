@@ -13,6 +13,7 @@ import ProductGrid from "./ProductGrid";
 
 
 const Products = ({ products }) => (
+
     <>
 
         <h1 className="products-headline">
@@ -41,7 +42,7 @@ export const getStaticProps: GetStaticProps = async () => {
             })),
         })
     );
-
+    console.log(allProducts)
     return {
         props: {
             products: shuffle(products),
