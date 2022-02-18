@@ -10,15 +10,14 @@ import { withRemoteDataUpdates } from 'sourcebit-target-next/with-remote-data-up
 import { getComponent } from '@stackbit/components';
 
 const ProductGrid = ({ body }) => {
-    //if (!products || products.length === 0) return null;
-    //console.log("products: ", products)
     return (
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <h1>Shop</h1>
-            {body}
+        <div className="py-2 bg-primary text-white text-center">
+            <div className="max-w-xl mx-auto">
+                <p>{body}</p>
+            </div>
         </div>
-    );
-};
+    )
+}
 
 
 
