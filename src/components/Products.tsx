@@ -29,7 +29,7 @@ const Products = ({ products }) => (
     </>
 );
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getStaticProps = async () => {
     const { result: productIds } = await printful.get("sync/products");
 
     const allProducts = await Promise.all(
