@@ -14,10 +14,10 @@ registerComponents({
     ProfileCard: dynamic(() => import('./ProfileCard')),
     Action: dynamic(() => import('./Action')),
     Tabs: dynamic(() => import('./Tabs')),
-    GridCard: dynamic(() => import('./GridCard')),
+    //GridCard: dynamic(() => import('./GridCard')),
     Accordions: dynamic(() => import('./Accordions')),
     //Eventbrite: dynamic(() => import('./Eventbrite')),
-    Section: dynamic(() => import('./Section')),
+    //Section: dynamic(() => import('./Section')),
     //Cart: dynamic(() => import('./Cart')),
     CodeSection: dynamic(() => import('./CodeSection')),
     //ProductGrid: dynamic(() => import('./ProductGrid'))
