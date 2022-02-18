@@ -48,6 +48,8 @@ sections:
       subtitle:
         textAlign: center
     type: MediaGallerySection
+  - eventbriteId: lorem-ipsum
+    type: Eventbrite
   - colors: colors-f
     backgroundImage:
       url: 'https://assets.stackbit.com/components/images/default/default-image.png'
