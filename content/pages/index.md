@@ -48,7 +48,7 @@ sections:
       subtitle:
         textAlign: center
     type: MediaGallerySection
-  - eventbriteId: lorem-ipsum
+  - eventbriteId: '169603411369'
     type: Eventbrite
   - colors: colors-f
     backgroundImage:
