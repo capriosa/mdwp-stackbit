@@ -1,8 +1,11 @@
 type: object
-name: ProductGrid
-label: ProductGrid
+name: Products
+label: Products
 labelField: label
 extends:
   - Section
 groups:
   - sectionComponent
+fields:
+  - type: text
+    name: body

@@ -1,30 +1,35 @@
 import * as React from "react";
 import { GetStaticProps } from "next";
 import shuffle from "lodash.shuffle";
-import Section from "../components/Section";
+
 import { printful } from "../lib/printful-client";
 import { formatVariantName } from "../lib/format-variant-name";
 import { PrintfulProduct } from "../types";
-import ProductGrid from "../components/ProductGrid";
-import { sourcebitDataClient } from 'sourcebit-target-next';
-import { withRemoteDataUpdates } from 'sourcebit-target-next/with-remote-data-updates';
-import { getComponent } from '@stackbit/components';
 
-
-type IndexPageProps = {
-    products: PrintfulProduct[];
-};
-
-const IndexPage: React.FC<IndexPageProps> = ({ products }) => (
-    <ProductGrid products={products} />
+import ProductGrid from "./ProductGrid";
+import Section from "./Section";
 
 
 
 
 
+const Products = ({ products }) => (
+
+    <>
+
+        <h1 className="products-headline">
+            All Products
+        </h1>
+
+        <ProductGrid products={products} />
+
+
+
+
+    </>
 );
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getStaticProps = async () => {
     const { result: productIds } = await printful.get("sync/products");
 
     const allProducts = await Promise.all(
@@ -40,7 +45,7 @@ export const getStaticProps: GetStaticProps = async () => {
             })),
         })
     );
-
+    console.log(allProducts)
     return {
         props: {
             products: shuffle(products),
@@ -48,4 +53,4 @@ export const getStaticProps: GetStaticProps = async () => {
     };
 };
 
-export default IndexPage;
+export default Products;
