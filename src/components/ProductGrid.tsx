@@ -9,11 +9,13 @@ import { sourcebitDataClient } from 'sourcebit-target-next';
 import { withRemoteDataUpdates } from 'sourcebit-target-next/with-remote-data-updates';
 import { getComponent } from '@stackbit/components';
 
-const ProductGrid = ({ body }) => {
+const ProductGrid = ({ products }) => {
     return (
         <div className="py-2 bg-primary text-white text-center">
             <div className="max-w-xl mx-auto">
-                <p>{body}</p>
+                {products.map((product) => (
+                    <Product key={product.id} {...product} />
+                ))}
             </div>
         </div>
     )
