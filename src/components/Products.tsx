@@ -20,9 +20,9 @@ const Products = ({ products }) => (
         <h1 className="products-headline">
             All Products
         </h1>
-        <Section
-            component={<ProductGrid products={products} />}
-        />
+
+        <ProductGrid products={products} />
+
 
 
 
