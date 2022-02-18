@@ -18,7 +18,7 @@ registerComponents({
     Accordions: dynamic(() => import('./Accordions')),
     //Eventbrite: dynamic(() => import('./Eventbrite')),
     Section: dynamic(() => import('./Section')),
-    Cart: dynamic(() => import('./Cart')),
+    //Cart: dynamic(() => import('./Cart')),
     CodeSection: dynamic(() => import('./CodeSection')),
     ProductGrid: dynamic(() => import('./ProductGrid'))
     //ImageBlock: dynamic(() => import('./ImageBlock')),
