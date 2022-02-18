@@ -9,15 +9,13 @@ import { sourcebitDataClient } from 'sourcebit-target-next';
 import { withRemoteDataUpdates } from 'sourcebit-target-next/with-remote-data-updates';
 import { getComponent } from '@stackbit/components';
 
-const ProductGrid = ({ products }) => {
-    if (!products || products.length === 0) return null;
+const ProductGrid = ({ products, body }) => {
+    //if (!products || products.length === 0) return null;
     console.log("products: ", products)
     return (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <h1>Shop</h1>
-            {products.map((product) => (
-                <Product key={product.id} {...product} />
-            ))}
+            {body}
         </div>
     );
 };
