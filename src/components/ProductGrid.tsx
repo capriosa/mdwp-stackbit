@@ -13,6 +13,7 @@ const ProductGrid = ({ products }) => {
     if (!products || products.length === 0) return null;
     return (
         <div className="py-2 bg-primary text-white text-center">
+            <h1>Product Grid</h1>
             <div className="max-w-xl mx-auto">
                 {products.map((product) => (
                     <Product key={product.id} {...product} />
