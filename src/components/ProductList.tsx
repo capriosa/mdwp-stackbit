@@ -7,7 +7,6 @@ import { formatVariantName } from "../lib/format-variant-name";
 import { PrintfulProduct } from "../types";
 
 import ProductGrid from "./ProductGrid";
-import Section from "./Section";
 
 
 
