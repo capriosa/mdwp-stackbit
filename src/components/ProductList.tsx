@@ -13,7 +13,7 @@ import Section from "./Section";
 
 
 
-const Products = ({ products }) => (
+const ProductList = ({ products }) => (
 
     <>
 
@@ -21,7 +21,7 @@ const Products = ({ products }) => (
             All Products
         </h1>
 
-    <ProductGrid products={products} />
+        <ProductGrid products={products} />
 
 
     </>
@@ -51,4 +51,4 @@ export const getStaticProps = async () => {
     };
 };
 
-export default Products;
+export default ProductList;
