@@ -12,15 +12,15 @@ import ProductGrid from "./ProductGrid";
 
 
 
-const Products = ({ products, body }) => (
+const Products = ({ products }) => (
 
     <>
 
         <h1 className="products-headline">
-            All Products {body}
+            All Products
         </h1>
 
-
+    <ProductGrid products={products} />
 
 
     </>
@@ -42,7 +42,7 @@ export const getStaticProps: GetStaticProps = async () => {
             })),
         })
     );
-    console.log(allProducts)
+    console.log("Alle Produkte", allProducts)
     return {
         props: {
             products: shuffle(products),
