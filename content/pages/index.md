@@ -90,7 +90,6 @@ sections:
     body: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       jkk kasdkasd kjk kk tempor incididunt ut labore et dolore magna aliqua.
-    type: ProductList
   - elementId: ''
     colors: colors-a
     title: BID EQUITY
