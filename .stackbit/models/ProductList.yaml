@@ -2,5 +2,10 @@ type: object
 name: ProductList
 label: ProductList
 labelField: label
+extends:
+  - Section
 groups:
   - sectionComponent
+fields:
+  - type: text
+    name: body
