@@ -48,6 +48,8 @@ sections:
       subtitle:
         textAlign: center
     type: MediaGallerySection
+  - eventbriteId: '169603411369'
+    type: Eventbrite
   - colors: colors-f
     backgroundImage:
       url: 'https://assets.stackbit.com/components/images/default/default-image.png'

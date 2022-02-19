@@ -21,9 +21,7 @@ const Products = ({ products }) => (
             All Products
         </h1>
 
-        <ProductGrid products={products} />
-
-
+    <ProductGrid products={products} />
 
 
     </>
@@ -45,7 +43,7 @@ export const getStaticProps = async () => {
             })),
         })
     );
-    console.log(allProducts)
+    console.log("Alle Produkte", allProducts)
     return {
         props: {
             products: shuffle(products),
