@@ -20,7 +20,7 @@ registerComponents({
     Section: dynamic(() => import('./Section')),
     //Cart: dynamic(() => import('./Cart')),
     CodeSection: dynamic(() => import('./CodeSection')),
-    //ProductList: dynamic(() => import('./ProductList')),
+    ProductList: dynamic(() => import('./ProductList')),
     //ImageBlock: dynamic(() => import('./ImageBlock')),
 });
 
