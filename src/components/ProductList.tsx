@@ -18,6 +18,7 @@ const ProductList = ({ products }) => (
 
         <h1 className="products-headline">
             All Products
+            {products}
         </h1>
 
         <ProductGrid products={products} />
