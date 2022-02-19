@@ -4,3 +4,6 @@ label: ProductList
 labelField: label
 groups:
   - sectionComponent
+fields:
+  - type: text
+    name: body
