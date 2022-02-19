@@ -13,7 +13,7 @@ const Product = (product) => {
     const { id, name, variants } = product;
     const [firstVariant] = variants;
     const oneStyle = variants.length === 1;
-    console.log("In Oroducts", product);
+    console.log("In Products", product);
     const [activeVariantExternalId, setActiveVariantExternalId] = useState(
         firstVariant.external_id
     );
