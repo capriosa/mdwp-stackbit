@@ -1,6 +1,6 @@
 type: object
-name: Products
-label: Products
+name: ProductList
+label: ProductList
 labelField: label
 extends:
   - Section
