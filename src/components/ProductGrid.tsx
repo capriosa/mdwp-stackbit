@@ -10,9 +10,9 @@ import { withRemoteDataUpdates } from 'sourcebit-target-next/with-remote-data-up
 import { getComponent } from '@stackbit/components';
 
 const ProductGrid = ({ products }) => {
-    if (!products || products.length === 0) return (
+    /*if (!products || products.length === 0) return (
         <h1>No Products</h1>
-    );
+    );*/
     return (
         <div className="py-2 bg-primary text-white text-center">
             <h1>Product Grid</h1>
