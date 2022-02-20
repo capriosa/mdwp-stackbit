@@ -7,21 +7,21 @@ import { formatVariantName } from "../lib/format-variant-name";
 import { PrintfulProduct } from "../types";
 
 import ProductGrid from "./ProductGrid";
-import Section from "./Section";
 
 
 
 
 
-const Products = ({ products }) => (
+const ProductList = ({ products }) => (
 
     <>
 
         <h1 className="products-headline">
             All Products
+            {products}
         </h1>
 
-    <ProductGrid products={products} />
+        <ProductGrid products={products} />
 
 
     </>
@@ -51,4 +51,4 @@ export const getStaticProps = async () => {
     };
 };
 
-export default Products;
+export default ProductList;
